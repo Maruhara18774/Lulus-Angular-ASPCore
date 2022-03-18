@@ -1,0 +1,17 @@
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\Lulus.BAL.deps.json
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\Lulus.BAL.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\ref\Lulus.BAL.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\Lulus.BAL.pdb
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\Lulus.Data.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\Lulus.ViewModels.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\Lulus.Data.pdb
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\bin\Debug\net5.0\Lulus.ViewModels.pdb
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.csprojAssemblyReference.cache
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.AssemblyInfoInputs.cache
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.AssemblyInfo.cs
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.csproj.CoreCompileInputs.cache
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.csproj.CopyComplete
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\ref\Lulus.BAL.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BAL\obj\Debug\net5.0\Lulus.BAL.pdb

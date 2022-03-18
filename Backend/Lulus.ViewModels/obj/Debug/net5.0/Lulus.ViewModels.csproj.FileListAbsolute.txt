@@ -1,0 +1,15 @@
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\bin\Debug\net5.0\Lulus.ViewModels.deps.json
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\bin\Debug\net5.0\Lulus.ViewModels.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\bin\Debug\net5.0\ref\Lulus.ViewModels.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\bin\Debug\net5.0\Lulus.ViewModels.pdb
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\bin\Debug\net5.0\Lulus.Data.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\bin\Debug\net5.0\Lulus.Data.pdb
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.csprojAssemblyReference.cache
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.AssemblyInfoInputs.cache
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.AssemblyInfo.cs
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.csproj.CoreCompileInputs.cache
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.csproj.CopyComplete
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\ref\Lulus.ViewModels.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.ViewModels\obj\Debug\net5.0\Lulus.ViewModels.pdb
