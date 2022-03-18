@@ -8,7 +8,7 @@ namespace Lulus.Data.Entities
 {
     public class FavoriteSubcategory:BaseAttribute
     {
-        public int UserID { get; set; }
+        public Guid UserID { get; set; }
         public int SubcategoryID { get; set; }
         public virtual User User { get; set; }
         public virtual Subcategory Subcategory { get; set; }

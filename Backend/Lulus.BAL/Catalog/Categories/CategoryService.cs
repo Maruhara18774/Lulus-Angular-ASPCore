@@ -25,8 +25,8 @@ namespace Lulus.BAL.Catalog.Categories
             var data = await query.Select(
                 p => new CategoryViewModel()
                 {
-                    ID = p.Category_ID,
-                    Name = p.Category_Name
+                    ID = p.ID,
+                    Name = p.Name
                 }).ToListAsync();
             return data;
         }

@@ -19,48 +19,49 @@ namespace Lulus.BAL.Catalog.SubCategories
         }
         public async Task<int> CreateSubCategory(CreateSubCategoryRequest request)
         {
-            var subcate = new SubCategory()
+            var subcate = new Subcategory()
             {
-                Category_ID = request.CategoryID,
-                SubCategory_Name = request.Name
+                ID = request.CategoryID,
+                Name = request.Name
             };
-            _context.SubCategories.Add(subcate);
+            _context.Subcategories.Add(subcate);
             return await _context.SaveChangesAsync();
         }
 
         public async Task<bool> DeleteSubCategory(int id)
         {
-            var subcate = await _context.SubCategories.FindAsync(id);
+            var subcate = await _context.Subcategories.FindAsync(id);
             if (subcate == null) return false;
-            _context.SubCategories.Remove(subcate);
+            _context.Subcategories.Remove(subcate);
             await _context.SaveChangesAsync();
             return true;
         }
 
         public async Task<int> EditSubCategory(EditSubCategoryRequest request)
         {
-            var subcate = await _context.SubCategories.FindAsync(request.ID);
+            var subcate = await _context.Subcategories.FindAsync(request.ID);
             if (subcate == null) return 0;
-            subcate.Category_ID = request.CategoryID;
-            subcate.SubCategory_Name = request.Name;
+            subcate.ID = request.CategoryID;
+            subcate.Name = request.Name;
             return await _context.SaveChangesAsync();
         }
         public async Task<SubCateViewModel> GetSubCateDetailByID(GetSubCateDetailByID request)
         {
-            var subcate = await _context.SubCategories.FindAsync(request.ID);
-            if (subcate == null) return null;
-            var data = new SubCateViewModel()
-            {
-                ID = subcate.SubCategory_ID,
-                Name = subcate.SubCategory_Name
-            };
-            var category = await _context.Categories.FindAsync(subcate.Category_ID);
-            data.Category = new ViewModels.Categories.CategoryViewModel()
-            {
-                ID = category.Category_ID,
-                Name = category.Category_Name
-            };
-            return data;
+            //var subcate = await _context.Subcategories.FindAsync(request.ID);
+            //if (subcate == null) return null;
+            //var data = new SubCateViewModel()
+            //{
+            //    ID = subcate.ID,
+            //    Name = subcate.Name
+            //};
+            //var category = await _context.Categories.FindAsync(subcate.ID);
+            //data.Category = new ViewModels.Categories.CategoryViewModel()
+            //{
+            //    ID = category.Category_ID,
+            //    Name = category.Category_Name
+            //};
+            //return data;
+            return null;
         }
     }
 }

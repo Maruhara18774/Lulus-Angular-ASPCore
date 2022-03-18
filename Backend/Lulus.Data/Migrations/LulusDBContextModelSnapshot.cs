@@ -19,299 +19,981 @@ namespace Lulus.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.7")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Lulus.Data.Entities.Category", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.Address", b =>
                 {
-                    b.Property<int>("Category_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Category_Name")
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 770, DateTimeKind.Local).AddTicks(4725));
+
+                    b.Property<string>("Fullname")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Category_ID");
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProvinceID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 774, DateTimeKind.Local).AddTicks(5892));
+
+                    b.Property<Guid>("UserID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProvinceID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Addresses");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Category", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 777, DateTimeKind.Local).AddTicks(2779));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 777, DateTimeKind.Local).AddTicks(3243));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
 
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.Country", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.City", b =>
                 {
-                    b.Property<int>("Country_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Country_Name")
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("CountryID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 778, DateTimeKind.Local).AddTicks(3262));
+
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Country_ID");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 778, DateTimeKind.Local).AddTicks(3639));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CountryID");
+
+                    b.ToTable("Cities");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Country", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 779, DateTimeKind.Local).AddTicks(2154));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 779, DateTimeKind.Local).AddTicks(2486));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
 
                     b.ToTable("Countries");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.Feedback", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.Desinger", b =>
                 {
-                    b.Property<int>("Feedback_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
-                    b.Property<string>("Feedback_Content")
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 779, DateTimeKind.Local).AddTicks(9769));
+
+                    b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Feedback_Rating")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Feedback_Title")
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Product_ID")
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 780, DateTimeKind.Local).AddTicks(107));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Designers");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.FavoriteDesigner", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 781, DateTimeKind.Local).AddTicks(1147));
+
+                    b.Property<int>("DesignerID")
                         .HasColumnType("int");
 
-                    b.Property<string>("User_ID")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 781, DateTimeKind.Local).AddTicks(1518));
 
-                    b.HasKey("Feedback_ID");
+                    b.Property<Guid>("UserID")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasIndex("Product_ID");
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasIndex("User_ID");
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("DesignerID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("FavoriteDesigners");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.FavoriteProduct", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 782, DateTimeKind.Local).AddTicks(8818));
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 782, DateTimeKind.Local).AddTicks(9238));
+
+                    b.Property<Guid>("UserID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProductID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("FavoriteProducts");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.FavoriteSubcategory", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 784, DateTimeKind.Local).AddTicks(3737));
+
+                    b.Property<int>("SubcategoryID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 784, DateTimeKind.Local).AddTicks(4117));
+
+                    b.Property<Guid>("UserID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("SubcategoryID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("FavoriteSubcategories");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Feedback", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Content")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 786, DateTimeKind.Local).AddTicks(324));
+
+                    b.Property<bool>("IsAnonymous")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StarCount")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 786, DateTimeKind.Local).AddTicks(772));
+
+                    b.Property<Guid>("UserID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProductID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("Feedbacks");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.LineQuantity", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.Occation", b =>
                 {
-                    b.Property<int>("LineQuantity_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("ProductLine_ID")
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 787, DateTimeKind.Local).AddTicks(1589));
+
+                    b.Property<int>("Name")
                         .HasColumnType("int");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 787, DateTimeKind.Local).AddTicks(1931));
 
-                    b.Property<int>("Size_ID")
-                        .HasColumnType("int");
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("LineQuantity_ID");
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasIndex("ProductLine_ID");
+                    b.HasKey("ID");
 
-                    b.HasIndex("Size_ID");
-
-                    b.ToTable("LineQuantities");
+                    b.ToTable("Occations");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.Order", b =>
                 {
-                    b.Property<int>("Order_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
-                    b.Property<double>("Order_Total")
-                        .HasColumnType("float");
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 788, DateTimeKind.Local).AddTicks(5059));
 
                     b.Property<int>("Status")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasDefaultValue(0);
 
-                    b.Property<string>("User_ID")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<double>("Total")
+                        .HasColumnType("float");
 
-                    b.HasKey("Order_ID");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 788, DateTimeKind.Local).AddTicks(5382));
 
-                    b.HasIndex("User_ID");
+                    b.Property<Guid>("UserID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.OrderDetail", b =>
                 {
-                    b.Property<int>("OrderDetail_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("OrderDetail_Quantity")
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 792, DateTimeKind.Local).AddTicks(2716));
+
+                    b.Property<bool>("IsFeedback")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<int>("OrderID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductLineID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasDefaultValue(1);
 
-                    b.Property<double>("OrderDetail_Total")
+                    b.Property<double>("Total")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("float")
                         .HasDefaultValue(0.0);
 
-                    b.Property<int>("Order_ID")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 792, DateTimeKind.Local).AddTicks(3252));
 
-                    b.Property<int>("ProductLine_ID")
-                        .HasColumnType("int");
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("OrderDetail_ID");
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasIndex("Order_ID");
+                    b.HasKey("ID");
 
-                    b.HasIndex("ProductLine_ID");
+                    b.HasIndex("OrderID");
+
+                    b.HasIndex("ProductLineID");
 
                     b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.Product", b =>
                 {
-                    b.Property<int>("Product_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Product_Description")
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("CategoryID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 799, DateTimeKind.Local).AddTicks(4297));
+
+                    b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Product_Name")
+                    b.Property<int>("DesignerID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("LengthState")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Product_Price")
+                    b.Property<double>("Price")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("float")
                         .HasDefaultValue(0.0);
 
-                    b.Property<double>("Product_SalePrice")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("float")
-                        .HasDefaultValue(0.0);
+                    b.Property<int?>("SleeveLengthState")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasDefaultValue(0);
 
-                    b.Property<int>("SubCategory_ID")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 799, DateTimeKind.Local).AddTicks(4767));
 
-                    b.HasKey("Product_ID");
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasIndex("SubCategory_ID");
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CategoryID");
+
+                    b.HasIndex("DesignerID");
 
                     b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.ProductImage", b =>
                 {
-                    b.Property<int>("ProductImage_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("ProductImage_Image")
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 801, DateTimeKind.Local).AddTicks(5858));
+
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ProductLine_ID")
+                    b.Property<int>("ProductLineID")
                         .HasColumnType("int");
 
-                    b.HasKey("ProductImage_ID");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 801, DateTimeKind.Local).AddTicks(6367));
 
-                    b.HasIndex("ProductLine_ID");
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProductLineID");
 
                     b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.ProductLine", b =>
                 {
-                    b.Property<int>("ProductLine_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("ProductLine_CreatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
-                    b.Property<DateTime>("ProductLine_UpdatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 804, DateTimeKind.Local).AddTicks(4198));
 
-                    b.Property<int>("Product_ID")
+                    b.Property<int>("ProductID")
                         .HasColumnType("int");
 
-                    b.Property<string>("Texture_Image")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("TextureID")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Texture_Name")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("TextureID1")
+                        .HasColumnType("int");
 
-                    b.HasKey("ProductLine_ID");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 804, DateTimeKind.Local).AddTicks(4574));
 
-                    b.HasIndex("Product_ID");
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProductID");
+
+                    b.HasIndex("TextureID");
+
+                    b.HasIndex("TextureID1")
+                        .IsUnique()
+                        .HasFilter("[TextureID1] IS NOT NULL");
 
                     b.ToTable("ProductLines");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.Size", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.ProductLine_Size", b =>
                 {
-                    b.Property<int>("Size_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Size_Key")
+                    b.Property<int>("ProductLineID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
+                    b.Property<int>("SizeID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProductLineID");
+
+                    b.HasIndex("SizeID");
+
+                    b.ToTable("LineQuantities");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Product_Occation", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("OccationID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("OccationID");
+
+                    b.HasIndex("ProductID");
+
+                    b.ToTable("Product_Occations");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Product_SubCategory", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SubcategoryID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProductID");
+
+                    b.HasIndex("SubcategoryID");
+
+                    b.ToTable("Product_SubCategories");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Province", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("CityID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 813, DateTimeKind.Local).AddTicks(2254));
+
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Size_ID");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 813, DateTimeKind.Local).AddTicks(2633));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CityID");
+
+                    b.ToTable("Provinces");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Sale", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 814, DateTimeKind.Local).AddTicks(3400));
+
+                    b.Property<DateTime>("EndAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Limit")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RemainQuantity")
+                        .HasColumnType("int");
+
+                    b.Property<double>("SalePrice")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("StartAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 814, DateTimeKind.Local).AddTicks(3764));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ProductID");
+
+                    b.ToTable("Sales");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Size", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 815, DateTimeKind.Local).AddTicks(2453));
+
+                    b.Property<string>("Key")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 815, DateTimeKind.Local).AddTicks(2779));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
 
                     b.ToTable("Sizes");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.SubCategory", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.Subcategory", b =>
                 {
-                    b.Property<int>("SubCategory_ID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Category_ID")
-                        .HasColumnType("int");
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
-                    b.Property<string>("SubCategory_Name")
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 815, DateTimeKind.Local).AddTicks(9472));
+
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("SubCategory_ID");
+                    b.Property<int?>("ParentID")
+                        .HasColumnType("int");
 
-                    b.HasIndex("Category_ID");
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 815, DateTimeKind.Local).AddTicks(9826));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
 
                     b.ToTable("SubCategories");
                 });
 
+            modelBuilder.Entity("Lulus.Data.Entities.Texture", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 816, DateTimeKind.Local).AddTicks(6326));
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Updated")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 18, 16, 19, 53, 816, DateTimeKind.Local).AddTicks(6640));
+
+                    b.Property<Guid>("UserIDCreated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserIDUpdated")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Textures");
+                });
+
             modelBuilder.Entity("Lulus.Data.Entities.User", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
                     b.Property<string>("ConcurrencyStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Customer_Address")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Customer_FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Customer_LastName")
+                        .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
@@ -323,10 +1005,12 @@ namespace Lulus.Data.Migrations
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("NormalizedEmail")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("NormalizedUserName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
@@ -344,33 +1028,51 @@ namespace Lulus.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("NormalizedName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles");
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -383,15 +1085,17 @@ namespace Lulus.Data.Migrations
                     b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
-                    b.ToTable("RoleClaims");
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -404,106 +1108,184 @@ namespace Lulus.Data.Migrations
                     b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserClaims");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
                 {
-                    b.Property<string>("UserId")
+                    b.Property<string>("LoginProvider")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProviderKey")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("UserId");
+                    b.HasKey("LoginProvider", "ProviderKey");
 
-                    b.ToTable("UserLogins");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
                 {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("UserId", "RoleId");
 
-                    b.ToTable("UserRoles");
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
                 {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("UserId");
+                    b.HasKey("UserId", "LoginProvider", "Name");
 
-                    b.ToTable("UserTokens");
+                    b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.Feedback", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.Address", b =>
                 {
-                    b.HasOne("Lulus.Data.Entities.Product", "Product")
-                        .WithMany("Feedbacks")
-                        .HasForeignKey("Product_ID")
+                    b.HasOne("Lulus.Data.Entities.Province", "Province")
+                        .WithMany("Addresses")
+                        .HasForeignKey("ProvinceID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Lulus.Data.Entities.User", "User")
-                        .WithMany("Feedbacks")
-                        .HasForeignKey("User_ID");
+                        .WithMany("Addresses")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Province");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.City", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.Country", "Country")
+                        .WithMany("Cities")
+                        .HasForeignKey("CountryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Country");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.FavoriteDesigner", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.Desinger", "Desinger")
+                        .WithMany("FavoriteDesigners")
+                        .HasForeignKey("DesignerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.User", "User")
+                        .WithMany("FavoriteDesigners")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Desinger");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.FavoriteProduct", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.Product", "Product")
+                        .WithMany("FavoriteProducts")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.User", "User")
+                        .WithMany("FavoriteProducts")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Product");
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.LineQuantity", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.FavoriteSubcategory", b =>
                 {
-                    b.HasOne("Lulus.Data.Entities.ProductLine", "ProductLine")
-                        .WithMany("LineQuantities")
-                        .HasForeignKey("ProductLine_ID")
+                    b.HasOne("Lulus.Data.Entities.Subcategory", "Subcategory")
+                        .WithMany("FavoriteSubcategories")
+                        .HasForeignKey("SubcategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Lulus.Data.Entities.Size", "Size")
-                        .WithMany("LineQuantities")
-                        .HasForeignKey("Size_ID")
+                    b.HasOne("Lulus.Data.Entities.User", "User")
+                        .WithMany("FavoriteSubcategories")
+                        .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ProductLine");
+                    b.Navigation("Subcategory");
 
-                    b.Navigation("Size");
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Feedback", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.Product", "Product")
+                        .WithMany("Feedbacks")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.User", "User")
+                        .WithMany("Feedbacks")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.Order", b =>
                 {
                     b.HasOne("Lulus.Data.Entities.User", "User")
                         .WithMany("Orders")
-                        .HasForeignKey("User_ID");
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });
@@ -512,13 +1294,13 @@ namespace Lulus.Data.Migrations
                 {
                     b.HasOne("Lulus.Data.Entities.Order", "Order")
                         .WithMany("OrderDetails")
-                        .HasForeignKey("Order_ID")
+                        .HasForeignKey("OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Lulus.Data.Entities.ProductLine", "ProductLine")
                         .WithMany("OrderDetails")
-                        .HasForeignKey("ProductLine_ID")
+                        .HasForeignKey("ProductLineID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -529,20 +1311,28 @@ namespace Lulus.Data.Migrations
 
             modelBuilder.Entity("Lulus.Data.Entities.Product", b =>
                 {
-                    b.HasOne("Lulus.Data.Entities.SubCategory", "SubCategory")
+                    b.HasOne("Lulus.Data.Entities.Category", "Category")
                         .WithMany("Products")
-                        .HasForeignKey("SubCategory_ID")
+                        .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("SubCategory");
+                    b.HasOne("Lulus.Data.Entities.Desinger", "Desinger")
+                        .WithMany("Products")
+                        .HasForeignKey("DesignerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Desinger");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.ProductImage", b =>
                 {
                     b.HasOne("Lulus.Data.Entities.ProductLine", "ProductLine")
                         .WithMany("ProductImages")
-                        .HasForeignKey("ProductLine_ID")
+                        .HasForeignKey("ProductLineID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -553,27 +1343,180 @@ namespace Lulus.Data.Migrations
                 {
                     b.HasOne("Lulus.Data.Entities.Product", "Product")
                         .WithMany("ProductLines")
-                        .HasForeignKey("Product_ID")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.Texture", "Texture")
+                        .WithMany("ProductLines")
+                        .HasForeignKey("TextureID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.Texture", null)
+                        .WithOne("ProductLine")
+                        .HasForeignKey("Lulus.Data.Entities.ProductLine", "TextureID1");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Texture");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.ProductLine_Size", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.ProductLine", "ProductLine")
+                        .WithMany("ProductLine_Sizes")
+                        .HasForeignKey("ProductLineID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.Size", "Size")
+                        .WithMany("ProductLine_Sizes")
+                        .HasForeignKey("SizeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductLine");
+
+                    b.Navigation("Size");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Product_Occation", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.Occation", "Occation")
+                        .WithMany("Product_Occations")
+                        .HasForeignKey("OccationID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.Product", "Product")
+                        .WithMany("Product_Occations")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Occation");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Product_SubCategory", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.Product", "Product")
+                        .WithMany("Product_SubCategories")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lulus.Data.Entities.Subcategory", "Subcategory")
+                        .WithMany("Product_SubCategories")
+                        .HasForeignKey("SubcategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Subcategory");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Province", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.City", "City")
+                        .WithMany("Provinces")
+                        .HasForeignKey("CityID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("City");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Sale", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.Product", "Product")
+                        .WithMany("Sales")
+                        .HasForeignKey("ProductID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.SubCategory", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
-                    b.HasOne("Lulus.Data.Entities.Category", "Category")
-                        .WithMany("SubCategories")
-                        .HasForeignKey("Category_ID")
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Category");
+                    b.HasOne("Lulus.Data.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
+                {
+                    b.HasOne("Lulus.Data.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.Category", b =>
                 {
-                    b.Navigation("SubCategories");
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.City", b =>
+                {
+                    b.Navigation("Provinces");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Country", b =>
+                {
+                    b.Navigation("Cities");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Desinger", b =>
+                {
+                    b.Navigation("FavoriteDesigners");
+
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Occation", b =>
+                {
+                    b.Navigation("Product_Occations");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.Order", b =>
@@ -583,32 +1526,62 @@ namespace Lulus.Data.Migrations
 
             modelBuilder.Entity("Lulus.Data.Entities.Product", b =>
                 {
+                    b.Navigation("FavoriteProducts");
+
                     b.Navigation("Feedbacks");
 
+                    b.Navigation("Product_Occations");
+
+                    b.Navigation("Product_SubCategories");
+
                     b.Navigation("ProductLines");
+
+                    b.Navigation("Sales");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.ProductLine", b =>
                 {
-                    b.Navigation("LineQuantities");
-
                     b.Navigation("OrderDetails");
 
                     b.Navigation("ProductImages");
+
+                    b.Navigation("ProductLine_Sizes");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Province", b =>
+                {
+                    b.Navigation("Addresses");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.Size", b =>
                 {
-                    b.Navigation("LineQuantities");
+                    b.Navigation("ProductLine_Sizes");
                 });
 
-            modelBuilder.Entity("Lulus.Data.Entities.SubCategory", b =>
+            modelBuilder.Entity("Lulus.Data.Entities.Subcategory", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("FavoriteSubcategories");
+
+                    b.Navigation("Product_SubCategories");
+                });
+
+            modelBuilder.Entity("Lulus.Data.Entities.Texture", b =>
+                {
+                    b.Navigation("ProductLine");
+
+                    b.Navigation("ProductLines");
                 });
 
             modelBuilder.Entity("Lulus.Data.Entities.User", b =>
                 {
+                    b.Navigation("Addresses");
+
+                    b.Navigation("FavoriteDesigners");
+
+                    b.Navigation("FavoriteProducts");
+
+                    b.Navigation("FavoriteSubcategories");
+
                     b.Navigation("Feedbacks");
 
                     b.Navigation("Orders");
