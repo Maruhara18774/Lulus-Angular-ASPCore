@@ -1,1 +1,19 @@
 https://www.revolve.com/women/?navsrc=main
+
+// Product sample
+---- Category 1: Dresses
+1/ https://www.revolve.com/elliatt-cassini-dress/dp/ELLI-WD346/?d=Womens&page=1&lc=3&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=1&itcurrpage=1&itview=05
+2/ https://www.revolve.com/sabina-musayev-x-revolve-carry-mini-dress/dp/SBNA-WD61/?d=Womens&page=1&lc=5&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=2&itcurrpage=1&itview=05
+3/ https://www.revolve.com/krisa-drape-button-front-mini/dp/KISA-WD331/?d=Womens&page=1&lc=10&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=3&itcurrpage=1&itview=05
+4/ https://www.revolve.com/michael-costello-jake-gown/dp/MELR-WD55/?d=Womens&page=1&lc=18&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=5&itcurrpage=1&itview=05
+5/ https://www.revolve.com/afrm-shailene-dress-in-abstract-neon-dot/dp/AFFM-WD106/?d=Womens&sectionURL=https%3A%2F%2Fwww.revolve.com%2Fdresses%2Fbr%2Fa8e981%2F%3Fnavsrc%3Dleft%26sortBy%3Dpopularity&code=AFFM-WD106&srcType=dp_coloroption
+---- Category 2: Leather
+1/ https://www.revolve.com/allsaints-morgan-biker-jacket/dp/ALLR-WO119/?d=Womens&page=1&lc=1&itrownum=1&itcurrpage=1&itview=05
+2/ https://www.revolve.com/lamarque-x-revolve-dylan-jacket-in-acid-wash-black/dp/LARX-WO116/?d=Womens&sectionURL=https%3A%2F%2Fwww.revolve.com%2Fleather%2Fbr%2Fb25593%2F%3Fnavsrc%3Dleft&code=LARX-WO116&srcType=dp_coloroption
+3/ https://www.revolve.com/lamarque-donna-jacket/dp/LARX-WO93/?d=Womens&page=1&lc=32&itrownum=8&itcurrpage=1&itview=05
+4/ https://www.revolve.com/helmut-lang-slit-leather-pant/dp/HLNR-WP13/?d=Womens&page=1&lc=40&itrownum=10&itcurrpage=1&itview=05
+5/ https://www.revolve.com/lpa-carmella-leather-corset/dp/LPAR-WS530/?d=Womens&page=1&lc=42&itrownum=11&itcurrpage=1&itview=05
+---- Category 3: Skirts
+1/ https://www.revolve.com/indah-gigi-maxi-skirt/dp/INDA-WQ106/?d=Womens&page=1&lc=10&itrownum=3&itcurrpage=1&itview=05
+2/ https://www.revolve.com/amanda-uprichard-x-revolve-mini-ludlow-slit-skirt/dp/AMAN-WQ111/?d=Womens&page=1&lc=14&itrownum=4&itcurrpage=1&itview=05
+3/ 

@@ -8,7 +8,7 @@ namespace Lulus.Data.Entities
 {
     public class Occation:BaseAttribute
     {
-        public int Name { get; set; }
+        public string Name { get; set; }
         public virtual List<Product_Occation> Product_Occations { get; set; }
     }
 }
