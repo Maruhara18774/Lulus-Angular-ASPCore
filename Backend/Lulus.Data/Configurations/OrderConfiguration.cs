@@ -17,9 +17,6 @@ namespace Lulus.Data.Configurations
             builder.ToTable("Orders");
             builder.HasKey(x => x.ID);
             builder.Property(x => x.Status).HasDefaultValue(OrderStatus.New);
-            builder.Property(x => x.Created).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Updated).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Active).HasDefaultValue(true);
             builder.HasOne(x => x.User).WithMany(x => x.Orders).HasForeignKey(x => x.UserID);
         }
     }

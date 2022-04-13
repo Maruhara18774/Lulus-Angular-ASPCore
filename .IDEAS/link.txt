@@ -1,19 +1,91 @@
 https://www.revolve.com/women/?navsrc=main
 
 // Product sample
----- Category 1: Dresses
+---- Category 1: Dresses - Code: 3
 1/ https://www.revolve.com/elliatt-cassini-dress/dp/ELLI-WD346/?d=Womens&page=1&lc=3&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=1&itcurrpage=1&itview=05
+- Lilac
+- Marigold
+- Blue
 2/ https://www.revolve.com/sabina-musayev-x-revolve-carry-mini-dress/dp/SBNA-WD61/?d=Womens&page=1&lc=5&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=2&itcurrpage=1&itview=05
+- Blush
+- Multicolor Blue
 3/ https://www.revolve.com/krisa-drape-button-front-mini/dp/KISA-WD331/?d=Womens&page=1&lc=10&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=3&itcurrpage=1&itview=05
+- Black
+- Rosa
+- Candy
 4/ https://www.revolve.com/michael-costello-jake-gown/dp/MELR-WD55/?d=Womens&page=1&lc=18&plpSrc=%2Fr%2FBrands.jsp%3FaliasURL%3Ddresses%2Fbr%2Fa8e981%26s%3Dc%26c%3DDresses%26sortBy%3Dpopularity&itrownum=5&itcurrpage=1&itview=05
+- Taupe
+- Baby Blue
 5/ https://www.revolve.com/afrm-shailene-dress-in-abstract-neon-dot/dp/AFFM-WD106/?d=Womens&sectionURL=https%3A%2F%2Fwww.revolve.com%2Fdresses%2Fbr%2Fa8e981%2F%3Fnavsrc%3Dleft%26sortBy%3Dpopularity&code=AFFM-WD106&srcType=dp_coloroption
----- Category 2: Leather
+- Abstract Neon Dot
+- Multi Watercolor
+6/ https://www.revolve.com/amanda-uprichard-x-revolve-samba-gown/dp/AMAN-WD1506/?d=Womens&page=1&lc=11&itrownum=3&itcurrpage=1&itview=05&size=L
+- White Sequin
+- Black Sequin
+7/ https://www.revolve.com/solace-london-elina-mini-dress/dp/SOLA-WD184/?d=Womens&page=1&lc=3&itrownum=1&itcurrpage=1&itview=05&size=US%200%2F%20UK%204
+- Cream
+- Pink
+8/ https://www.revolve.com/retrofete-margot-dress/dp/ROFR-WD285/?d=Womens&page=1&lc=33&itrownum=9&itcurrpage=1&itview=05
+- Green
+- White
+9/ https://www.revolve.com/astr-the-label-valinda-dress/dp/ASTR-WD249/?d=Womens&page=1&lc=41&itrownum=11&itcurrpage=1&itview=05
+- Olive
+- Pink Orchid
+10/ https://www.revolve.com/retrofete-katya-dress/dp/ROFR-WD293/?d=Womens&page=1&lc=45&itrownum=12&itcurrpage=1&itview=05
+- Moonglow White
+- Taffy Pink
+---- Category 2: Leather - Code: 6
 1/ https://www.revolve.com/allsaints-morgan-biker-jacket/dp/ALLR-WO119/?d=Womens&page=1&lc=1&itrownum=1&itcurrpage=1&itview=05
 2/ https://www.revolve.com/lamarque-x-revolve-dylan-jacket-in-acid-wash-black/dp/LARX-WO116/?d=Womens&sectionURL=https%3A%2F%2Fwww.revolve.com%2Fleather%2Fbr%2Fb25593%2F%3Fnavsrc%3Dleft&code=LARX-WO116&srcType=dp_coloroption
 3/ https://www.revolve.com/lamarque-donna-jacket/dp/LARX-WO93/?d=Womens&page=1&lc=32&itrownum=8&itcurrpage=1&itview=05
 4/ https://www.revolve.com/helmut-lang-slit-leather-pant/dp/HLNR-WP13/?d=Womens&page=1&lc=40&itrownum=10&itcurrpage=1&itview=05
 5/ https://www.revolve.com/lpa-carmella-leather-corset/dp/LPAR-WS530/?d=Womens&page=1&lc=42&itrownum=11&itcurrpage=1&itview=05
----- Category 3: Skirts
+6/ https://www.revolve.com/lamarque-ilonna-dress/dp/LARX-WD11/?d=Womens&page=1&lc=45&itrownum=12&itcurrpage=1&itview=05
+7/ https://www.revolve.com/sprwmn-ankle-legging-with-zipper/dp/SPRR-WP73/?d=Womens&page=1&lc=62&itrownum=16&itcurrpage=1&itview=05
+8/ https://www.revolve.com/understated-leather-x-revolve-paris-texas-full-skirt/dp/UNDR-WQ32/?d=Womens&page=1&lc=69&itrownum=18&itcurrpage=1&itview=05
+9/ https://www.revolve.com/lamarque-x-revolve-sabbi-suede-top/dp/LARX-WS52/?d=Womens&page=1&lc=82&itrownum=21&itcurrpage=1&itview=05
+10/ https://www.revolve.com/lamarque-davina-leather-corset/dp/LARX-WS28/?d=Womens&page=1&lc=84&itrownum=21&itcurrpage=1&itview=05
+---- Category 3: Skirts - Code: 12
 1/ https://www.revolve.com/indah-gigi-maxi-skirt/dp/INDA-WQ106/?d=Womens&page=1&lc=10&itrownum=3&itcurrpage=1&itview=05
 2/ https://www.revolve.com/amanda-uprichard-x-revolve-mini-ludlow-slit-skirt/dp/AMAN-WQ111/?d=Womens&page=1&lc=14&itrownum=4&itcurrpage=1&itview=05
-3/ 
+3/ https://www.revolve.com/enza-costa-stretch-silk-knit-essential-skirt/dp/ENZA-WQ45/?d=Womens&page=1&lc=14&itrownum=4&itcurrpage=1&itview=05
+4/ https://www.revolve.com/nookie-alyssa-chain-skirt/dp/NKIE-WQ50/?d=Womens&page=1&lc=16&itrownum=4&itcurrpage=1&itview=05
+5/ https://www.revolve.com/lovers-and-friends-carlita-skirt/dp/LOVF-WQ615/?d=Womens&page=1&lc=34&itrownum=9&itcurrpage=1&itview=05
+6/ https://www.revolve.com/cotton-citizen-capri-cut-out-midi-skirt/dp/COTR-WQ32/?d=Womens&page=1&lc=46&itrownum=12&itcurrpage=1&itview=05
+7/ https://www.revolve.com/brochu-walker-havana-skirt/dp/BROC-WQ6/?d=Womens&page=1&lc=55&itrownum=14&itcurrpage=1&itview=05
+8/ https://www.revolve.com/cult-gaia-samira-skirt/dp/CULG-WQ12/?d=Womens&page=1&lc=3&itrownum=25&itcurrpage=1&itview=05
+9/ https://www.revolve.com/valentina-shah-stella-skirt/dp/VSHA-WQ3/?d=Womens&page=1&lc=12&itrownum=27&itcurrpage=1&itview=05
+10/ https://www.revolve.com/nookie-aria-skirt/dp/NKIE-WQ45/?d=Womens&page=1&lc=18&itrownum=29&itcurrpage=1&itview=05
+---- Category 4: Tops - Code: 15
+1/ https://www.revolve.com/lamarque-zaina-top/dp/LARX-WS54/?d=Womens&page=1&lc=2&itrownum=1&itcurrpage=1&itview=05
+2/ https://www.revolve.com/bardot-fitted-corset-bustier/dp/BARD-WS287/?d=Womens&page=1&lc=12&itrownum=3&itcurrpage=1&itview=05&size=10
+3/ https://www.revolve.com/nookie-alyssa-chain-crop/dp/NKIE-WS72/?d=Womens&page=1&lc=50&itrownum=13&itcurrpage=1&itview=05
+4/ https://www.revolve.com/matthew-bruch-tie-halter-crop-top/dp/MBRU-WS8/?d=Womens&page=1&lc=81&itrownum=21&itcurrpage=1&itview=05
+5/ https://www.revolve.com/525-wide-strap-square-neck-tank/dp/525A-WS170/?d=Womens&page=1&lc=88&itrownum=22&itcurrpage=1&itview=05
+6/ https://www.revolve.com/indah-dna-string-bodysuit/dp/INDA-WS422/?d=Womens&page=1&lc=93&itrownum=24&itcurrpage=1&itview=05
+7/ https://www.revolve.com/cami-nyc-kia-cami/dp/CAMN-WS418/?d=Womens&page=1&lc=5&itrownum=26&itcurrpage=1&itview=05
+8/ https://www.revolve.com/helmut-lang-long-sleeve-crop-polo/dp/HLNR-WS72/?d=Womens&page=1&lc=16&itrownum=28&itcurrpage=1&itview=05
+9/ https://www.revolve.com/brochu-walker-ina-wrap-top/dp/BROC-WS27/?d=Womens&page=1&lc=25&itrownum=31&itcurrpage=1&itview=05
+10/ https://www.revolve.com/lpa-gali-top/dp/LPAR-WS566/?d=Womens&page=1&lc=46&itrownum=36&itcurrpage=1&itview=05
+---- Category 5: Pants - Code: 9
+1/ https://www.revolve.com/sabina-musayev-ross-pants/dp/SBNA-WP14/?d=Womens&page=1&lc=4&itrownum=1&itcurrpage=1&itview=05
+2/ https://www.revolve.com/lpa-carlotta-pant/dp/LPAR-WP212/?d=Womens&page=1&lc=8&itrownum=2&itcurrpage=1&itview=05
+3/ https://www.revolve.com/rag-bone-ivy-culotte/dp/RGBR-WP75/?d=Womens&page=1&lc=35&itrownum=9&itcurrpage=1&itview=05
+4/ https://www.revolve.com/t-by-alexander-wang-classic-boxer-pant/dp/TBYA-WP122/?d=Womens&page=1&lc=55&itrownum=14&itcurrpage=1&itview=05
+5/ https://www.revolve.com/camila-coelho-coyote-pant/dp/COEL-WP63/?d=Womens&page=1&lc=59&itrownum=15&itcurrpage=1&itview=05
+6/ https://www.revolve.com/tularosa-hayden-crochet-pant/dp/TULA-WP228/?d=Womens&page=1&lc=64&itrownum=16&itcurrpage=1&itview=05
+7/ https://www.revolve.com/frank-eileen-patch-pocket-jogger/dp/FNKE-WP25/?d=Womens&page=1&lc=75&itrownum=19&itcurrpage=1&itview=05
+8/ https://www.revolve.com/free-people-x-revolve-abby-chino/dp/FREE-WP432/?d=Womens&page=1&lc=79&itrownum=20&itcurrpage=1&itview=05
+9/ https://www.revolve.com/alo-high-waist-pinstripe-zip-it-flare-legging/dp/ALOR-WP180/?d=Womens&page=1&lc=84&itrownum=21&itcurrpage=1&itview=05
+10/ https://www.revolve.com/michael-costello-x-revolve-alessa-pants/dp/MELR-WP58/?d=Womens&page=1&lc=86&itrownum=22&itcurrpage=1&itview=05
+---- Category 6: Shorts - Code: 11
+1/ https://www.revolve.com/lblc-the-label-tanya-vegan-leather-short/dp/LBLR-WF3/?d=Womens&page=1&lc=1&itrownum=1&itcurrpage=1&itview=05
+2/ https://www.revolve.com/amanda-uprichard-x-revolve-dale-skort/dp/AMAN-WF112/?d=Womens&page=1&lc=13&itrownum=4&itcurrpage=1&itview=05
+3/ https://www.revolve.com/free-people-x-fp-movement-prima-short/dp/FREE-WF218/?d=Womens&page=1&lc=31&itrownum=8&itcurrpage=1&itview=05
+4/ https://www.revolve.com/amanda-uprichard-jane-shorts/dp/AMAN-WF113/?d=Womens&page=1&lc=42&itrownum=11&itcurrpage=1&itview=05
+5/ https://www.revolve.com/camila-coelho-genevieve-side-tie-short/dp/COEL-WF33/?d=Womens&page=1&lc=63&itrownum=16&itcurrpage=1&itview=05
+6/ https://www.revolve.com/rag-bone-maya-liquid-short/dp/RGBR-WF44/?d=Womens&page=1&lc=92&itrownum=23&itcurrpage=1&itview=05
+7/ https://www.revolve.com/susana-monaco-tailored-short/dp/SUSA-WF4/?d=Womens&page=1&lc=41&itrownum=33&itcurrpage=1&itview=05
+8/ https://www.revolve.com/free-people-x-fp-movement-pleats-and-thank-you-skort/dp/FREE-WF160/?d=Womens&page=1&lc=51&itrownum=35&itcurrpage=1&itview=05
+9/ https://www.revolve.com/indah-lilly-high-waist-short/dp/INDA-WF74/?d=Womens&page=1&lc=67&itrownum=39&itcurrpage=1&itview=05
+10/ https://www.revolve.com/amanda-uprichard-gabbie-skort/dp/AMAN-WF69/?d=Womens&page=1&lc=73&itrownum=41&itcurrpage=1&itview=05

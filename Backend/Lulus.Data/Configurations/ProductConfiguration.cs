@@ -19,9 +19,6 @@ namespace Lulus.Data.Configurations
             builder.HasKey(x => x.ID);
             builder.Property(x => x.Price).HasDefaultValue<double>(0);
             builder.Property(x => x.Status).HasDefaultValue(ProductStatus.Stocking);
-            builder.Property(x => x.Created).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Updated).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Active).HasDefaultValue(true);
             builder.HasOne(x => x.Category).WithMany(x => x.Products).HasForeignKey(x => x.CategoryID);
             builder.HasOne(x => x.Desinger).WithMany(x => x.Products).HasForeignKey(x => x.DesignerID);
         }

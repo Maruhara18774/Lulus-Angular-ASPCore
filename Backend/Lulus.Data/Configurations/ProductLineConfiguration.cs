@@ -15,9 +15,6 @@ namespace Lulus.Data.Configurations
         {
             builder.ToTable("ProductLines");
             builder.HasKey(x => x.ID);
-            builder.Property(x => x.Created).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Updated).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Active).HasDefaultValue(true);
             builder.HasOne(x => x.Product).WithMany(x => x.ProductLines).HasForeignKey(x => x.ProductID);
             builder.HasOne(x => x.Texture).WithMany(x => x.ProductLines).HasForeignKey(x => x.TextureID);
         }

@@ -15,9 +15,6 @@ namespace Lulus.Data.Configurations
         {
             builder.ToTable("Provinces");
             builder.HasKey(x => x.ID);
-            builder.Property(x => x.Created).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Updated).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.Active).HasDefaultValue(true);
             builder.HasOne(x => x.City).WithMany(x => x.Provinces).HasForeignKey(x => x.CityID);
         }
     }

@@ -46,7 +46,7 @@ namespace Lulus.Data.EF
             modelBuilder.ApplyConfiguration(new TextureConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
 
-            //modelBuilder.Seed();
+            modelBuilder.Seed();
         }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Category> Categories { get; set; }
