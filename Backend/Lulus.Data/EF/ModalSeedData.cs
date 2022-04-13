@@ -1461,6 +1461,7 @@ namespace Lulus.Data.EF
             var listProductLineSize = new List<ProductLine_Size>();
             var lineNum = new List<int>() { 3, 2, 3, 2, 2, 2, 2, 2, 2, 2 };
             int id = 1;
+            int lineID = 1;
             for(int i = 1; i<= 10; i++)
             {
                 for(int j = 1; j <= lineNum[i - 1]; j++)
@@ -1471,13 +1472,14 @@ namespace Lulus.Data.EF
                         new ProductLine_Size()
                         {
                             ID = id,
-                            ProductLineID = j,
+                            ProductLineID = lineID,
                             SizeID = k,
                             Quantity =99
                         }
                         );
                         id++;
                     }
+                    lineID++;
                 }
             }
             modelBuilder.Entity<ProductLine_Size>().HasData(listProductLineSize);
