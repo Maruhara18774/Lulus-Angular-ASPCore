@@ -12,11 +12,11 @@ namespace Lulus.ViewModels.Feedbacks
 
         public int Star { get; set; }
 
-        public string Title { get; set; }
+        public bool IsAnonymous { get; set; }
 
         public string Content { get; set; }
 
-        public string UserID { get; set; }
+        public Guid UserID { get; set; }
         public DateTime CreatedDate { get; set; }
 
         public int ProductID { get; set; }

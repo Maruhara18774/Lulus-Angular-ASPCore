@@ -11,7 +11,5 @@ namespace Lulus.ViewModels.SubCategories
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public CategoryViewModel Category { get; set; }
-        public bool Checked { get; set; } = false;
     }
 }

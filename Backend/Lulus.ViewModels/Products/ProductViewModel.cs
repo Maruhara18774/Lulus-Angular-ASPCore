@@ -17,11 +17,11 @@ namespace Lulus.ViewModels.Products
         public string Name { get; set; }
 
         public double Price { get; set; }
-        public double SalePrice { get; set; }
 
         public string Description { get; set; }
 
-        public int SubCategory_ID { get; set; }
+        public int Category_ID { get; set; }
+        public int DesignerID { get; set; }
 
         public ProductStatus Status { get; set; }
         public List<ProductLineViewModel> ListProductLines { get; set; } = new List<ProductLineViewModel>();

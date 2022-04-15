@@ -20,17 +20,16 @@ namespace Lulus.BAL.Catalog.Feedbacks
         }
         public async Task<bool> CreateFeedback(CreateFeedbackRequest request)
         {
-            //var feedback = new Feedback()
-            //{
-            //    StarCount = request.Star,
-            //    Content = request.Content,
-            //    UserID = request.UserID,
-            //    ProductID = request.ProductID,
-            //    Created = DateTime.Now
-            //};
-            //_context.Feedbacks.Add(feedback);
-            //await _context.SaveChangesAsync();
-            //return true;
+            var feedback = new Feedback()
+            {
+                StarCount = request.Star,
+                Content = request.Content,
+                UserID = request.UserID,
+                ProductID = request.ProductID,
+                Created = DateTime.Now
+            };
+            _context.Feedbacks.Add(feedback);
+            await _context.SaveChangesAsync();
             return true;
         }
     }

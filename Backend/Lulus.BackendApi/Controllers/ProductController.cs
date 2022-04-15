@@ -1,6 +1,7 @@
 ﻿using Lulus.BAL.Catalog.Products.DTOs.Public;
 using Lulus.BAL.Catalog.Products.Interfaces;
 using Lulus.ViewModels.Products;
+using Lulus.ViewModels.Products.Public;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -28,10 +29,10 @@ namespace Lulus.BackendApi.Controllers
             {
                 foreach (var line in product.ListProductLines)
                 {
-                    line.Texture_Image_Url = "https://localhost:44354"+line.Texture_Image_Url;
+                    line.Texture_Image_Url = "https://localhost:44354/"+line.Texture_Image_Url;
                     foreach(var image in line.ListImages)
                     {
-                        image.Image_Url = "https://localhost:44354" + image.Image_Url;
+                        image.Image_Url = "https://localhost:44354/" + image.Image_Url;
                     }
                 }
             }
@@ -45,10 +46,27 @@ namespace Lulus.BackendApi.Controllers
             {
                 foreach (var line in product.ListProductLines)
                 {
-                    line.Texture_Image_Url = "https://localhost:44354" + line.Texture_Image_Url;
+                    line.Texture_Image_Url = "https://localhost:44354/" + line.Texture_Image_Url;
                     foreach (var image in line.ListImages)
                     {
-                        image.Image_Url = "https://localhost:44354" + image.Image_Url;
+                        image.Image_Url = "https://localhost:44354/" + image.Image_Url;
+                    }
+                }
+            }
+            return Ok(result);
+        }
+        [HttpPost]
+        public async Task<IActionResult> GetByCateAndSubCateID(GetProductPagingRequest2 request)
+        {
+            var result = await _productService.GetAllByCateAndSubCateID(request);
+            foreach (var product in result)
+            {
+                foreach (var line in product.ListProductLines)
+                {
+                    line.Texture_Image_Url = "https://localhost:44354/" + line.Texture_Image_Url;
+                    foreach (var image in line.ListImages)
+                    {
+                        image.Image_Url = "https://localhost:44354/" + image.Image_Url;
                     }
                 }
             }
@@ -61,10 +79,10 @@ namespace Lulus.BackendApi.Controllers
 
             foreach (var line in result.ListProductLines)
             {
-                line.Texture_Image_Url = "https://localhost:44354" + line.Texture_Image_Url;
+                line.Texture_Image_Url = "https://localhost:44354/" + line.Texture_Image_Url;
                 foreach (var image in line.ListImages)
                 {
-                    image.Image_Url = "https://localhost:44354" + image.Image_Url;
+                    image.Image_Url = "https://localhost:44354/" + image.Image_Url;
                 }
             }
             return Ok(result);

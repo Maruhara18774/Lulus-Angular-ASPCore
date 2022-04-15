@@ -17,18 +17,16 @@ namespace Lulus.BAL.Catalog.SubCategories
         {
             _context = context;
         }
-        public async Task<List<SubCateViewModel>> GetAllSubCategoriesByCategoryID(GetAllSubCategoriesByCategoryIDRequest request)
+        public async Task<List<SubCateViewModel>> GetAllSubCategories()
         {
-            //var query = from c in _context.SubCategories
-            //            where c.Category_ID == request.CategoryID
-            //            select c;
-            //var data = await query.Select(c => new SubCateViewModel()
-            //{
-            //    ID = c.SubCategory_ID,
-            //    Name = c.SubCategory_Name
-            //}).ToListAsync();
-            //return data;
-            return null;
+            var query = from c in _context.Subcategories
+                        select c;
+            var data = await query.Select(c => new SubCateViewModel()
+            {
+                ID = c.ID,
+                Name = c.Name
+            }).ToListAsync();
+            return data;
         }
     }
 }

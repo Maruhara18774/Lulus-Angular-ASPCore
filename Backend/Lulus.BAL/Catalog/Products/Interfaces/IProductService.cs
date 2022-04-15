@@ -1,5 +1,6 @@
 ﻿using Lulus.BAL.Catalog.Products.DTOs.Public;
 using Lulus.ViewModels.Products;
+using Lulus.ViewModels.Products.Public;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,8 @@ namespace Lulus.BAL.Catalog.Products.Interfaces
     {
         Task<List<ProductViewModel>> GetAllByCateID(GetProductPagingRequest request);
         Task<List<ProductViewModel>> GetAllBySubCateID(GetProductPagingRequest request);
-
+        Task<List<ProductViewModel>> GetAllByCateAndSubCateID(GetProductPagingRequest2 request);
         Task<ProductViewModel> GetDetailByID(GetProductDetailRequest request);
+
     }
 }

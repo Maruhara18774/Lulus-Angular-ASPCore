@@ -18,11 +18,11 @@ namespace Lulus.BackendApi.Controllers
         {
             _subCategoryService = subCategoryService;
         }
-        [HttpPost("GetList")]
+        [HttpGet]
         [AllowAnonymous]
-        public async Task<IActionResult> GetList(GetAllSubCategoriesByCategoryIDRequest request)
+        public async Task<IActionResult> GetList()
         {
-            var lsSubCate = await _subCategoryService.GetAllSubCategoriesByCategoryID(request);
+            var lsSubCate = await _subCategoryService.GetAllSubCategories();
             return Ok(lsSubCate);
         }
     }

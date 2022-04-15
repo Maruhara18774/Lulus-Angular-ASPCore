@@ -9,6 +9,6 @@ namespace Lulus.BAL.Catalog.SubCategories.Interfaces
 {
     public interface ISubCategoryService
     {
-        Task<List<SubCateViewModel>> GetAllSubCategoriesByCategoryID(GetAllSubCategoriesByCategoryIDRequest request);
+        Task<List<SubCateViewModel>> GetAllSubCategories();
     }
 }
