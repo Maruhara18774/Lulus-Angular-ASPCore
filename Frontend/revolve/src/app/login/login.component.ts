@@ -1,7 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { AccountApi } from '../api/accountApi';
-import { LoginRequest } from '../request/loginRequest';
+import { LoginRequest } from '../model/login/loginRequest';
 
 @Component({
   selector: 'app-login',
@@ -19,6 +19,11 @@ export class LoginComponent implements OnInit {
     var request = new LoginRequest(value.username,value.password, value.remember === "" ? false:value.remember);
     var api = new AccountApi();
     var result = await api.login(request);
-    console.log(result);
+    if(result.status === 200){
+      console.log('Success: ' + result.body);
+    }
+    else{
+      console.log('Error: ' + result.body);
+    }
   }
 }
