@@ -1,13 +1,26 @@
 import { LoginRequest } from "../request/loginRequest";
-import { HttpClient } from "@angular/common/http";
 
 export class AccountApi{
     url = "https://localhost:44354/api/User";
 
-    constructor(private httpClient: HttpClient){}
+    constructor(){}
 
-    login(body: LoginRequest){
+    async login(body: LoginRequest){
         var currentUrl = this.url + "/Authenticate";
-        return this.httpClient.post(currentUrl,JSON.stringify(body));
+        return await fetch(currentUrl,{
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              },
+            body: JSON.stringify(body)
+        }).then(response => response.json());
+    }
+    async getTest(){
+        var currentUrl = "https://localhost:44354/api/Category";
+        //return await fetch(currentUrl).then(respond => respond.json())
+        return await fetch(currentUrl,{
+            method: 'GET',
+        }).then(response => response.json());
     }
 }

@@ -1,0 +1,8 @@
+Navbar:
+- login
+- register
+- hot list
+- new
+- clothing
+- sale
+- search
