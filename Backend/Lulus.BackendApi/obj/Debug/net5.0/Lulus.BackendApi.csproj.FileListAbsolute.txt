@@ -72,3 +72,5 @@ D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BackendApi\obj\Debug\net5.
 D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BackendApi\obj\Debug\net5.0\ref\Lulus.BackendApi.dll
 D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BackendApi\obj\Debug\net5.0\Lulus.BackendApi.pdb
 D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BackendApi\obj\Debug\net5.0\Lulus.BackendApi.genruntimeconfig.cache
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BackendApi\bin\Debug\net5.0\Humanizer.dll
+D:\Univer\4-HK2\LT\Angular\DressUpStore\Backend\Lulus.BackendApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
