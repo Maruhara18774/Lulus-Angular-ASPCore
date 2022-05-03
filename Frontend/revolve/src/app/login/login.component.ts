@@ -7,11 +7,12 @@ import { UserService } from '../services/user.service';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
+  providers: [UserService]
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
   ngOnInit(): void {
   }
@@ -21,8 +22,8 @@ export class LoginComponent implements OnInit {
     var api = new AccountApi();
     var result = await api.login(request);
     if(result.status === 200){
-      //this.userService.setToken(result.body);
-      console.log('Success: ' + result.body);
+      this.userService.setToken(result.body);
+      console.log('Success: ' + this.userService.getToken());
     }
     else{
       console.log('Error: ' + result.body);

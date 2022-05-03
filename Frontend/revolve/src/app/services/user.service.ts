@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class UserService {
-    constructor(private token:String){}
+    token: String = '';
     setToken(token: String){
         this.token = token;
     }
