@@ -30,9 +30,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/app/assets/css/bootstrap.min.css",
+              "src/app/assets/css/font-awesome.min.css",
+              "src/app/assets/css/elegant-icons.css",
+              "src/app/assets/css/magnific-popup.css",
+              "src/app/assets/css/nice-select.css",
+              "src/app/assets/css/slicknav.min.css",
+              "src/app/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/assets/js/jquery-3.3.1.min.js",
+              "src/app/assets/js/bootstrap.min.js",
+              "src/app/assets/js/jquery.nice-select.min.js",
+              "src/app/assets/js/jquery.nicescroll.min.js",
+              "src/app/assets/js/jquery.magnific-popup.min.js",
+              "src/app/assets/js/jquery.countdown.min.js",
+              "src/app/assets/js/jquery.slicknav.js",
+              "src/app/assets/js//mixitup.min.js",
+              "src/app/assets/js/owl.carousel.min.js",
+              "src/app/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
