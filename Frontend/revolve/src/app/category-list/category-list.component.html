@@ -1,0 +1,10 @@
+<p>Category List</p>
+<hr/>
+<ul>
+    <a href = "#" *ngFor="let cate of cateList;" (click)="goToProductList(cate.id)">
+        <li>
+            {{cate.id}} - {{ cate.name}}
+        </li>
+    </a>
+</ul>
+<router-outlet></router-outlet>

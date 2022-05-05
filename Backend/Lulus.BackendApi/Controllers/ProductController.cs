@@ -21,6 +21,23 @@ namespace Lulus.BackendApi.Controllers
         {
             _productService = productService;
         }
+        [HttpGet]
+        public async Task<IActionResult> GetAll(int page)
+        {
+            var result = await _productService.GetAll(page);
+            foreach (var product in result)
+            {
+                foreach (var line in product.ListProductLines)
+                {
+                    line.Texture_Image_Url = "https://localhost:44354/" + line.Texture_Image_Url;
+                    foreach (var image in line.ListImages)
+                    {
+                        image.Image_Url = "https://localhost:44354/" + image.Image_Url;
+                    }
+                }
+            }
+            return Ok(result);
+        }
         [HttpPost]
         public async Task<IActionResult> GetByCateID(GetProductPagingRequest request)
         {
