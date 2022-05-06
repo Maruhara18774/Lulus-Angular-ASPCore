@@ -1,7 +1,7 @@
 <p>product-list works! {{cateID}}</p>
 <p>All Products</p>
 <ul>
-    <a href="http://localhost:4200/detail/{{pro.id}}" *ngFor="let pro of productList;">
+    <a href="{{baseURL}}/detail/{{pro.id}}" *ngFor="let pro of productList;">
         <li>
             {{pro.id}} - {{ pro.name}} - ${{ pro.price}}
             <ul>

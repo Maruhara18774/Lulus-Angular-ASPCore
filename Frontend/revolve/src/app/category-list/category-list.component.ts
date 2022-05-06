@@ -17,6 +17,7 @@ import { ProductService } from '../services/product.service';
   providers: [ProductService]
 })
 export class CategoryListComponent implements OnInit {
+  baseURL: String = "http://localhost:4200";
   cateList: Category[] = new Array<Category>();
   productList: Product[] = new Array<Product>();
 
