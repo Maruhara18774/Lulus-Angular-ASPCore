@@ -29,9 +29,7 @@ namespace Lulus.BAL.Catalog.Products
 
         public async Task<List<ProductViewModel>> GetAll(int pageIndex)
         {
-            var query = from p in _context.Products
-                        join l in _context.Product_SubCategories on p.ID equals l.ProductID
-                        select p;
+            var query = from p in _context.Products select p;
 
             int totalRow = await query.CountAsync();
 
@@ -71,15 +69,21 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-                    var productSizes = from s in _context.Sizes
-                                       join q in _context.ProductLine_Sizes on s.ID equals q.SizeID
-                                       where q.ProductLineID == line.ID
-                                       select s;
-                    line.ListSizes = await productSizes.Select(s => new SizeViewModel()
+
+                    var productSizeQuantities = from s in _context.ProductLine_Sizes
+                                                where s.ProductLineID == line.ID
+                                                select s;
+                    line.ListSizes = new List<SizeViewModel>();
+                    foreach(var siQuan in productSizeQuantities.ToList())
                     {
-                        ID = s.ID,
-                        Key = s.Key
-                    }).ToListAsync();
+                        var obj = new SizeViewModel()
+                        {
+                            ID = siQuan.SizeID,
+                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
+                            Quantity = siQuan.Quantity
+                        };
+                        line.ListSizes.Add(obj);
+                    }
                 }
             }
             return data;
@@ -130,15 +134,21 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-                    var productSizes = from s in _context.Sizes
-                                       join q in _context.ProductLine_Sizes on s.ID equals q.SizeID
-                                       where q.ProductLineID == line.ID
-                                       select s;
-                    line.ListSizes = await productSizes.Select(s => new SizeViewModel()
+
+                    var productSizeQuantities = from s in _context.ProductLine_Sizes
+                                                where s.ProductLineID == line.ID
+                                                select s;
+                    line.ListSizes = new List<SizeViewModel>();
+                    foreach (var siQuan in productSizeQuantities.ToList())
                     {
-                        ID = s.ID,
-                        Key = s.Key
-                    }).ToListAsync();
+                        var obj = new SizeViewModel()
+                        {
+                            ID = siQuan.SizeID,
+                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
+                            Quantity = siQuan.Quantity
+                        };
+                        line.ListSizes.Add(obj);
+                    }
                 }
             }
             return data;
@@ -187,15 +197,21 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-                    var productSizes = from s in _context.Sizes
-                                       join q in _context.ProductLine_Sizes on s.ID equals q.SizeID
-                                       where q.ProductLineID == line.ID
-                                       select s;
-                    line.ListSizes = await productSizes.Select(s => new SizeViewModel()
+
+                    var productSizeQuantities = from s in _context.ProductLine_Sizes
+                                                where s.ProductLineID == line.ID
+                                                select s;
+                    line.ListSizes = new List<SizeViewModel>();
+                    foreach (var siQuan in productSizeQuantities.ToList())
                     {
-                        ID = s.ID,
-                        Key = s.Key
-                    }).ToListAsync();
+                        var obj = new SizeViewModel()
+                        {
+                            ID = siQuan.SizeID,
+                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
+                            Quantity = siQuan.Quantity
+                        };
+                        line.ListSizes.Add(obj);
+                    }
                 }
             }
             return data;
@@ -246,15 +262,20 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-                    var productSizes = from s in _context.Sizes
-                                       join q in _context.ProductLine_Sizes on s.ID equals q.SizeID
-                                       where q.ProductLineID == line.ID
-                                       select s;
-                    line.ListSizes = await productSizes.Select(s => new SizeViewModel()
+                    var productSizeQuantities = from s in _context.ProductLine_Sizes
+                                                where s.ProductLineID == line.ID
+                                                select s;
+                    line.ListSizes = new List<SizeViewModel>();
+                    foreach (var siQuan in productSizeQuantities.ToList())
                     {
-                        ID = s.ID,
-                        Key = s.Key
-                    }).ToListAsync();
+                        var obj = new SizeViewModel()
+                        {
+                            ID = siQuan.SizeID,
+                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
+                            Quantity = siQuan.Quantity
+                        };
+                        line.ListSizes.Add(obj);
+                    }
                 }
             }
             return data;

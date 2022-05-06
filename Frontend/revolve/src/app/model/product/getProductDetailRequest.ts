@@ -1,7 +1,7 @@
 export class GetProductDetailRequest{
-    public id:String;
+    public id:number;
 
-    constructor(id:String){
+    constructor(id:number){
         this.id = id;
     }
 }

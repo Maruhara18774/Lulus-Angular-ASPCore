@@ -1,10 +1,23 @@
 <p>Category List</p>
-<hr/>
 <ul>
-    <a href = "#" *ngFor="let cate of cateList;" (click)="goToProductList(cate.id)">
+    <a href="http://localhost:4200/product/{{cate.id}}" *ngFor="let cate of cateList;">
         <li>
             {{cate.id}} - {{ cate.name}}
         </li>
     </a>
 </ul>
-<router-outlet></router-outlet>
+<hr/>
+<p>All Products</p>
+<ul>
+    <a href="http://localhost:4200/detail/{{pro.id}}" *ngFor="let pro of productList;">
+        <li>
+            {{pro.id}} - {{ pro.name}} - ${{ pro.price}}
+            <ul>
+                <li *ngFor="let line of pro.productLines;">
+                    {{line.textureName}} - <img src="{{line.textureImage}}"/>
+                </li>
+            </ul>
+            <br/>
+        </li>
+    </a>
+</ul>

@@ -1,1 +1,10 @@
-<p>product-detail works!</p>
+<p>{{product.id}} - {{ product.name}} - ${{ product.price}}</p>
+<P>{{product.description}}</P>
+<ul>
+    <li *ngFor="let line of product.productLines;">
+        {{line.textureName}} - <img src="{{line.textureImage}}" />
+        <br/>
+        <img *ngFor="let image of line.images;" src="{{image.url}}" height="200" width="200"/>
+    </li>
+</ul>
+<br />

@@ -1,9 +1,9 @@
 export class GetProductPagingRequest{
-    public pageIndex: String;
-    public pageSize: String;
-    public id:String;
+    public pageIndex: number;
+    public pageSize: number;
+    public id:number;
 
-    constructor(index:String, size: String, id:String){
+    constructor(index:number, size: number, id:number){
         this.pageIndex = index;
         this.pageSize = size;
         this.id = id;

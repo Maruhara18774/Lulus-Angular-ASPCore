@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginComponent } from './login/login.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { RegisterComponent } from './register/register.component';
 
@@ -11,12 +12,9 @@ const routes: Routes = [
   { path: 'home', component: HomepageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'regist', component: RegisterComponent },
-  {
-    path: 'clothing-list', component: CategoryListComponent, children: [
-      { path: '', component: CategoryListComponent },
-      { path: ':id', component: ProductListComponent },
-    ]
-  },
+  { path: 'clothing-list', component: CategoryListComponent},
+  { path: 'product/:id', component: ProductListComponent},
+  { path: 'detail/:id', component: ProductDetailComponent}
 ];
 
 @NgModule({

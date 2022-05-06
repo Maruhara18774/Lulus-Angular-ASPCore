@@ -1,1 +1,15 @@
-<p>product-list works!</p>
+<p>product-list works! {{cateID}}</p>
+<p>All Products</p>
+<ul>
+    <a href="http://localhost:4200/detail/{{pro.id}}" *ngFor="let pro of productList;">
+        <li>
+            {{pro.id}} - {{ pro.name}} - ${{ pro.price}}
+            <ul>
+                <li *ngFor="let line of pro.productLines;">
+                    {{line.textureName}} - <img src="{{line.textureImage}}"/>
+                </li>
+            </ul>
+            <br/>
+        </li>
+    </a>
+</ul>

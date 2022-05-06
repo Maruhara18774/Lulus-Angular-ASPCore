@@ -9,14 +9,13 @@ export class ProductApi{
     constructor(){}
 
     async getAll(body: GetAllProductPagingRequest){
-        var currentUrl = this.url + "/GetByCateID";
+        var currentUrl = this.url + "/GetAll?page="+body.page;
         return await fetch(currentUrl,{
-            method: 'POST',
+            method: 'GET',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
-              },
-            body: JSON.stringify(body)
+              }
         }).then(async response => {
             return new BasicResponse(response.status,await response.json());
         });
