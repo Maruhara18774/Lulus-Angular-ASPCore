@@ -18,4 +18,5 @@ export class ProductLine{
         this.images = new Array<ProductImage>();
         this.sizes = new Array<LineQuantity>();
     }
+    
 }
