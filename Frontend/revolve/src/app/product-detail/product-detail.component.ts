@@ -19,6 +19,7 @@ export class ProductDetailComponent implements OnInit {
   product: Product;
   currentLine: number = 0;
 
+
   constructor(private route: ActivatedRoute, private router: Router, private productService:ProductService) { }
 
   ngOnInit(): void {
