@@ -8,6 +8,16 @@
     </li>
 </ul>
 <br />-->
+<!--<p>{{product.id}} - {{ product.name}} - ${{ product.price}}</p>
+<P>{{product.description}}</P>
+<ul>
+    <li *ngFor="let line of product.productLines;">
+        {{line.textureName}} - f />
+        <br/>
+        <img *ngFor="let image of line.images;" src="{{image.url }}" height="200" width="200"/>
+    </li>
+</ul>
+<br />-->
 <section class="shop-details">
     <div class="product__details__pic">
         <div class="container">
@@ -22,14 +32,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-3">
-                    <ul class="nav nav-tabs" role="tablist" *ngFor="let line of product.productLines;">
-                        <li class="nav-item" *ngFor="let image of line.images">
-                            <a class="nav-link active" data-toggle="tab" href="{{image.url}}" role="tab">
+                    <ul class="nav nav-tabs" role="tablist" >
+                        <li class="nav-item" *ngFor="let image of product.productLines[0].images;">
+                            <a class="nav-link active" data-toggle="tab" href="{{image.url}}" role="tab"> 
                                 <div class="product__thumb__pic set-bg" >
                                     
                                         <div class="thumb">
-                                        
-                                            <img src="{{image.url}}">
+                                            <img src="{{image.url}}" alt="imag" >
                                             <br>
                                            
                                         </div>
@@ -43,34 +52,66 @@
                 </div>
                 <div class="col-lg-6 col-md-9">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="1" role="tabpanel" *ngFor="let line of product.productLines;">
-                            <div class="product__details__pic__item" >
-                                <!--<img src="../assets/img/shop-details/product-big-2.png" alt="">-->
-                                <div class="product__thumb__pic set-bg" *ngFor="let image of line.images">
+                        <div class="tab-pane active" id="1" role="tabpanel" *ngIf="product.productLines as imgLine">
+                            <!--<div class="product__details__pic__item" >
+                               
+                                <div class="product__thumb__pic set-bg">
                                     
                                     <div class="thumb">
-                                        <td> <img src="{{image.url}}"> </td>
-                                        
+                                        <td> <img src="{{imgLine[0].images[0].url}}"> </td>
                                        
                                     </div>
 
-                                 
-                            </div>
+                                 </div>
+                            </div>-->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <div class="thumb">
+                                      <td> <img src="{{imgLine[0].images[0].url}}"  > </td>
+                                      </div>
 
-                            </div>
+                                  </div>
+                                    <div class="carousel-item">
+                                      <div class="thumb">
+                                        <td> <img src="{{imgLine[0].images[1].url}}" > </td>
+                                        </div>
+                                    </div>
+                                  <div class="carousel-item">
+                                    <div class="thumb">
+                                      <td> <img src="{{imgLine[0].images[2].url}}" > </td>
+                                      </div>
+                                  </div>
+                                  
+                                
+                                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" sty > 
+                                  <span class="carousel-control-prev-icon" aria-hidden="true" style="background-image:url('../assets/img/icon/arrow-left.png')"></span>  
+                              </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> 
+                              <span class="carousel-control-next-icon" aria-hidden="true" style="background-image:url('../assets/img/icon/arrow-right.png')"></span>  </a>
+
+                          
                         </div>
-                
+                        </div>
+
+
+                        </div> 
+                        
                     </div>
+                        
                 </div>
             </div>
         </div>
     </div>
+                
+        
+        
+    
     <div class="product__details__content">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="product__details__text">
-                        <h4>{{ product.name}}</h4>
+                        <h4>Hooded thermal anorak</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -79,8 +120,10 @@
                             <i class="fa fa-star-o"></i>
                             <span> - 5 Reviews</span>
                         </div>
-                        <h3>{{product.price |currency:'USD':'symbol'}}</h3>
-                        <p>{{product.description}}</p>
+                        <h3>$270.00 <span>70.00</span></h3>
+                        <p>Coat with quilted lining and an adjustable hood. Featuring long sleeves with adjustable
+                            cuff tabs, adjustable asymmetric hem with elastic side tabs and a front zip fastening
+                        with placket.</p>
                         <div class="product__details__option">
                             <div class="product__details__option__size">
                                 <span>Size:</span>
@@ -115,11 +158,11 @@
                         </div>
                         <div class="product__details__btns__option">
                             <a href="#"><i class="fa fa-heart"></i> add to wishlist</a>
+                            <a href="#"><i class="fa fa-exchange"></i> Add To Compare</a>
                         </div>
                         <div class="product__details__last__option">
                             <h5><span>Guaranteed Safe Checkout</span></h5>
-                            <img src="../assets/img/shop-details/details-payment.png" alt="">
-                            
+                            <img src="img/shop-details/details-payment.png" alt="">
                             <ul>
                                 <li><span>SKU:</span> 3812912</li>
                                 <li><span>Categories:</span> Clothes</li>
@@ -251,6 +294,5 @@
             </div>
         </div>
     </div>
-    
-
-
+</section>
+<!-- Shop Details Section End -->
