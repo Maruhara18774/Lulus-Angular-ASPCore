@@ -18,11 +18,6 @@ namespace Lulus.BackendApi.Controllers
             _logger = logger;
         }
 
-        public string Index()
-        {
-            return "Hello";
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

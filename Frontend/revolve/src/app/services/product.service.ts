@@ -1,7 +1,9 @@
+import { Designer } from "../model/Designer";
 import { LineQuantity } from "../model/LineQuantity";
 import { Product } from "../model/Product";
 import { ProductImage } from "../model/ProductImage";
 import { ProductLine } from "../model/ProductLine";
+import { Size } from "../model/Size";
 
 export class ProductService {
     convertJSONtoProductList(body: any) {
@@ -85,5 +87,21 @@ export class ProductService {
             product.productLines.push(productLine);
         }
         return product;
+    }
+    convertJSONtoDesignerList(body:any){
+        var designerList: Designer[] = new Array<Designer>();
+        for (let i = 0; i < body.length; i++){
+            var designer = new Designer(parseInt(body[i].id),body[i].name,body[i].description);
+            designerList.push(designer);
+        }
+        return designerList;
+    }
+    convertJSONtoSizeList(body: any){
+        var sizeList: Size[] = new Array<Size>();
+        for (let i = 0; i < body.length; i++){
+            var size = new Size(parseInt(body[i].id),body[i].key);
+            sizeList.push(size);
+        }
+        return sizeList;
     }
 }

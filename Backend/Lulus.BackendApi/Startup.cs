@@ -27,6 +27,9 @@ using Lulus.BAL.Catalog.Feedbacks.Interfaces;
 using Lulus.BAL.Catalog.Feedbacks;
 using Lulus.BAL.Catalog.ProductLines.Interfaces;
 using Lulus.BAL.Catalog.ProductLines;
+using Lulus.BAL.Catalog.Designers;
+using Lulus.BAL.Catalog.Occations;
+using Lulus.BAL.Catalog.Sizes;
 
 namespace Lulus.BackendApi
 {
@@ -59,6 +62,9 @@ namespace Lulus.BackendApi
             services.AddTransient<IManageProductService, ManageProductService>();
             services.AddTransient<IManageProductLineService, ManageProductLineService>();
             services.AddTransient<IManageSubcategoryService, ManageSubcategoryService>();
+            services.AddTransient<IDesginerService, DesignerService>();
+            services.AddTransient<IOccationService, OccationService>();
+            services.AddTransient<ISizeService, SizeService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
