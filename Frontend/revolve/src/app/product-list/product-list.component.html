@@ -1,4 +1,4 @@
-<p>product-list works! {{cateID}}</p>
+<!--<p>product-list works! {{cateID}}</p>
 <p>All Products</p>
 <ul>
     <a href="{{baseURL}}/detail/{{pro.id}}" *ngFor="let pro of productList;">
@@ -12,5 +12,208 @@
             <br/>
         </li>
     </a>
-</ul>
+</ul>-->
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Shop</h4>
+                    <div class="breadcrumb__links">
+                        <a routerLinkActive="active" routerLink="/home">Home</a>
+  
+                        <span>Clothing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Shop Section Begin -->
+    <section class="shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="shop__sidebar">
+                        <div class="shop__sidebar__search">
+                            <form action="#">
+                                <input type="text" placeholder="Search...">
+                                <button type="submit"><span class="icon_search"></span></button>
+                            </form>
+                        </div>
+                        <div class="shop__sidebar__accordion">
+                            <div class="accordion" id="accordionExample">
+                                <!--<div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>-->
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseTwo">Designer</a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__brand">
+                                                <ul>
+                                                    <li *ngFor="let designer of designerList;">
+                                                        <a>{{designer.name}}</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__price">
+                                                <ul>
+                                                    <li><a href="#">$0.00 - $50.00</a></li>
+                                                    <li><a href="#">$50.00 - $100.00</a></li>
+                                                    <li><a href="#">$100.00 - $150.00</a></li>
+                                                    <li><a href="#">$150.00 - $200.00</a></li>
+                                                    <li><a href="#">$200.00 - $250.00</a></li>
+                                                    <li><a href="#">250.00+</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseFour">Size</a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__size">
+                                                <label *ngFor="let size of sizeList;" for="{{size.key}}">{{size.key}}
+                                                  <input type="radio" id="{{size.key}}">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-heading">
+                                      <a data-toggle="collapse" data-target="#collapseTwo">Designer</a>
+                                  </div>
+                                  <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                          <div class="shop__sidebar__brand">
+                                              <ul>
+                                                  <li *ngFor="let designer of designerList;">
+                                                      <a>{{designer.name}}</a>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <!--div class="shop__product__option">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__left">
+                                    <p>Showing 1–12 of 126 results</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__right">
+                                    <p>Sort by Price:</p>
+                                    <select>
+                                        <option value="">Low To High</option>
+                                        <option value="">$0 - $55</option>
+                                        <option value="">$55 - $100</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div-->
+                    <div>
+  
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let pro of productList;">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg">
+                                    <a *ngFor="let line of pro.productLines;">
+                                    <div *ngFor="let image of line.images">
+                                        <div class="thumb">
+                                          <div class="card card-product-grid card-lg">
+                                            <img src="{{image.url}}"/>
+                                          </div>
+                                        </div>
+                                     </div>
+  
+                                    <ul class="product__hover">
+                                        <li><a href="#"><img src="../assets/img/icon/heart.png" alt=""></a></li>
+                                        <li><a href="{{baseURL}}/detail/{{pro.id}}"><img src="../assets/img/icon/search.png" alt=""></a></li>
+                                    </ul>
+                                    </a>
+                                </div>
+  
+                                <div class="product__item__text">
+  
+  
+  
+                                    <div class="card card-product-grid card-lg">
+                                      <h6>{{pro.name }}</h6>
+                                      <a href="#" class="add-cart" style="top:1px">+ Add To Cart</a>
+                                    <div class="rating">
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h5>{{pro.price |currency:'USD':'symbol'}}</h5>
+  
+                                    <div class="product__color__select">
+                                        <label *ngFor="let line of pro.productLines;">
+                                            <img src="{{line.textureImage}}"width="25" height="30"/>
+                                            <input type="image" src="{{line.textureImage}}" alt="Submit" style="float:right" width="48">
+                                        </label>
+                                    </div>
+                                </div>
+                                </div>
+  
+                            </div>
+                            </div>
+                            </div>
+  
+  
+  
+  
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="product__pagination">
+                                <a class="active" href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <span>...</span>
+                                <a href="#">21</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    </section>
+    <!-- Shop Section End -->
 
