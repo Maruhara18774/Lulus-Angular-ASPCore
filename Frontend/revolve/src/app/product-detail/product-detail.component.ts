@@ -18,6 +18,8 @@ export class ProductDetailComponent implements OnInit {
   id: number;
   product: Product;
   currentLine: number = 0;
+  currentSize: number = 0;
+  currentLineIndex: number = 0;
 
 
   constructor(private route: ActivatedRoute, private router: Router, private productService:ProductService) { }
@@ -36,9 +38,15 @@ export class ProductDetailComponent implements OnInit {
     var result = await api.getDetail(new GetProductDetailRequest(this.id));
     if (result.status === 200) {
       this.product = this.productService.convertJSONtoProduct(result.body);
+      this.currentLine = this.product.productLines[0].id;
     }
     else {
       console.log('Error: ' + result.body);
     }
+  }
+  selectProductLine(lineID: number){
+    alert(lineID);
+    this.currentLine = lineID;
+    this.currentLineIndex = this.product.productLines.findIndex((e) => e.id == lineID);
   }
 }
