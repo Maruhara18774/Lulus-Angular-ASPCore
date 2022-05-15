@@ -1,14 +1,14 @@
-import { Injectable } from '@angular/core';
+import { User } from "../model/User";
 
-@Injectable({
-  providedIn: 'root',
-})
 export class UserService {
-    token: String = '';
     setToken(token: String){
-        this.token = token;
+        localStorage.setItem('token',token.toString());
     }
     getToken(){
-        return this.token;
+        return localStorage.getItem('token');
+    }
+    convertJSONtoUser(body: any){
+        var user = new User(body.id, body.username, body.email,body.phone);
+        return user;
     }
 }

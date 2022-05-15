@@ -23,7 +23,6 @@ export class LoginComponent implements OnInit {
     var result = await api.login(request);
     if(result.status === 200){
       this.userService.setToken(result.body);
-      console.log('Success: ' + this.userService.getToken());
     }
     else{
       console.log('Error: ' + result.body);

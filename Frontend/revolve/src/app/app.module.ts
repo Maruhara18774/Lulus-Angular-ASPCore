@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { MyaccountComponent } from './myaccount/myaccount.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     FooterComponent,
     ProductListComponent,
     CategoryListComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    MyaccountComponent
   ],
   imports: [
     BrowserModule,

@@ -64,7 +64,7 @@
                                             <div class="shop__sidebar__brand">
                                                 <ul>
                                                     <li *ngFor="let designer of designerList;">
-                                                        <a>{{designer.name}}</a>
+                                                        <a (click)="pickDesigner(designer.id)">{{designer.name}}</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -79,12 +79,12 @@
                                         <div class="card-body">
                                             <div class="shop__sidebar__price">
                                                 <ul>
-                                                    <li><a href="#">$0.00 - $50.00</a></li>
-                                                    <li><a href="#">$50.00 - $100.00</a></li>
-                                                    <li><a href="#">$100.00 - $150.00</a></li>
-                                                    <li><a href="#">$150.00 - $200.00</a></li>
-                                                    <li><a href="#">$200.00 - $250.00</a></li>
-                                                    <li><a href="#">250.00+</a></li>
+                                                    <li><a (click)="pickRangePrice(0,50)">$0.00 - $50.00</a></li>
+                                                    <li><a (click)="pickRangePrice(50,100)">$50.00 - $100.00</a></li>
+                                                    <li><a (click)="pickRangePrice(100,150)">$100.00 - $150.00</a></li>
+                                                    <li><a (click)="pickRangePrice(150,200)">$150.00 - $200.00</a></li>
+                                                    <li><a (click)="pickRangePrice(200,250)">$200.00 - $250.00</a></li>
+                                                    <li><a (click)="pickRangePrice(250,10000)">250.00+</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -104,22 +104,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                  <div class="card-heading">
-                                      <a data-toggle="collapse" data-target="#collapseTwo">Designer</a>
-                                  </div>
-                                  <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
-                                      <div class="card-body">
-                                          <div class="shop__sidebar__brand">
-                                              <ul>
-                                                  <li *ngFor="let designer of designerList;">
-                                                      <a>{{designer.name}}</a>
-                                                  </li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
                             </div>
                         </div>
                     </div>
@@ -147,6 +131,7 @@
                     <div>
   
                     </div>
+                    <a (click) = "resetFilter()">Reset filter</a>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let pro of productList;">
                             <div class="product__item">
@@ -201,13 +186,7 @@
   
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="product__pagination">
-                                <a class="active" href="#">1</a>
-                                <a href="#">2</a>
-                                <a href="#">3</a>
-                                <span>...</span>
-                                <a href="#">21</a>
-                            </div>
+                            <p class="see-more">See more</p>
                         </div>
                     </div>
                 </div>

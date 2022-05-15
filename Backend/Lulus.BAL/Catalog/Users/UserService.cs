@@ -40,6 +40,7 @@ namespace Lulus.BAL.Catalog.Users
                 new Claim(ClaimTypes.PrimarySid, user.Id.ToString()),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.MobilePhone,user.PhoneNumber),
                 new Claim(ClaimTypes.Role, string.Join(";",roles))
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Tokens:Key"]));
@@ -107,6 +108,29 @@ namespace Lulus.BAL.Catalog.Users
                 return true;
             }
             return false;
+        }
+
+        public UserViewModel GetInfo(string token)
+        {
+            try
+            {
+                var stream = token;
+                var handler = new JwtSecurityTokenHandler();
+                var jsonToken = handler.ReadToken(stream);
+                var tokenS = jsonToken as JwtSecurityToken;
+
+                return new UserViewModel()
+                {
+                    ID = new Guid(tokenS.Claims.First(claim => claim.Type == ClaimTypes.PrimarySid.ToString()).Value),
+                    Email = tokenS.Claims.First(claim => claim.Type == ClaimTypes.Email.ToString()).Value,
+                    Username = tokenS.Claims.First(claim => claim.Type == ClaimTypes.Name.ToString()).Value,
+                    Phone = tokenS.Claims.First(claim => claim.Type == ClaimTypes.MobilePhone.ToString()).Value
+                };
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
     }
 }

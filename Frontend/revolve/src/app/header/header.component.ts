@@ -1,5 +1,7 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { AccountApi } from '../api/accountApi';
+import { GetInfoRequest } from '../model/header/GetInfoRequest';
+import { User } from '../model/User';
 import { UserService } from '../services/user.service';
 
 @Component({
@@ -9,15 +11,24 @@ import { UserService } from '../services/user.service';
   providers: [UserService]
 })
 export class HeaderComponent implements OnInit {
-  token:String = '';
+  token:String = localStorage.getItem('token')!=null ? localStorage.getItem('token')!.toString(): '';
+  currentUser?: User = undefined;
   @Output() featureSelected = new EventEmitter<string>(); 
-  constructor(private userService: UserService,private route: ActivatedRoute,) {
+  constructor(private userService: UserService) {
    }
 
   
   ngOnInit(): void {
-    this.route.params.subscribe(params => {
-      this.token = this.userService.getToken();
-  });
+    if(this.token != '' && this.token){
+      this.loadUser();
+    }
+  }
+
+  async loadUser(){
+    var api = new AccountApi();
+    var result = await api.info(new GetInfoRequest(this.userService.getToken()!));
+    if(result.status == 200){
+      this.currentUser = this.userService.convertJSONtoUser(result.body);
+    }
   }
 }

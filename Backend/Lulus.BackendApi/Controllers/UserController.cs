@@ -74,5 +74,13 @@ namespace Lulus.BackendApi.Controllers
             }
             return Ok(resultToken);
         }
+
+        [HttpPost("Info")]
+        [AllowAnonymous]
+        public IActionResult GetInfo(string token)
+        {
+            var result = _userService.GetInfo(token);
+            return Ok(result);
+        }
     }
 }

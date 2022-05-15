@@ -11,6 +11,7 @@ import { DesignerApi } from '../api/designerApi';
 import { SizeApi } from '../api/sizeApi';
 import { Designer } from '../model/Designer';
 import { Size } from '../model/Size';
+import { GetFilterProductPagingRequest } from '../model/product/getFilterProductPagingRequest';
 
 @Component({
   selector: 'app-product-list',
@@ -24,14 +25,17 @@ export class ProductListComponent implements OnInit {
   productList: Product[] = new Array<Product>();
   designerList: Designer[] = new Array<Designer>();
   sizeList: Size[] = new Array<Size>();
+  filterRequest: GetFilterProductPagingRequest;
 
-  constructor(private route: ActivatedRoute, private router: Router, private productService:ProductService) {}
+  constructor(private route: ActivatedRoute, private router: Router, private productService:ProductService) {
+  }
 
   ngOnInit(): void {
     this.route.params
       .subscribe(
         (params: Params) => {
           this.cateID = +params['id'];
+          this.filterRequest = new GetFilterProductPagingRequest(1,10,this.cateID,0,0,0,0);
         }
       );
     this.loadProduct();
@@ -68,5 +72,27 @@ export class ProductListComponent implements OnInit {
       console.log('Error: ' + result.body);
     }
   }
-
+  resetFilter(){
+    this.filterRequest = new GetFilterProductPagingRequest(1,10,this.cateID,0,0,0,0);
+    this.refreshProductByFilter();
+  }
+  async refreshProductByFilter(){
+    var api = new ProductApi();
+    var result = await api.getByCateIDFilter(this.filterRequest);
+    if (result.status === 200) {
+      this.productList = this.productService.convertJSONtoProductList(result.body);
+    }
+    else {
+      console.log('Error: ' + result.body);
+    }
+  }
+  pickDesigner(id: number){
+    this.filterRequest.designer = id;
+    this.refreshProductByFilter();
+  }
+  pickRangePrice(min:number, max: number){
+    this.filterRequest.min = min;
+    this.filterRequest.max = max;
+    this.refreshProductByFilter();
+  }
 }

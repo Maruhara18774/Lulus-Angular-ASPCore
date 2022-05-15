@@ -24,16 +24,12 @@ export class CategoryListComponent implements OnInit {
   baseURL: String = "http://localhost:4200";
   cateList: Category[] = new Array<Category>();
   productList: Product[] = new Array<Product>();
-  designerList: Designer[] = new Array<Designer>();
-  sizeList: Size[] = new Array<Size>();
 
   constructor(private productService:ProductService) { }
 
   ngOnInit(): void {
     this.loadCategory();
     this.loadProduct();
-    this.loadDesigner();
-    this.loadSize();
   }
   async loadCategory() {
     var api = new CategoryApi();
@@ -56,26 +52,6 @@ export class CategoryListComponent implements OnInit {
       this.productList = this.productService.convertJSONtoProductList(result.body);
     }
     else {
-      console.log('Error: ' + result.body);
-    }
-  }
-  async loadDesigner(){
-    var api = new DesignerApi();
-    var result = await api.getAll();
-    if(result.status === 200){
-      this.designerList = this.productService.convertJSONtoDesignerList(result.body);
-    }
-    else{
-      console.log('Error: ' + result.body);
-    }
-  }
-  async loadSize(){
-    var api = new SizeApi();
-    var result = await api.getAll();
-    if(result.status === 200){
-      this.sizeList = this.productService.convertJSONtoSizeList(result.body);
-    }
-    else{
       console.log('Error: ' + result.body);
     }
   }

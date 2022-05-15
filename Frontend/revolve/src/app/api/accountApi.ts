@@ -1,4 +1,5 @@
 import { BasicResponse } from "../model/common/basicResponse";
+import { GetInfoRequest } from "../model/header/GetInfoRequest";
 import { LoginRequest } from "../model/login/loginRequest";
 import { RegisterRequest } from "../model/register/registerRequest";
 
@@ -35,11 +36,18 @@ export class AccountApi{
         });
     }
 
-    async getTest(){
-        var currentUrl = "https://localhost:44354/api/Category";
-        //return await fetch(currentUrl).then(respond => respond.json())
+    async info(body: GetInfoRequest){
+        console.log(JSON.stringify(body));
+        var currentUrl = this.url + "/Info?token="+body.token;
         return await fetch(currentUrl,{
-            method: 'GET',
-        }).then(response => response.json());
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              },
+            body: JSON.stringify(body)
+        }).then(async response => {
+            return new BasicResponse(response.status,await response.json());
+        });
     }
 }
