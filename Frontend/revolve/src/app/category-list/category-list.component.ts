@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { CartApi } from '../api/cartApi';
 import { CategoryApi } from '../api/categoryApi';
 import { DesignerApi } from '../api/designerApi';
 import { ProductApi } from '../api/productApi';
 import { SizeApi } from '../api/sizeApi';
+import { Add2CartRequest } from '../model/cart/Add2CartRequest';
 import { Category } from '../model/Category';
 import { Designer } from '../model/Designer';
 import { LineQuantity } from '../model/LineQuantity';
@@ -53,6 +55,15 @@ export class CategoryListComponent implements OnInit {
     }
     else {
       console.log('Error: ' + result.body);
+    }
+  }
+  async addToCart(lineID: number){
+    if(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null){
+      var api = new CartApi();
+      var result = await api.add(new Add2CartRequest(localStorage.getItem('token')!,lineID,1));
+      if(result.status == 200){
+        console.log(result.body);
+      }
     }
   }
 }

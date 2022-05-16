@@ -1,15 +1,14 @@
+import { Add2CartRequest } from "../model/cart/Add2CartRequest";
 import { BasicResponse } from "../model/common/basicResponse";
 import { GetInfoRequest } from "../model/header/GetInfoRequest";
-import { LoginRequest } from "../model/login/loginRequest";
-import { RegisterRequest } from "../model/register/registerRequest";
-
-export class AccountApi{
-    url = "https://localhost:44354/api/User";
+export class CartApi{
+    url = "https://localhost:44354/api/Cart";
+    token = localStorage.getItem('token');
 
     constructor(){}
 
-    async login(body: LoginRequest){
-        var currentUrl = this.url + "/Authenticate";
+    async get(body: GetInfoRequest){
+        var currentUrl = this.url + "/Get?token="+this.token;
         return await fetch(currentUrl,{
             method: 'POST',
             headers: {
@@ -21,23 +20,8 @@ export class AccountApi{
             return new BasicResponse(response.status,await response.json());
         });
     }
-
-    async register(body:RegisterRequest){
-        var currentUrl = this.url + "/Register";
-        return await fetch(currentUrl,{
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-              },
-            body: JSON.stringify(body)
-        }).then(async response => {
-            return new BasicResponse(response.status,await response.json());
-        });
-    }
-
-    async info(body: GetInfoRequest){
-        var currentUrl = this.url + "/Info?token="+body.token;
+    async add(body: Add2CartRequest){
+        var currentUrl = this.url + "/Add";
         return await fetch(currentUrl,{
             method: 'POST',
             headers: {

@@ -128,8 +128,8 @@
 
 
                                   <div class="card card-product-grid card-lg">
-                                    <h6>{{pro.name }}</h6>
-                                    <a href="#" class="add-cart" style="top:1px">+ Add To Cart</a>
+                                    <h6>{{pro.name}}</h6>
+                                    <a class="add-cart" style="top:1px; cursor: pointer;" (click)="addToCart(pro.productLines[0].id)">+ Add To Cart</a>
                                   <div class="rating">
                                       <span class="fa fa-star-o"></span>
                                       <span class="fa fa-star-o"></span>
