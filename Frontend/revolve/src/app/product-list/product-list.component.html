@@ -56,6 +56,11 @@
                                     </div>
                                 </div>-->
                                 <div class="card">
+                                    <div>
+                                        <a (click) = "resetFilter()" style="cursor: pointer;">View All</a>
+                                    </div>
+                                </div>
+                                <div class="card">
                                     <div class="card-heading">
                                         <a data-toggle="collapse" data-target="#collapseTwo">Designer</a>
                                     </div>
@@ -129,9 +134,7 @@
                         </div>
                     </div-->
                     <div>
-  
                     </div>
-                    <a (click) = "resetFilter()">Reset filter</a>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let pro of productList;">
                             <div class="product__item">

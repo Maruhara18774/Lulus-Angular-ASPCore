@@ -33,4 +33,17 @@ export class CartApi{
             return new BasicResponse(response.status,await response.json());
         });
     }
+    async update(body: Add2CartRequest){
+        var currentUrl = this.url + "/Update";
+        return await fetch(currentUrl,{
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              },
+            body: JSON.stringify(body)
+        }).then(async response => {
+            return new BasicResponse(response.status,await response.json());
+        });
+    }
 }

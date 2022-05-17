@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { CartApi } from '../api/cartApi';
 import { Cart } from '../model/Cart';
+import { Add2CartRequest } from '../model/cart/Add2CartRequest';
 import { GetInfoRequest } from '../model/header/GetInfoRequest';
 import { CartService } from '../services/cart.service';
 
@@ -12,20 +14,32 @@ import { CartService } from '../services/cart.service';
 })
 export class CartComponent implements OnInit {
   cart: Cart;
+  quantity: number;
 
   constructor(private cartService: CartService) { }
 
   ngOnInit(): void {
-    if(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null){
-      this.loadCart();
+    this.loadCart();
+  }
+  async loadCart() {
+    if (localStorage.getItem('token') != undefined && localStorage.getItem('token') != null) {
+      var api = new CartApi();
+      var result = await api.get(new GetInfoRequest(localStorage.getItem('token')!));
+      if (result.status == 200) {
+        this.cart = this.cartService.convertJSONtoCart(result.body);
+      }
     }
   }
-  async loadCart(){
-    var api = new CartApi();
-    var result = await api.get(new GetInfoRequest(localStorage.getItem('token')!));
-    if(result.status == 200){
-      this.cart = this.cartService.convertJSONtoCart(result.body);
-      console.log(this.cart)
+  async updateQuantity(form: NgForm, id: number) {
+    var value = form.value;
+    if (value.quantity != undefined && value.quantity > 0) {
+      if (localStorage.getItem('token') != undefined && localStorage.getItem('token') != null) {
+        var api = new CartApi();
+        var result = await api.update(new Add2CartRequest(localStorage.getItem('token')!,id,value.quantity));
+        if (result.status == 200) {
+          this.loadCart();
+        }
+      }
     }
   }
 }
