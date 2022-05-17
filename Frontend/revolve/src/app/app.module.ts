@@ -15,6 +15,12 @@ import { CategoryListComponent } from './category-list/category-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { MyaccountComponent } from './myaccount/myaccount.component';
 import { CartComponent } from './cart/cart.component';
+import { OrderListComponent } from './myaccount/order-list/order-list.component';
+import { ProfileSettingComponent } from './myaccount/profile-setting/profile-setting.component';
+import { FavorProductComponent } from './myaccount/favor-product/favor-product.component';
+import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
+
+
 
 @NgModule({
   declarations: [
@@ -28,7 +34,13 @@ import { CartComponent } from './cart/cart.component';
     CategoryListComponent,
     ProductDetailComponent,
     MyaccountComponent,
-    CartComponent
+    CartComponent,
+    OrderListComponent,
+    ProfileSettingComponent,
+    FavorProductComponent,
+    OrderDetailComponent,
+    
+    
   ],
   imports: [
     BrowserModule,

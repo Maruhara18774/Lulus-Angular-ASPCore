@@ -6822,24 +6822,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Univer\\4-HK2\\LT\\Angular\\DressUpStore\\Backend\\Lulus.BAL\\Lulus.BAL.csproj",
+      "projectUniqueName": "D:\\WebOnlineGit\\Lulus-Angular-ASPCore\\Backend\\Lulus.BAL\\Lulus.BAL.csproj",
       "projectName": "Lulus.BAL",
-      "projectPath": "D:\\Univer\\4-HK2\\LT\\Angular\\DressUpStore\\Backend\\Lulus.BAL\\Lulus.BAL.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Univer\\4-HK2\\LT\\Angular\\DressUpStore\\Backend\\Lulus.BAL\\obj\\",
+      "projectPath": "D:\\WebOnlineGit\\Lulus-Angular-ASPCore\\Backend\\Lulus.BAL\\Lulus.BAL.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\WebOnlineGit\\Lulus-Angular-ASPCore\\Backend\\Lulus.BAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6853,11 +6852,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Univer\\4-HK2\\LT\\Angular\\DressUpStore\\Backend\\Lulus.Data\\Lulus.Data.csproj": {
-              "projectPath": "D:\\Univer\\4-HK2\\LT\\Angular\\DressUpStore\\Backend\\Lulus.Data\\Lulus.Data.csproj"
+            "D:\\WebOnlineGit\\Lulus-Angular-ASPCore\\Backend\\Lulus.Data\\Lulus.Data.csproj": {
+              "projectPath": "D:\\WebOnlineGit\\Lulus-Angular-ASPCore\\Backend\\Lulus.Data\\Lulus.Data.csproj"
             },
-            "D:\\Univer\\4-HK2\\LT\\Angular\\DressUpStore\\Backend\\Lulus.ViewModels\\Lulus.ViewModels.csproj": {
-              "projectPath": "D:\\Univer\\4-HK2\\LT\\Angular\\DressUpStore\\Backend\\Lulus.ViewModels\\Lulus.ViewModels.csproj"
+            "D:\\WebOnlineGit\\Lulus-Angular-ASPCore\\Backend\\Lulus.ViewModels\\Lulus.ViewModels.csproj": {
+              "projectPath": "D:\\WebOnlineGit\\Lulus-Angular-ASPCore\\Backend\\Lulus.ViewModels\\Lulus.ViewModels.csproj"
             }
           }
         }
@@ -6896,7 +6895,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

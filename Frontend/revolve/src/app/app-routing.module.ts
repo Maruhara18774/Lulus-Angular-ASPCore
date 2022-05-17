@@ -8,6 +8,10 @@ import { MyaccountComponent } from './myaccount/myaccount.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { RegisterComponent } from './register/register.component';
+import { OrderListComponent } from './myaccount/order-list/order-list.component';
+import { ProfileSettingComponent } from './myaccount/profile-setting/profile-setting.component';
+import { FavorProductComponent } from './myaccount/favor-product/favor-product.component';
+import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -18,7 +22,12 @@ const routes: Routes = [
   { path: 'product/:id', component: ProductListComponent},
   { path: 'detail/:id', component: ProductDetailComponent},
   { path: 'myaccount', component: MyaccountComponent },
-  { path: 'cart', component: CartComponent }
+  { path: 'cart', component: CartComponent },
+  {path: 'orderlist',component:OrderListComponent},
+  {path: 'profileset',component:ProfileSettingComponent},
+  {path:'favorpro',component:FavorProductComponent},
+  {path:'orderdetail',component:OrderDetailComponent}
+
 ];
 
 @NgModule({
