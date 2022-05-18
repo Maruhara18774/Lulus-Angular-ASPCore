@@ -42,5 +42,21 @@ namespace Lulus.BackendApi.Controllers
             var result = await _cartService.Delete(id);
             return Ok(result);
         }
+        [HttpPost]
+        public async Task<IActionResult> Clear(string token)
+        {
+            var result = await _cartService.Clear(token);
+            return Ok(result);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Checkout(CheckoutRequest request)
+        {
+            var result = await _cartService.Checkout(request);
+            if(result == "")
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }

@@ -14,7 +14,6 @@ import { CartService } from '../services/cart.service';
 })
 export class CartComponent implements OnInit {
   cart: Cart;
-  quantity: number;
 
   constructor(private cartService: CartService) { }
 
@@ -39,6 +38,15 @@ export class CartComponent implements OnInit {
         if (result.status == 200) {
           this.loadCart();
         }
+      }
+    }
+  }
+  async clear(){
+    if (localStorage.getItem('token') != undefined && localStorage.getItem('token') != null) {
+      var api = new CartApi();
+      var result = await api.clear(new GetInfoRequest(localStorage.getItem('token')!));
+      if (result.status == 200) {
+        this.loadCart();
       }
     }
   }

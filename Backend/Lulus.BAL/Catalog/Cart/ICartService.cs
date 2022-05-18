@@ -13,5 +13,7 @@ namespace Lulus.BAL.Catalog.Cart
         Task<bool> Add(Add2CartRequest request);
         Task<bool> Update(Add2CartRequest request);
         Task<bool> Delete(int id);
+        Task<bool> Clear(string token);
+        Task<string> Checkout(CheckoutRequest request);
     }
 }

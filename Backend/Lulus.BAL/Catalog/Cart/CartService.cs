@@ -1,6 +1,7 @@
 ﻿using Lulus.Data.EF;
 using Lulus.Data.Entities;
 using Lulus.ViewModels.Cart;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,11 @@ namespace Lulus.BAL.Catalog.Cart
     public class CartService: ICartService
     {
         private readonly LulusDBContext _context;
-        public CartService(LulusDBContext context)
+        private readonly SignInManager<User> _signInManager;
+        public CartService(LulusDBContext context, SignInManager<User> signInManager)
         {
             _context = context;
+            _signInManager = signInManager;
         }
 
         public async Task<CartViewModel> Get(string token)
@@ -155,6 +158,62 @@ namespace Lulus.BAL.Catalog.Cart
             _context.OrderDetails.Remove(cartItem);
             await _context.SaveChangesAsync();
             return true;
+        }
+
+        public async Task<bool> Clear(string token)
+        {
+            var userID = GetUserID(token);
+            var cart = await _context.Orders.Where(x => x.UserID == userID && x.Status == Data.Enums.OrderStatus.New).FirstOrDefaultAsync();
+            if (cart == null)
+            {
+                cart = await CreateNewCart(userID);
+            }
+            var items = await _context.OrderDetails.Where(x => x.OrderID == cart.ID).ToListAsync();
+            foreach(var item in items)
+            {
+                _context.OrderDetails.Remove(item);
+            }
+            cart.Total = 0;
+            cart.Updated = DateTime.Now;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<string> Checkout(CheckoutRequest request)
+        {
+            var userID = GetUserID(request.Token);
+            var cart = await _context.Orders.Where(x => x.UserID == userID && x.Status == Data.Enums.OrderStatus.New).FirstOrDefaultAsync();
+            if (cart == null)
+            {
+                cart = await CreateNewCart(userID);
+            }
+            var user = await _context.Users.Where(x => x.Id == userID).FirstOrDefaultAsync();
+            var result = await _signInManager.PasswordSignInAsync(user, request.Password, false, false);
+            if (!result.Succeeded) return "Wrong password";
+            var userAddress = await _context.Addresses.Where(x => x.UserID == userID).FirstOrDefaultAsync();
+            if(userAddress == null)
+            {
+                userAddress = await CreateNewAddress(userID);
+            }
+            userAddress.Fullname = request.Fullname;
+            userAddress.ProvinceID = request.ProvinceID;
+            userAddress.Phone = request.Phone == null || request.Phone == "" ? user.PhoneNumber : request.Phone;
+            cart.Status = Data.Enums.OrderStatus.Accepted;
+            cart.Updated = DateTime.Now;
+            await _context.SaveChangesAsync();
+            return "";
+        }
+        public async Task<Address> CreateNewAddress(Guid userID)
+        {
+            _context.Addresses.Add(new Address()
+            {
+                UserID = userID, 
+                Fullname = "",
+                ProvinceID = (await _context.Provinces.FirstOrDefaultAsync()).ID,
+                Phone = ""
+            });
+            await _context.SaveChangesAsync();
+            return await _context.Addresses.Where(x => x.UserID == userID).FirstOrDefaultAsync();
         }
     }
 }

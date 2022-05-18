@@ -7,6 +7,9 @@ export class UserService {
     getToken(){
         return localStorage.getItem('token');
     }
+    removeToken(){
+        localStorage.removeItem('token');
+    }
     convertJSONtoUser(body: any){
         var user = new User(body.id, body.username, body.email,body.phone);
         return user;

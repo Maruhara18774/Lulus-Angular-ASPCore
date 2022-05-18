@@ -15,5 +15,6 @@ namespace Lulus.BAL.Catalog.Users.Interfaces
 
         Task<bool> Register(RegisterRequest request);
         UserViewModel GetInfo(string token);
+        Task<string> UpdateInfo(UpdateInfoRequest request);
     }
 }

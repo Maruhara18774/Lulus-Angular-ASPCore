@@ -73,6 +73,11 @@
                             <a routerLinkActive="active" routerLink="/clothing-list">Continue Shopping</a>
                         </div>
                     </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="continue__btn update__btn">
+                            <a (click)="clear()" style="cursor: pointer;">Clear cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -89,7 +94,7 @@
                         <li>Subtotal <span>$ {{cart.total}}</span></li>
                         <li>Total <span>$ {{cart.total}}</span></li>
                     </ul>
-                    <a href="#" class="primary-btn">Proceed to checkout</a>
+                    <a class="primary-btn" *ngIf="cart.total!==0" routerLinkActive="active" routerLink="/checkout">Proceed to checkout</a>
                 </div>
             </div>
         </div>

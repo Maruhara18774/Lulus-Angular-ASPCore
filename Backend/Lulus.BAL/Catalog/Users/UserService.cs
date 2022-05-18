@@ -132,5 +132,36 @@ namespace Lulus.BAL.Catalog.Users
                 return null;
             }
         }
+
+        public async Task<string> UpdateInfo(UpdateInfoRequest request)
+        {
+            var userBasicInfo = GetInfo(request.Token);
+            var user = await _userManager.FindByNameAsync(userBasicInfo.Username);
+            var result = await _signInManager.PasswordSignInAsync(user, request.Password, false, false);
+            if (!result.Succeeded) return "Wrong password";
+            var user2 = await _userManager.FindByNameAsync(request.Username);
+            if (user2 != null) return "Duplicated Username";
+            if(request.NewPassword != null && request.NewPassword != "")
+            {
+                // Update password
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+                await _userManager.ResetPasswordAsync(user, token, request.NewPassword);
+            }
+            // Update info
+            if(request.Username != null && request.Username != "")
+            {
+                user.UserName = request.Username;
+            }
+            if (request.Email != null && request.Email != "")
+            {
+                user.Email = request.Email;
+            }
+            if (request.Phone != null && request.Phone != "")
+            {
+                user.PhoneNumber = request.Phone;
+            }
+            await _userManager.UpdateAsync(user);
+            return "";
+        }
     }
 }

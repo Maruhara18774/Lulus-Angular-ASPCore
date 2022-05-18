@@ -82,5 +82,17 @@ namespace Lulus.BackendApi.Controllers
             var result = _userService.GetInfo(token);
             return Ok(result);
         }
+        [HttpPost("Update")]
+        [AllowAnonymous]
+        public async Task<IActionResult> UpdateInfo(UpdateInfoRequest request)
+        {
+            var result = await _userService.UpdateInfo(request);
+            if(result == "")
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+            
+        }
     }
 }

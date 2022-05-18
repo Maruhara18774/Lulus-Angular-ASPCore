@@ -13,22 +13,24 @@ import { ProfileSettingComponent } from './myaccount/profile-setting/profile-set
 import { FavorProductComponent } from './myaccount/favor-product/favor-product.component';
 import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
 import { AboutComponent } from './about/about.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomepageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'regist', component: RegisterComponent },
-  { path: 'clothing-list', component: CategoryListComponent},
-  { path: 'product/:id', component: ProductListComponent},
-  { path: 'detail/:id', component: ProductDetailComponent},
+  { path: 'clothing-list', component: CategoryListComponent },
+  { path: 'product/:id', component: ProductListComponent },
+  { path: 'detail/:id', component: ProductDetailComponent },
   { path: 'myaccount', component: MyaccountComponent },
   { path: 'cart', component: CartComponent },
-  {path: 'orderlist',component:OrderListComponent},
-  {path: 'profileset',component:ProfileSettingComponent},
-  {path:'favorpro',component:FavorProductComponent},
-  {path:'orderdetail',component:OrderDetailComponent},
-  {path:'about',component:AboutComponent}
+  { path: 'orderlist', component: OrderListComponent },
+  { path: 'profileset', component: ProfileSettingComponent },
+  { path: 'favorpro', component: FavorProductComponent },
+  { path: 'orderdetail', component: OrderDetailComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'checkout', component: CheckoutComponent }
 
 ];
 

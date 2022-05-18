@@ -1,67 +1,78 @@
-
 <div class="container mb-4 main-container">
     <div class="row">
         <div class="col-lg-4 pb-5">
             <app-myaccount></app-myaccount>
         </div>
         <!-- Profile Settings-->
-            <div class="col-lg-8 pb-5" style="margin:auto">
-                <form class="row">
+        <div class="col-lg-8 pb-5" style="margin:auto">
+            <form (ngSubmit)="update(f)" class="row" #f="ngForm">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="account-fn">First Name</label>
-                        <input class="form-control" type="text" id="account-fn" value="Daniel" required="">
+                        <label for="username-tp">Username</label>
+                        <input class="form-control" type="text" id="username-tp" value="{{currentUser.username}}"
+                            disabled>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="account-ln">Last Name</label>
-                        <input class="form-control" type="text" id="account-ln" value="Adams" required="">
+                        <label for="username">New Username</label>
+                        <input ngModel class="form-control" type="text" id="username" name="username">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="account-email">E-mail Address</label>
-                        <input class="form-control" type="email" id="account-email" value="daniel.adams@example.com" disabled="">
+                        <label for="email-tp">Email</label>
+                        <input class="form-control" type="email" id="email-tp" value="{{currentUser.email}}" disabled>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="account-email">Address</label>
-                        <input class="form-control" type="Address" id="account-address" value="HoChiMinh" disabled="">
+                        <label for="email">New Email</label>
+                        <input ngModel class="form-control" type="email" id="email" name="email">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="account-phone">Phone Number</label>
-                        <input class="form-control" type="text" id="account-phone" value="+7 (805) 348 95 72" required="">
+                        <label for="phone-tp">Phone Number</label>
+                        <input class="form-control" type="text" id="phone-tp" value="{{currentUser.phone}}" disabled>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="account-pass">New Password</label>
-                        <input class="form-control" type="password" id="account-pass">
+                        <label for="phone">New Phone Number</label>
+                        <input ngModel class="form-control" type="text" id="phone" name="phone">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input ngModel class="form-control" type="password" id="password" name="password">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="account-confirm-pass">Confirm Password</label>
-                        <input class="form-control" type="password" id="account-confirm-pass">
+                        <label for="newpass">New Password</label>
+                        <input ngModel class="form-control" type="password" id="newpass" name="newpass">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="newpass_confirm">Confirm New Password</label>
+                        <input ngModel class="form-control" type="password" id="newpass_confirm" name="newpass_confirm">
                     </div>
                 </div>
                 <div class="col-12">
                     <hr class="mt-2 mb-3">
                     <div class="d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="custom-control custom-checkbox d-block">
-                            <input class="custom-control-input" type="checkbox" id="subscribe_me" checked="">
-                            <label class="custom-control-label" for="subscribe_me">Subscribe me to Newsletter</label>
-                        </div>
-                        <button class="btn btn-style-1 btn-primary" type="button" data-toast="" data-toast-position="topRight" data-toast-type="success" data-toast-icon="fe-icon-check-circle" data-toast-title="Success!" data-toast-message="Your profile updated successfuly.">Update Profile</button>
+                        <button class="btn btn-style-1 btn-primary" type="submit" data-toast=""
+                            data-toast-position="topRight" data-toast-type="success"
+                            data-toast-icon="fe-icon-check-circle" data-toast-title="Success!"
+                            data-toast-message="Your profile updated successfuly.">Update Profile</button>
                     </div>
                 </div>
             </form>
         </div>
-        
-        
+
+
     </div>
 </div>

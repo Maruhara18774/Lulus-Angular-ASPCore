@@ -20,6 +20,7 @@ import { ProfileSettingComponent } from './myaccount/profile-setting/profile-set
 import { FavorProductComponent } from './myaccount/favor-product/favor-product.component';
 import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
 import { AboutComponent } from './about/about.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 
@@ -41,6 +42,7 @@ import { AboutComponent } from './about/about.component';
     FavorProductComponent,
     OrderDetailComponent,
     AboutComponent,
+    CheckoutComponent,
     
     
   ],

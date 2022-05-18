@@ -3,7 +3,6 @@ import { AccountApi } from '../api/accountApi';
 import { GetInfoRequest } from '../model/header/GetInfoRequest';
 import { User } from '../model/User';
 import { UserService } from '../services/user.service';
-import { EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-myaccount',
