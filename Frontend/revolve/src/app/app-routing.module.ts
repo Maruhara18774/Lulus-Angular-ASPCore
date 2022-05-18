@@ -14,6 +14,7 @@ import { FavorProductComponent } from './myaccount/favor-product/favor-product.c
 import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
 import { AboutComponent } from './about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { HotListComponent } from './hot-list/hot-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -28,9 +29,10 @@ const routes: Routes = [
   { path: 'orderlist', component: OrderListComponent },
   { path: 'profileset', component: ProfileSettingComponent },
   { path: 'favorpro', component: FavorProductComponent },
-  { path: 'orderdetail', component: OrderDetailComponent },
+  { path: 'orderdetail/:id', component: OrderDetailComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'checkout', component: CheckoutComponent }
+  { path: 'checkout', component: CheckoutComponent },
+  { path: 'hot', component: HotListComponent }
 
 ];
 

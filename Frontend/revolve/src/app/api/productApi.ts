@@ -63,4 +63,16 @@ export class ProductApi{
             return new BasicResponse(response.status,await response.json());
         });
     }
+    async getAllHot(body: GetAllProductPagingRequest){
+        var currentUrl = this.url + "/GetAllHot?page="+body.page;
+        return await fetch(currentUrl,{
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              }
+        }).then(async response => {
+            return new BasicResponse(response.status,await response.json());
+        });
+    }
 }

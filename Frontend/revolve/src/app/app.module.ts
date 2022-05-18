@@ -21,6 +21,7 @@ import { FavorProductComponent } from './myaccount/favor-product/favor-product.c
 import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
 import { AboutComponent } from './about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { HotListComponent } from './hot-list/hot-list.component';
 
 
 
@@ -43,6 +44,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
     OrderDetailComponent,
     AboutComponent,
     CheckoutComponent,
+    HotListComponent,
     
     
   ],

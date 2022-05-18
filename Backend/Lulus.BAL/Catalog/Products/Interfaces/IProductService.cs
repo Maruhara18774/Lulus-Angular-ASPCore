@@ -17,6 +17,7 @@ namespace Lulus.BAL.Catalog.Products.Interfaces
         Task<ProductViewModel> GetDetailByID(GetProductDetailRequest request);
         Task<List<ProductViewModel>> GetAll(int pageIndex);
         Task<List<ProductViewModel>> GetFilterByCateID(FilterProductRequest filter);
+        Task<List<ProductViewModel>> GetAllHot(int pageIndex);
 
     }
 }

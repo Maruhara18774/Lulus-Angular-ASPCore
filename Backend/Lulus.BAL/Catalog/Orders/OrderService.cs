@@ -52,7 +52,7 @@ namespace Lulus.BAL.Catalog.Orders
         public async Task<List<OrderViewModel>> GetAll(string token)
         {
             var userID = GetUserID(token);
-            var query = from o in _context.Orders where o.UserID == userID select o;
+            var query = from o in _context.Orders where o.UserID == userID && o.Status != Data.Enums.OrderStatus.New select o;
             var orders = await query.Select(x => new OrderViewModel()
             {
                 ID = x.ID,

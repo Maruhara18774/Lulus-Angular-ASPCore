@@ -2,33 +2,25 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CartApi } from '../api/cartApi';
 import { CategoryApi } from '../api/categoryApi';
-import { DesignerApi } from '../api/designerApi';
 import { ProductApi } from '../api/productApi';
-import { SizeApi } from '../api/sizeApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
 import { Category } from '../model/Category';
-import { Designer } from '../model/Designer';
-import { LineQuantity } from '../model/LineQuantity';
 import { Product } from '../model/Product';
 import { GetAllProductPagingRequest } from '../model/product/getAllProductPagingRequest';
-import { ProductImage } from '../model/ProductImage';
-import { ProductLine } from '../model/ProductLine';
-import { Size } from '../model/Size';
 import { ProductService } from '../services/product.service';
 
 @Component({
-  selector: 'app-category-list',
-  templateUrl: './category-list.component.html',
-  styleUrls: ['./category-list.component.css'],
+  selector: 'app-hot-list',
+  templateUrl: './hot-list.component.html',
+  styleUrls: ['./hot-list.component.css'],
   providers: [ProductService]
 })
-export class CategoryListComponent implements OnInit {
+export class HotListComponent implements OnInit {
   baseURL: String = "http://localhost:4200";
   cateList: Category[] = new Array<Category>();
   productList: Product[] = new Array<Product>();
-  currentPage:number = 1;
 
-  constructor(private productService:ProductService) { }
+  constructor(private route: ActivatedRoute, private router: Router, private productService:ProductService) { }
 
   ngOnInit(): void {
     this.loadCategory();
@@ -50,12 +42,9 @@ export class CategoryListComponent implements OnInit {
 
   async loadProduct() {
     var api = new ProductApi();
-    var result = await api.getAll(new GetAllProductPagingRequest(this.currentPage));
+    var result = await api.getAllHot(new GetAllProductPagingRequest(1));
     if (result.status === 200) {
-      var listPrd = this.productService.convertJSONtoProductList(result.body);
-      listPrd.forEach(item => {
-        this.productList.push(item);
-      })
+      this.productList = this.productService.convertJSONtoProductList(result.body);
     }
     else {
       console.log('Error: ' + result.body);
@@ -69,9 +58,5 @@ export class CategoryListComponent implements OnInit {
         console.log(result.body);
       }
     }
-  }
-  async nextPage(){
-    this.currentPage += 1;
-    await this.loadProduct();
   }
 }
