@@ -19,6 +19,7 @@ import { OrderListComponent } from './myaccount/order-list/order-list.component'
 import { ProfileSettingComponent } from './myaccount/profile-setting/profile-setting.component';
 import { FavorProductComponent } from './myaccount/favor-product/favor-product.component';
 import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -39,6 +40,7 @@ import { OrderDetailComponent } from './myaccount/order-detail/order-detail.comp
     ProfileSettingComponent,
     FavorProductComponent,
     OrderDetailComponent,
+    AboutComponent,
     
     
   ],
