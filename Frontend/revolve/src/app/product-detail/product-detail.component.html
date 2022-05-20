@@ -33,17 +33,17 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="thumb">
-                                            <td> <img src="{{imgLine[0].images[0].url}}"> </td>
+                                            <td> <img src="{{imgLine[currentLineIndex].images[0].url}}"> </td>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="thumb">
-                                            <td> <img src="{{imgLine[0].images[1].url}}"> </td>
+                                            <td> <img src="{{imgLine[currentLineIndex].images[1].url}}"> </td>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="thumb">
-                                            <td> <img src="{{imgLine[0].images[2].url}}"> </td>
+                                            <td> <img src="{{imgLine[currentLineIndex].images[2].url}}"> </td>
                                         </div>
                                     </div>
 
@@ -109,10 +109,7 @@
                             </div>
                             <div class="product__details__option__color">
                                 <span>Color:</span>
-                                <label class="c-1" for="sp-1" *ngFor="let line of product.productLines;">
-                                    <input type="radio" id="sp-1" (click)="selectProductLine(line.id)">
-                                    <img src="{{line.textureImage}}" (click)="selectProductLine(line.id)">
-                                </label>
+                                <img src="{{line.textureImage}}" (click)="selectProductLine(line.id)" *ngFor="let line of product.productLines;">
                             </div>
                         </div>
                         <div class="product__details__cart__option">

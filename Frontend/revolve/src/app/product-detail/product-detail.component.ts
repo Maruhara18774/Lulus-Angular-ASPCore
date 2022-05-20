@@ -54,9 +54,9 @@ export class ProductDetailComponent implements OnInit {
     }
   }
   selectProductLine(lineID: number){
-    alert(lineID);
     this.currentLine = lineID;
     this.currentLineIndex = this.product.productLines.findIndex((e) => e.id == lineID);
+    window.scrollTo(0, 0);
   }
   async addToCart(form: NgForm){
     var value = form.value;

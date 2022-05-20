@@ -44,6 +44,7 @@ export class ProfileSettingComponent implements OnInit {
         value.newPass));
         if(result.status == 200){
           this.userService.removeToken();
+          location.reload();
           this.router.navigate(['/home']);
         }
         else{

@@ -21,6 +21,7 @@ export class RegisterComponent implements OnInit {
     var api = new AccountApi();
     var result = await api.register(request);
     if(result.status === 200){
+      alert('Regist success');
       console.log('Success: ' + result.body);
     }
     else{
