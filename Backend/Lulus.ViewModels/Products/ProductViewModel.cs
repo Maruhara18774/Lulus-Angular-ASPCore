@@ -22,6 +22,7 @@ namespace Lulus.ViewModels.Products
 
         public int Category_ID { get; set; }
         public int DesignerID { get; set; }
+        public int AverageStar { get; set; }
 
         public ProductStatus Status { get; set; }
         public List<ProductLineViewModel> ListProductLines { get; set; } = new List<ProductLineViewModel>();

@@ -36,7 +36,7 @@ namespace Lulus.BackendApi.Controllers
             var result = await _cartService.Update(request);
             return Ok(result);
         }
-        [HttpPost]
+        [HttpGet("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var result = await _cartService.Delete(id);

@@ -10,12 +10,8 @@ namespace Lulus.ViewModels.Feedbacks
     {
         public int Star { get; set; }
         public string Content { get; set; }
-        public Guid UserID { get; set; }
+        public string Token { get; set; }
         public int ProductID { get; set; }
-        public CreateFeedbackRequest() { }
-        public CreateFeedbackRequest(int productID)
-        {
-            this.ProductID = productID;
-        }
+
     }
 }

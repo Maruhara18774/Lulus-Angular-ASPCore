@@ -54,7 +54,7 @@
                                 <td class="quantity__item">
                                     <div class="quantity">
                                         <div class="pro-qty-2">
-                                            <form (ngSubmit)="updateQuantity(f, item.id)" #f="ngForm">
+                                            <form (ngSubmit)="updateQuantity(f, item.lineID)" #f="ngForm">
                                                 <input ngModel type="number" name="quantity" id="quantity" required>
                                                 <button type="submit" style="background-color:transparent; border: 0px"><i class="fa fa-pencil"></i></button>
                                             </form>
@@ -62,7 +62,7 @@
                                     </div>
                                 </td>
                                 <td class="cart__price">$ {{item.total}}</td>
-                                <td class="cart__close"><i class="fa fa-close"></i></td>
+                                <td class="cart__close"><i class="fa fa-close" (click)="delete(item.id)"></i></td>
                             </tr>
                         </tbody>
                     </table>

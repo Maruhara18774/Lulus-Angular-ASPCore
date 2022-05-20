@@ -3,6 +3,7 @@ import { NgForm } from '@angular/forms';
 import { CartApi } from '../api/cartApi';
 import { Cart } from '../model/Cart';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
+import { DeleteCartItemRequest } from '../model/cart/DeleteCartItemRequest';
 import { GetInfoRequest } from '../model/header/GetInfoRequest';
 import { CartService } from '../services/cart.service';
 
@@ -49,5 +50,12 @@ export class CartComponent implements OnInit {
         this.loadCart();
       }
     }
+  }
+  async delete(id: number){
+    var api = new CartApi();
+        var result = await api.delete(new DeleteCartItemRequest(id));
+        if (result.status == 200) {
+          this.loadCart();
+        }
   }
 }

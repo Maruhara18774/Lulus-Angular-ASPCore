@@ -42,7 +42,7 @@ export class HotListComponent implements OnInit {
 
   async loadProduct() {
     var api = new ProductApi();
-    var result = await api.getAllHot(new GetAllProductPagingRequest(1));
+    var result = await api.getAll(new GetAllProductPagingRequest(1,"","Popular"));
     if (result.status === 200) {
       this.productList = this.productService.convertJSONtoProductList(result.body);
     }

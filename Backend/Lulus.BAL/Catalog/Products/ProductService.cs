@@ -27,9 +27,28 @@ namespace Lulus.BAL.Catalog.Products
             _context = context;
         }
 
-        public async Task<List<ProductViewModel>> GetAll(int pageIndex)
+        public async Task<List<ProductViewModel>> GetAll(int pageIndex, string keyword, string orderBy)
         {
             var query = from p in _context.Products select p;
+            if(keyword != null && keyword != "")
+            {
+                query = query.Where(x => x.Name.Contains(keyword));
+            }
+            switch (orderBy)
+            {
+                case "Popular":
+                    query = query.OrderBy(x => x.ProductLines.Sum(l => l.OrderDetails.Sum(d => d.Quantity)));
+                    break;
+                case "Low":
+                    query = query.OrderBy(x => x.Price);
+                    break;
+                case "High":
+                    query = query.OrderByDescending(x => x.Price);
+                    break;
+                default:
+                    query = query.OrderBy(x => x.Created);
+                    break;
+            }
 
             int totalRow = await query.CountAsync();
 
@@ -42,10 +61,13 @@ namespace Lulus.BAL.Catalog.Products
                     Description = p.Description,
                     Category_ID = p.CategoryID,
                     DesignerID = p.DesignerID,
+                    AverageStar = 4,
                     Status = p.Status
                 }).ToListAsync();
             foreach (var item in data)
             {
+                //var avgStar = (await _context.Feedbacks.Where(x => x.ProductID == item.ID).ToListAsync()).Average(x => x.StarCount);
+                //item.AverageStar = Convert.ToInt32(avgStar);
                 var productLines = from pl in _context.ProductLines
                                    where pl.ProductID == item.ID
                                    select pl;
@@ -107,6 +129,7 @@ namespace Lulus.BAL.Catalog.Products
                     Description = p.Description,
                     Category_ID = p.CategoryID,
                     DesignerID = p.DesignerID,
+                    AverageStar = 4,
                     Status = p.Status
                 }).ToListAsync();
             foreach (var item in data)
@@ -169,6 +192,7 @@ namespace Lulus.BAL.Catalog.Products
                     Description = p.Description,
                     Category_ID = p.CategoryID,
                     DesignerID = p.DesignerID,
+                    AverageStar = 4,
                     Status = p.Status
                 }).ToListAsync();
             foreach (var item in data)
@@ -234,6 +258,7 @@ namespace Lulus.BAL.Catalog.Products
                     Description = p.Description,
                     Category_ID = p.CategoryID,
                     DesignerID = p.DesignerID,
+                    AverageStar = 4,
                     Status = p.Status
                 }).ToListAsync();
             foreach (var item in data)
@@ -294,6 +319,7 @@ namespace Lulus.BAL.Catalog.Products
                 Description = p.Description,
                 Category_ID = p.CategoryID,
                 DesignerID = p.DesignerID,
+                AverageStar = 4,
                 Status = p.Status
             }).SingleOrDefaultAsync();
             var productLines = from pl in _context.ProductLines
@@ -344,9 +370,8 @@ namespace Lulus.BAL.Catalog.Products
                 ID = f.ID,
                 Star = f.StarCount,
                 Content = f.Content,
-                UserID = f.UserID,
+                Name = _context.Users.Where(x => x.Id == f.UserID).Select(x => x.UserName).FirstOrDefault(),
                 CreatedDate = f.Created,
-                ProductID = f.ProductID,
                 IsAnonymous = f.IsAnonymous
             }).ToListAsync();
             return result;
@@ -375,6 +400,7 @@ namespace Lulus.BAL.Catalog.Products
                     Description = p.Description,
                     Category_ID = p.CategoryID,
                     DesignerID = p.DesignerID,
+                    AverageStar = 4,
                     Status = p.Status
                 }).ToListAsync();
             foreach (var item in data)
@@ -424,7 +450,7 @@ namespace Lulus.BAL.Catalog.Products
         public async Task<List<ProductViewModel>> GetAllHot(int pageIndex)
         {
             var query = from p in _context.Products select p;
-            query.OrderBy(x => x.ProductLines.Sum(l => l.OrderDetails.Sum(d => d.Quantity)));
+            query = query.OrderBy(x => x.ProductLines.Sum(l => l.OrderDetails.Sum(d => d.Quantity)));
 
             int totalRow = await query.CountAsync();
 
@@ -437,6 +463,7 @@ namespace Lulus.BAL.Catalog.Products
                     Description = p.Description,
                     Category_ID = p.CategoryID,
                     DesignerID = p.DesignerID,
+                    AverageStar = 4,
                     Status = p.Status
                 }).ToListAsync();
             foreach (var item in data)

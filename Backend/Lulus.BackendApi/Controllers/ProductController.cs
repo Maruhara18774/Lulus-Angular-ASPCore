@@ -22,9 +22,9 @@ namespace Lulus.BackendApi.Controllers
             _productService = productService;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll(int page)
+        public async Task<IActionResult> GetAll(int page, string keyword, string orderBy)
         {
-            var result = await _productService.GetAll(page);
+            var result = await _productService.GetAll(page, keyword, orderBy);
             foreach (var product in result)
             {
                 foreach (var line in product.ListProductLines)

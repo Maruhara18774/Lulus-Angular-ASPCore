@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CartApi } from '../api/cartApi';
 import { CategoryApi } from '../api/categoryApi';
@@ -27,6 +28,8 @@ export class CategoryListComponent implements OnInit {
   cateList: Category[] = new Array<Category>();
   productList: Product[] = new Array<Product>();
   currentPage:number = 1;
+  keyword: String = "";
+  orderBy:String = "New";
 
   constructor(private productService:ProductService) { }
 
@@ -50,7 +53,7 @@ export class CategoryListComponent implements OnInit {
 
   async loadProduct() {
     var api = new ProductApi();
-    var result = await api.getAll(new GetAllProductPagingRequest(this.currentPage));
+    var result = await api.getAll(new GetAllProductPagingRequest(this.currentPage,this.keyword,this.orderBy));
     if (result.status === 200) {
       var listPrd = this.productService.convertJSONtoProductList(result.body);
       listPrd.forEach(item => {
@@ -66,12 +69,30 @@ export class CategoryListComponent implements OnInit {
       var api = new CartApi();
       var result = await api.add(new Add2CartRequest(localStorage.getItem('token')!,lineID,1));
       if(result.status == 200){
-        console.log(result.body);
+        location.reload();
       }
     }
   }
   async nextPage(){
     this.currentPage += 1;
     await this.loadProduct();
+  }
+  async search(form: NgForm){
+    this.keyword = form.value.keyword;
+    await this.loadProductReset();
+  }
+  async loadProductReset() {
+    var api = new ProductApi();
+    var result = await api.getAll(new GetAllProductPagingRequest(this.currentPage,this.keyword,this.orderBy));
+    if (result.status === 200) {
+      this.productList = this.productService.convertJSONtoProductList(result.body);
+    }
+    else {
+      console.log('Error: ' + result.body);
+    }
+  }
+  async changeOrderBy(e: any){
+    this.orderBy = e.target.value;
+    await this.loadProductReset();
   }
 }

@@ -10,7 +10,7 @@ export class ProductApi{
     constructor(){}
 
     async getAll(body: GetAllProductPagingRequest){
-        var currentUrl = this.url + "/GetAll?page="+body.page;
+        var currentUrl = this.url + "/GetAll?page="+body.page+"&keyword="+body.keyword+"&orderBy="+body.orderBy;
         return await fetch(currentUrl,{
             method: 'GET',
             headers: {

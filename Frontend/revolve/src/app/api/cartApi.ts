@@ -1,4 +1,5 @@
 import { Add2CartRequest } from "../model/cart/Add2CartRequest";
+import { DeleteCartItemRequest } from "../model/cart/DeleteCartItemRequest";
 import { CheckoutRequest } from "../model/checkout/checkoutRequest";
 import { BasicResponse } from "../model/common/basicResponse";
 import { GetInfoRequest } from "../model/header/GetInfoRequest";
@@ -70,6 +71,18 @@ export class CartApi{
                 'Content-Type': 'application/json'
               },
             body: JSON.stringify(body)
+        }).then(async response => {
+            return new BasicResponse(response.status,await response.json());
+        });
+    }
+    async delete(body: DeleteCartItemRequest){
+        var currentUrl = this.url + "/Delete/"+body.id;
+        return await fetch(currentUrl,{
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              }
         }).then(async response => {
             return new BasicResponse(response.status,await response.json());
         });

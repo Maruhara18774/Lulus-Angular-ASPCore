@@ -23,180 +23,142 @@
                     <h4>Shop</h4>
                     <div class="breadcrumb__links">
                         <a routerLinkActive="active" routerLink="/home">Home</a>
-  
+
                         <span>Clothing</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-  </section>
-  <!-- Shop Section Begin -->
-    <section class="shop spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="shop__sidebar">
-                        <div class="shop__sidebar__search">
-                            <form action="#">
-                                <input type="text" placeholder="Search...">
-                                <button type="submit"><span class="icon_search"></span></button>
-                            </form>
-                        </div>
-                        <div class="shop__sidebar__accordion">
-                            <div class="accordion" id="accordionExample">
-                                <!--<div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
-                                    </div>
-                                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            
-                                        </div>
-                                    </div>
-                                </div>-->
-                                <div class="card">
-                                    <div>
-                                        <a (click) = "resetFilter()" style="cursor: pointer;">View All</a>
-                                    </div>
+</section>
+<!-- Shop Section Begin -->
+<section class="shop spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="shop__sidebar">
+                    <div class="shop__sidebar__accordion">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div>
+                                    <a (click)="resetFilter()" style="cursor: pointer;">View All</a>
                                 </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseTwo">Designer</a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <div class="shop__sidebar__brand">
-                                                <ul>
-                                                    <li *ngFor="let designer of designerList;">
-                                                        <a (click)="pickDesigner(designer.id)">{{designer.name}}</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseTwo">Designer</a>
                                 </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
-                                    </div>
-                                    <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <div class="shop__sidebar__price">
-                                                <ul>
-                                                    <li><a (click)="pickRangePrice(0,50)">$0.00 - $50.00</a></li>
-                                                    <li><a (click)="pickRangePrice(50,100)">$50.00 - $100.00</a></li>
-                                                    <li><a (click)="pickRangePrice(100,150)">$100.00 - $150.00</a></li>
-                                                    <li><a (click)="pickRangePrice(150,200)">$150.00 - $200.00</a></li>
-                                                    <li><a (click)="pickRangePrice(200,250)">$200.00 - $250.00</a></li>
-                                                    <li><a (click)="pickRangePrice(250,10000)">250.00+</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseFour">Size</a>
-                                    </div>
-                                    <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <div class="shop__sidebar__size">
-                                                <label *ngFor="let size of sizeList;" for="{{size.key}}">{{size.key}}
-                                                  <input type="radio" id="{{size.key}}">
-                                                </label>
-                                            </div>
+                                <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__brand">
+                                            <ul>
+                                                <li *ngFor="let designer of designerList;">
+                                                    <a (click)="pickDesigner(designer.id)">{{designer.name}}</a>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="shop__product__option">
-                        <div class="row">
-                            <!--<div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="shop__product__option__left">
-                                    <p>Showing 1–12 of 126 results</p>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
                                 </div>
-                            </div>-->
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <div class="shop__product__option__right">
-                                    <p>Sort:  &nbsp; </p>
-                                    <select>
-                                      <option value="">Newest</option>
-                                      <option value="">Popular</option>
-                                      <option value="">Price : Low To High</option>
-                                      <option value="">Price : Low To High</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let pro of productList;">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg">
-                                    <a *ngFor="let line of pro.productLines;">
-                                    <div *ngFor="let image of line.images">
-                                        <div class="thumb">
-                                          
-                                            <img src="{{image.url}}"/>
-                                          
+                                <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__price">
+                                            <ul>
+                                                <li><a (click)="pickRangePrice(0,50)">$0.00 - $50.00</a></li>
+                                                <li><a (click)="pickRangePrice(50,100)">$50.00 - $100.00</a></li>
+                                                <li><a (click)="pickRangePrice(100,150)">$100.00 - $150.00</a></li>
+                                                <li><a (click)="pickRangePrice(150,200)">$150.00 - $200.00</a></li>
+                                                <li><a (click)="pickRangePrice(200,250)">$200.00 - $250.00</a></li>
+                                                <li><a (click)="pickRangePrice(250,10000)">250.00+</a></li>
+                                            </ul>
                                         </div>
-                                     </div>
-  
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="../assets/img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="{{baseURL}}/detail/{{pro.id}}"><img src="../assets/img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                    </a>
-                                </div>
-  
-                                <div class="product__item__text">
-  
-  
-  
-                                    <div class="card card-product-grid card-lg">
-                                      <h6>{{pro.name }}</h6>
-                                      <a href="#" class="add-cart" style="top:1px">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
-                                    </div>
-                                    <h5>{{pro.price |currency:'USD':'symbol'}}</h5>
-  
-                                    <div class="product__color__select">
-                                        <label *ngFor="let line of pro.productLines;">
-                                            <img src="{{line.textureImage}}"width="25" height="30"/>
-                                            <input type="image" src="{{line.textureImage}}" alt="Submit" style="float:right" width="48">
-                                        </label>
                                     </div>
                                 </div>
+                            </div>
+                            <!--
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseFour">Size</a>
                                 </div>
-  
+                                <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__size">
+                                            <label *ngFor="let size of sizeList;" for="{{size.key}}">{{size.key}}
+                                                <input type="radio" id="{{size.key}}">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            </div>
-                            </div>
-  
-  
-  
-  
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p class="see-more">See more</p>
+                            -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-  
-    </section>
-    <!-- Shop Section End -->
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let pro of productList;">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg">
+                                <a *ngFor="let line of pro.productLines;">
+                                    <div *ngFor="let image of line.images">
+                                        <div class="thumb">
 
+                                            <img src="{{image.url}}" />
+
+                                        </div>
+                                    </div>
+
+                                    <ul class="product__hover">
+                                        <li><a href="#"><img src="../assets/img/icon/heart.png" alt=""></a></li>
+                                        <li><a href="{{baseURL}}/detail/{{pro.id}}"><img
+                                                    src="../assets/img/icon/search.png" alt=""></a></li>
+                                    </ul>
+                                </a>
+                            </div>
+
+                            <div class="product__item__text">
+
+
+
+                                <div class="card card-product-grid card-lg">
+                                    <h6>{{pro.name }}</h6>
+                                    <a href="#" class="add-cart" style="top:1px">+ Add To Cart</a>
+                                    <div class="rating">
+                                        <span class="fa fa-star" *ngFor="let star of pro.averageStarLeft;"></span>
+                                        <span class="fa fa-star-o" *ngFor="let star of pro.averageStarRight;"></span>
+                                    </div>
+                                    <h5>{{pro.price |currency:'USD':'symbol'}}</h5>
+
+                                    <div class="product__color__select">
+                                        <label *ngFor="let line of pro.productLines;">
+                                            <img src="{{line.textureImage}}" width="25" height="30" />
+                                            <input type="image" src="{{line.textureImage}}" alt="Submit"
+                                                style="float:right" width="48">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="see-more">See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Shop Section End -->

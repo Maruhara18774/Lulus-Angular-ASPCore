@@ -87,7 +87,7 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
-                            <span> - 5 Reviews</span>
+                            <span> - {{product.feedbacks.length}} Reviews</span>
                         </div>
                         <h3>${{product.price}}</h3>
                         <p>{{product.description}}</p>
@@ -110,18 +110,20 @@
                             <div class="product__details__option__color">
                                 <span>Color:</span>
                                 <label class="c-1" for="sp-1" *ngFor="let line of product.productLines;">
-                                    <input type="radio" id="sp-1" >
-                                    <img src="{{line.textureImage}}">
+                                    <input type="radio" id="sp-1" (click)="selectProductLine(line.id)">
+                                    <img src="{{line.textureImage}}" (click)="selectProductLine(line.id)">
                                 </label>
                             </div>
                         </div>
                         <div class="product__details__cart__option">
-                            <div class="quantity">
-                                <div class="pro-qty">
-                                    <input type="text" value="1">
+                            <form (ngSubmit)="addToCart(f)" #f="ngForm">
+                                <div class="quantity">
+                                    <div class="pro-qty">
+                                        <input ngModel type="number" name="quantity" id="quantity" required>
+                                    </div>
                                 </div>
-                            </div>
-                            <a href="#" class="primary-btn">add to cart</a>
+                                <button class="primary-btn" type="submit">add to cart</button>
+                            </form>
                         </div>
                         <div class="product__details__btns__option">
                             <a href="#"><i class="fa fa-heart"></i> add to wishlist</a>
@@ -256,6 +258,43 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <br/>
+            <h3>Feedback</h3>
+            <div *ngIf="token!==''">
+                <form (ngSubmit)="updateFeedback(f)" #f="ngForm">
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <label for="star">Star</label>
+                            <select ngModel id="star" name="star" class="form-control">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <label for="content">Content</label>
+                            <textarea ngModel id="content" name="content" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Upload</button>
+                </form>
+            </div>
+            <br/>
+            <div class="row" *ngFor="let feedback of product.feedbacks;">
+                <div class="col-lg-4">
+                    <h4>{{feedback.name}}</h4>
+                    <p>{{feedback.createdDate}}</p>
+                </div>
+                <div class="col-lg-8">
+                    <div>
+                        <i class="fa fa-star" *ngFor="let star of feedback.starLeft;"></i>
+                            <i class="fa fa-star-o" *ngFor="let star of feedback.starRight;"></i>
+                    </div>
+                    <p>{{feedback.content}}</p>
                 </div>
             </div>
         </div>

@@ -16,9 +16,7 @@ namespace Lulus.ViewModels.Feedbacks
 
         public string Content { get; set; }
 
-        public Guid UserID { get; set; }
+        public string Name { get; set; }
         public DateTime CreatedDate { get; set; }
-
-        public int ProductID { get; set; }
     }
 }

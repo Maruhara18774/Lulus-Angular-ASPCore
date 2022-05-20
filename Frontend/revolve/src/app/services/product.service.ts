@@ -1,4 +1,5 @@
 import { Designer } from "../model/Designer";
+import { Feedback } from "../model/Feedback";
 import { LineQuantity } from "../model/LineQuantity";
 import { Product } from "../model/Product";
 import { ProductImage } from "../model/ProductImage";
@@ -16,7 +17,8 @@ export class ProductService {
                 body[i].description,
                 body[i].category_ID,
                 body[i].designerID,
-                body[i].status
+                body[i].status,
+                parseFloat(body[i].averageStar)
             );
             for (let j = 0; j < body[i].listProductLines.length; j++) {
                 const productLine = new ProductLine(
@@ -57,7 +59,8 @@ export class ProductService {
             body.description,
             body.category_ID,
             body.designerID,
-            body.status
+            body.status,
+            parseFloat(body.averageStar)
         );
         for (let j = 0; j < body.listProductLines.length; j++) {
             const productLine = new ProductLine(
@@ -86,6 +89,17 @@ export class ProductService {
             }
             product.productLines.push(productLine);
         }
+        for(let i = 0; i< body.listFeedbacks.length;i++){
+            var feedback = new Feedback(
+                body.listFeedbacks[i].id,
+                body.listFeedbacks[i].name,
+                body.listFeedbacks[i].star,
+                body.listFeedbacks[i].isAnonymous,
+                body.listFeedbacks[i].content,
+                this.convertStringtoDate(body.listFeedbacks[i].createdDate)
+            );
+            product.feedbacks.push(feedback);
+        }
         return product;
     }
     convertJSONtoDesignerList(body:any){
@@ -103,5 +117,16 @@ export class ProductService {
             sizeList.push(size);
         }
         return sizeList;
+    }
+    convertStringtoDate(body: String) {
+        var date = new Date(
+            parseInt(body.substring(0, 4)),
+            parseInt(body.substring(5, 7)),
+            parseInt(body.substring(8, 10)),
+            parseInt(body.substring(11, 13)),
+            parseInt(body.substring(14, 16)),
+            parseInt(body.substring(17, 19)),
+        );
+        return date;
     }
 }

@@ -62,21 +62,27 @@ export class CheckoutComponent implements OnInit {
   }
 
   async changeCountry(e: any) {
-    var api = new CityApi();
-    var result = await api.getAll(e.target.value);
-    if (result.status == 200) {
-      this.cities = this.cartService.convertJSONtoListCity(result.body);
+    if(e.target.value >= 0){
+      var api = new CityApi();
+      var result = await api.getAll(e.target.value);
+      if (result.status == 200) {
+        this.cities = this.cartService.convertJSONtoListCity(result.body);
+      }
     }
   }
   async changeCity(e: any) {
-    var api = new ProvinceApi();
-    var result = await api.getAll(e.target.value);
-    if (result.status == 200) {
-      this.provinces = this.cartService.convertJSONtoListProvince(result.body);
+    if(e.target.value >= 0){
+      var api = new ProvinceApi();
+      var result = await api.getAll(e.target.value);
+      if (result.status == 200) {
+        this.provinces = this.cartService.convertJSONtoListProvince(result.body);
+      }
     }
   }
   async changeProvince(e: any) {
-    this.currentProvinceID = e.target.value;
+    if(e.target.value >= 0){
+      this.currentProvinceID = e.target.value;
+    }
   }
   async checkout(form: NgForm) {
     var value = form.value;

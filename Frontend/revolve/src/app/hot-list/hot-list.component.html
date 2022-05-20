@@ -112,11 +112,8 @@
                                     <a class="add-cart" style="top:1px; cursor: pointer;"
                                         (click)="addToCart(pro.productLines[0].id)">+ Add To Cart</a>
                                     <div class="rating">
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
-                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star" *ngFor="let star of pro.averageStarLeft;"></span>
+                                      <span class="fa fa-star-o" *ngFor="let star of pro.averageStarRight;"></span>
                                     </div>
                                     <h5>{{pro.price |currency:'USD':'symbol'}}</h5>
 
