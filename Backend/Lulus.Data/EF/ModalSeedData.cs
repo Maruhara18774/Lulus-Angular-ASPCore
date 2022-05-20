@@ -28,9 +28,12 @@ namespace Lulus.Data.EF
 
             AddProductLine(modelBuilder);
             AddProductImage(modelBuilder);
+            AddProductImage2(modelBuilder);
             AddProductOccation(modelBuilder);
             AddProductSubcategory(modelBuilder);
             AddProductLineSize(modelBuilder);
+
+            AddProvince(modelBuilder);
         }
         // Non-relationship
         static void AddUsers(ModelBuilder modelBuilder)
@@ -261,6 +264,11 @@ namespace Lulus.Data.EF
                 {
                     ID = 9,
                     Name = "ASTR the Label"
+                },
+                new Desinger()
+                {
+                    ID = 10,
+                    Name = "ALLSAINTS"
                 }
                 );
         }
@@ -696,6 +704,18 @@ namespace Lulus.Data.EF
                     Status = Enums.ProductStatus.Stocking,
                     LengthState = Enums.LengthState.Midi,
                     SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 11,
+                    Name = "Morgan Biker Jacket",
+                    Price = 659,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 2,
+                    DesignerID = 10,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Mini,
+                    SleeveLengthState = Enums.SleeveLengthState.LongSleeve
                 }
                 );
         }
@@ -885,6 +905,12 @@ namespace Lulus.Data.EF
                     ID = 22,
                     TextureID = 22,
                     ProductID = 10
+                },
+                new ProductLine()
+                {
+                    ID = 23,
+                    TextureID = 6,
+                    ProductID = 11
                 }
                 );
         }
@@ -1350,6 +1376,42 @@ namespace Lulus.Data.EF
                 }
             );
         }
+        static void AddProductImage2(ModelBuilder modelBuilder)
+        {
+            string baseURL = "Images/Product/";
+            modelBuilder.Entity<ProductImage>().HasData(
+                new ProductImage()
+                {
+                    ID = 77,
+                    ProductLineID = 23,
+                    Image = baseURL + "Product11/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 78,
+                    ProductLineID = 23,
+                    Image = baseURL + "Product11/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 79,
+                    ProductLineID = 23,
+                    Image = baseURL + "Product11/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 80,
+                    ProductLineID = 23,
+                    Image = baseURL + "Product11/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 81,
+                    ProductLineID = 23,
+                    Image = baseURL + "Product11/Line1/5.webp"
+                }
+                );
+        }
         static void AddProductOccation(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product_Occation>().HasData(
@@ -1483,6 +1545,65 @@ namespace Lulus.Data.EF
                 }
             }
             modelBuilder.Entity<ProductLine_Size>().HasData(listProductLineSize);
+        }
+        static void AddProvince(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Province>().HasData(
+                new Province()
+                {
+                    ID = 1,
+                    Name= "Ninh Kieu",
+                    CityID = 1,
+                },
+                new Province()
+                {
+                    ID = 2,
+                    Name = "Binh Thuy",
+                    CityID = 1,
+                },
+                new Province()
+                {
+                    ID = 3,
+                    Name = "O Mon",
+                    CityID = 1,
+                },
+                new Province()
+                {
+                    ID = 4,
+                    Name = "Hai Chau",
+                    CityID = 2,
+                },
+                new Province()
+                {
+                    ID = 5,
+                    Name = "Cam Le",
+                    CityID = 2,
+                },
+                new Province()
+                {
+                    ID = 6,
+                    Name = "Thanh Khe",
+                    CityID = 2,
+                },
+                new Province()
+                {
+                    ID = 7,
+                    Name = "Hong Kong Island",
+                    CityID = 6,
+                },
+                new Province()
+                {
+                    ID = 8,
+                    Name = "New Territories East",
+                    CityID = 6,
+                },
+                new Province()
+                {
+                    ID = 9,
+                    Name = "Kowloon West",
+                    CityID = 6,
+                }
+                );
         }
     }
 }
