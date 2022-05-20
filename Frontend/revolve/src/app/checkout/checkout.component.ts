@@ -29,6 +29,8 @@ export class CheckoutComponent implements OnInit {
   provinces: Province[];
   currentUser: User;
   currentProvinceID: number;
+  isPaypal = false;
+
   constructor(private cartService: CartService, private userService: UserService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
@@ -90,38 +92,72 @@ export class CheckoutComponent implements OnInit {
       alert("Please input Receiver's phone number.")
     }
     else {
-      if (value.phone == undefined || value.phone == "") {
-        var api = new CartApi();
-        var result = await api.checkout(new CheckoutRequest(
-          localStorage.getItem('token')!,
-          value.name,
-          this.currentProvinceID,
-          this.currentUser.phone,
-          value.password
-        ));
-        if(result.status == 200){
-          this.router.navigate(['/home']);
+      if(this.isPaypal){
+        var paypalConfig= {
+          env: 'Sandbox',
+          client: {
+            sandbox: 'ARLgwDkiL4bhZjmXB9VFOtqrIW-UsDp8IRkRqAjqe0zcHsGC0-dJ_oAvVxPVpXVOegXx3xl_bpeWuWD-',
+            production: 'production-key'
+          },
+          commit: true,
+          payment: (data: any, actions: any) => {
+            return actions.payment.create(
+              {
+                payment: {
+                  transactions: [
+                    {
+                      amount: {
+                        total: this.cart.total,
+                        currency: 'USD'
+                      }
+                    }
+                  ]
+                }
+              }
+            );
+          },
+          onAuthorize: (data: any, actions: any) =>{
+            return actions.payment.execute().then((payment: any)=>{
+              this.router.navigate(['/home']);
+            })
+          }
+        };
+      }
+      else{
+        if (value.phone == undefined || value.phone == "") {
+          var api = new CartApi();
+          var result = await api.checkout(new CheckoutRequest(
+            localStorage.getItem('token')!,
+            value.name,
+            this.currentProvinceID,
+            this.currentUser.phone,
+            value.password
+          ));
+          if(result.status == 200){
+            this.router.navigate(['/home']);
+          }
+          else{
+            alert(result.body);
+          }
         }
-        else{
-          alert(result.body);
+        else {
+          var api = new CartApi();
+          var result = await api.checkout(new CheckoutRequest(
+            localStorage.getItem('token')!,
+            value.name,
+            this.currentProvinceID,
+            value.phone,
+            value.password
+          ));
+          if(result.status == 200){
+            this.router.navigate(['/home']);
+          }
+          else{
+            alert(result.body);
+          }
         }
       }
-      else {
-        var api = new CartApi();
-        var result = await api.checkout(new CheckoutRequest(
-          localStorage.getItem('token')!,
-          value.name,
-          this.currentProvinceID,
-          value.phone,
-          value.password
-        ));
-        if(result.status == 200){
-          this.router.navigate(['/home']);
-        }
-        else{
-          alert(result.body);
-        }
-      }
+      
     }
   }
 }

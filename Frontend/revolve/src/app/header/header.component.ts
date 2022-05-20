@@ -43,4 +43,8 @@ export class HeaderComponent implements OnInit {
       this.cartTotal = result.body.total;
     }
   }
+  logout(){
+    this.userService.removeToken();
+    location.reload();
+  }
 }

@@ -47,6 +47,7 @@
                             <a routerLinkActive="active" routerLink="/login" *ngIf="token == ''">Login</a>
                             <a routerLinkActive="active" routerLink="/regist" *ngIf="token == ''">Register</a>
                             <a routerLinkActive="active" routerLink="/myaccount" *ngIf="currentUser != undefined">Hi <b>{{currentUser.username}}</b></a>
+                            <a href="#" (click)="logout()" *ngIf="currentUser != undefined">Logout</a>
                             <a href="#">FAQs</a>
                         </div>
                         <div class="header__top__hover">
