@@ -37,11 +37,9 @@ namespace Lulus.Data.EF
             modelBuilder.ApplyConfiguration(new Product_SubCategoryConfiguration());
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
             modelBuilder.ApplyConfiguration(new ProductImageConfiguration());
-            modelBuilder.ApplyConfiguration(new ProductLine_SizeConfiguration());
             modelBuilder.ApplyConfiguration(new ProductLineConfiguration());
             modelBuilder.ApplyConfiguration(new ProvinceConfiguration());
             modelBuilder.ApplyConfiguration(new SaleConfiguration());
-            modelBuilder.ApplyConfiguration(new SizeConfiguration());
             modelBuilder.ApplyConfiguration(new SubCategoryConfiguration());
             modelBuilder.ApplyConfiguration(new TextureConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
@@ -62,10 +60,8 @@ namespace Lulus.Data.EF
         public DbSet<Product_SubCategory> Product_SubCategories { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ProductLine> ProductLines { get; set; }
-        public DbSet<ProductLine_Size> ProductLine_Sizes { get; set; }
         public DbSet<Province> Provinces { get; set; }
         public DbSet<Sale> Sales { get; set; }
-        public DbSet<Size> Sizes { get; set; }
         public DbSet<Subcategory> Subcategories { get; set; }
         public DbSet<Texture> Textures { get; set; }
     }

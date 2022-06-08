@@ -1,4 +1,3 @@
-import { LineQuantity } from "./LineQuantity";
 import { ProductImage } from "./ProductImage";
 
 export class ProductLine{
@@ -6,17 +5,17 @@ export class ProductLine{
     public textureName: String;
     public textureImage: String;
     public productID: number;
+    public quantity: number;
     public images: ProductImage[];
-    public sizes: LineQuantity[];
     
 
-    constructor(id:number, textureName: String, textureImage:String, productID: number){
+    constructor(id:number, textureName: String, textureImage:String, productID: number, quantity: number){
         this.id = id;
         this.textureName = textureName;
         this.textureImage = textureImage;
         this.productID = productID;
+        this.quantity = quantity;
         this.images = new Array<ProductImage>();
-        this.sizes = new Array<LineQuantity>();
     }
     
 }

@@ -42,8 +42,7 @@ namespace Lulus.BAL.Catalog.Orders
                     Name = product.Name,
                     Price = product.Price,
                     Quantity = detail.Quantity,
-                    Total = detail.Total,
-                    IsFeedback = detail.IsFeedback
+                    Total = detail.Total
                 });
             }
             return order;
@@ -75,8 +74,7 @@ namespace Lulus.BAL.Catalog.Orders
                         Name = product.Name,
                         Price = product.Price,
                         Quantity = detail.Quantity,
-                        Total = detail.Total,
-                        IsFeedback = detail.IsFeedback
+                        Total = detail.Total
                     });
                 }
             }

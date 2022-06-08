@@ -10,8 +10,7 @@ namespace Lulus.Data.Entities
     {
         public int TextureID { get; set; }
         public int ProductID { get; set; }
-
-        public virtual List<ProductLine_Size> ProductLine_Sizes { get; set; }
+        public int Quantity { get; set; }
         public virtual List<OrderDetail> OrderDetails { get; set; }
         public virtual List<ProductImage> ProductImages { get; set; }
         public virtual Product Product { get; set; }

@@ -107,7 +107,6 @@ namespace Lulus.BAL.Catalog.Cart
                     Total = quantity * price,
                     OrderID = cart.ID,
                     ProductLineID = request.LineID,
-                    IsFeedback = false,
                     Created = DateTime.Now,
                     Updated = DateTime.Now
                 });

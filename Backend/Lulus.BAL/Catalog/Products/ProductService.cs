@@ -78,7 +78,8 @@ namespace Lulus.BAL.Catalog.Products
                     Texture_Image_Url = p.Texture.Image,
                     CreatedDate = p.Created,
                     UpdatedDate = p.Updated,
-                    Product_ID = p.ProductID
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
                 }).ToListAsync();
                 foreach (var line in item.ListProductLines)
                 {
@@ -91,21 +92,6 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-
-                    var productSizeQuantities = from s in _context.ProductLine_Sizes
-                                                where s.ProductLineID == line.ID
-                                                select s;
-                    line.ListSizes = new List<SizeViewModel>();
-                    foreach(var siQuan in productSizeQuantities.ToList())
-                    {
-                        var obj = new SizeViewModel()
-                        {
-                            ID = siQuan.SizeID,
-                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
-                            Quantity = siQuan.Quantity
-                        };
-                        line.ListSizes.Add(obj);
-                    }
                 }
             }
             return data;
@@ -144,7 +130,8 @@ namespace Lulus.BAL.Catalog.Products
                     Texture_Image_Url = p.Texture.Image,
                     CreatedDate = p.Created,
                     UpdatedDate = p.Updated,
-                    Product_ID = p.ProductID
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
                 }).ToListAsync();
                 foreach (var line in item.ListProductLines)
                 {
@@ -157,21 +144,6 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-
-                    var productSizeQuantities = from s in _context.ProductLine_Sizes
-                                                where s.ProductLineID == line.ID
-                                                select s;
-                    line.ListSizes = new List<SizeViewModel>();
-                    foreach (var siQuan in productSizeQuantities.ToList())
-                    {
-                        var obj = new SizeViewModel()
-                        {
-                            ID = siQuan.SizeID,
-                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
-                            Quantity = siQuan.Quantity
-                        };
-                        line.ListSizes.Add(obj);
-                    }
                 }
             }
             return data;
@@ -207,7 +179,8 @@ namespace Lulus.BAL.Catalog.Products
                     Texture_Image_Url = p.Texture.Image,
                     CreatedDate = p.Created,
                     UpdatedDate = p.Updated,
-                    Product_ID = p.ProductID
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
                 }).ToListAsync();
                 foreach (var line in item.ListProductLines)
                 {
@@ -220,21 +193,6 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-
-                    var productSizeQuantities = from s in _context.ProductLine_Sizes
-                                                where s.ProductLineID == line.ID
-                                                select s;
-                    line.ListSizes = new List<SizeViewModel>();
-                    foreach (var siQuan in productSizeQuantities.ToList())
-                    {
-                        var obj = new SizeViewModel()
-                        {
-                            ID = siQuan.SizeID,
-                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
-                            Quantity = siQuan.Quantity
-                        };
-                        line.ListSizes.Add(obj);
-                    }
                 }
             }
             return data;
@@ -273,7 +231,8 @@ namespace Lulus.BAL.Catalog.Products
                     Texture_Image_Url = p.Texture.Image,
                     CreatedDate = p.Created,
                     UpdatedDate = p.Updated,
-                    Product_ID = p.ProductID
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
                 }).ToListAsync();
                 foreach (var line in item.ListProductLines)
                 {
@@ -286,20 +245,6 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-                    var productSizeQuantities = from s in _context.ProductLine_Sizes
-                                                where s.ProductLineID == line.ID
-                                                select s;
-                    line.ListSizes = new List<SizeViewModel>();
-                    foreach (var siQuan in productSizeQuantities.ToList())
-                    {
-                        var obj = new SizeViewModel()
-                        {
-                            ID = siQuan.SizeID,
-                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
-                            Quantity = siQuan.Quantity
-                        };
-                        line.ListSizes.Add(obj);
-                    }
                 }
             }
             return data;
@@ -332,7 +277,8 @@ namespace Lulus.BAL.Catalog.Products
                 Texture_Image_Url = p.Texture.Image,
                 CreatedDate = p.Created,
                 UpdatedDate = p.Updated,
-                Product_ID = p.ProductID
+                Product_ID = p.ProductID,
+                Quantity = p.Quantity
             }).ToListAsync();
             foreach (var line in result.ListProductLines)
             {
@@ -345,22 +291,6 @@ namespace Lulus.BAL.Catalog.Products
                     Image_Url = i.Image,
                     ProductLine_ID = i.ProductLineID
                 }).ToListAsync();
-                var productSizes = from s in _context.Sizes
-                                   join q in _context.ProductLine_Sizes on s.ID equals q.SizeID
-                                   where q.ProductLineID == line.ID
-                                   select s;
-                line.ListSizes = await productSizes.Select(s => new SizeViewModel()
-                {
-                    ID = s.ID,
-                    Key = s.Key,
-                }).ToListAsync();
-                foreach (var size in line.ListSizes)
-                {
-                    var quantity = from q in _context.ProductLine_Sizes
-                                   where q.ProductLineID == line.ID && q.SizeID == size.ID
-                                   select q;
-                    size.Quantity = quantity.Select(s => s.Quantity).FirstOrDefault();
-                }
             }
             var feedbacks = from f in _context.Feedbacks
                             where f.ProductID == result.ID
@@ -415,7 +345,8 @@ namespace Lulus.BAL.Catalog.Products
                     Texture_Image_Url = p.Texture.Image,
                     CreatedDate = p.Created,
                     UpdatedDate = p.Updated,
-                    Product_ID = p.ProductID
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
                 }).ToListAsync();
                 foreach (var line in item.ListProductLines)
                 {
@@ -428,21 +359,6 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-
-                    var productSizeQuantities = from s in _context.ProductLine_Sizes
-                                                where s.ProductLineID == line.ID
-                                                select s;
-                    line.ListSizes = new List<SizeViewModel>();
-                    foreach (var siQuan in productSizeQuantities.ToList())
-                    {
-                        var obj = new SizeViewModel()
-                        {
-                            ID = siQuan.SizeID,
-                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
-                            Quantity = siQuan.Quantity
-                        };
-                        line.ListSizes.Add(obj);
-                    }
                 }
             }
             return data;
@@ -478,7 +394,8 @@ namespace Lulus.BAL.Catalog.Products
                     Texture_Image_Url = p.Texture.Image,
                     CreatedDate = p.Created,
                     UpdatedDate = p.Updated,
-                    Product_ID = p.ProductID
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
                 }).ToListAsync();
                 foreach (var line in item.ListProductLines)
                 {
@@ -491,21 +408,6 @@ namespace Lulus.BAL.Catalog.Products
                         Image_Url = i.Image,
                         ProductLine_ID = i.ProductLineID
                     }).ToListAsync();
-
-                    var productSizeQuantities = from s in _context.ProductLine_Sizes
-                                                where s.ProductLineID == line.ID
-                                                select s;
-                    line.ListSizes = new List<SizeViewModel>();
-                    foreach (var siQuan in productSizeQuantities.ToList())
-                    {
-                        var obj = new SizeViewModel()
-                        {
-                            ID = siQuan.SizeID,
-                            Key = (await _context.Sizes.Where(x => x.ID == siQuan.SizeID).FirstOrDefaultAsync()).Key,
-                            Quantity = siQuan.Quantity
-                        };
-                        line.ListSizes.Add(obj);
-                    }
                 }
             }
             return data;

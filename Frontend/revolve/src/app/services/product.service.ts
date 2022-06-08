@@ -1,10 +1,8 @@
 import { Designer } from "../model/Designer";
 import { Feedback } from "../model/Feedback";
-import { LineQuantity } from "../model/LineQuantity";
 import { Product } from "../model/Product";
 import { ProductImage } from "../model/ProductImage";
 import { ProductLine } from "../model/ProductLine";
-import { Size } from "../model/Size";
 
 export class ProductService {
     convertJSONtoProductList(body: any) {
@@ -25,7 +23,8 @@ export class ProductService {
                     body[i].listProductLines[j].id,
                     body[i].listProductLines[j].texture_Name,
                     body[i].listProductLines[j].texture_Image_Url,
-                    body[i].listProductLines[j].product_ID
+                    body[i].listProductLines[j].product_ID,
+                    body[i].listProductLines[j].quantity
                 );
 
                 for (let k = 0; k < body[i].listProductLines[j].listImages.length; k++) {
@@ -35,15 +34,6 @@ export class ProductService {
                         body[i].listProductLines[j].listImages[k].productLine_ID
                     );
                     productLine.images.push(image);
-                }
-
-                for (let k = 0; k < body[i].listProductLines[j].listSizes.length; k++) {
-                    const size = new LineQuantity(
-                        body[i].listProductLines[j].listSizes[k].id,
-                        body[i].listProductLines[j].listSizes[k].key,
-                        body[i].listProductLines[j].listSizes[k].quantity
-                    );
-                    productLine.sizes.push(size);
                 }
                 product.productLines.push(productLine);
             }
@@ -67,7 +57,8 @@ export class ProductService {
                 body.listProductLines[j].id,
                 body.listProductLines[j].texture_Name,
                 body.listProductLines[j].texture_Image_Url,
-                body.listProductLines[j].product_ID
+                body.listProductLines[j].product_ID,
+                body.listProductLines[j].quantity
             );
 
             for (let k = 0; k < body.listProductLines[j].listImages.length; k++) {
@@ -77,15 +68,6 @@ export class ProductService {
                     body.listProductLines[j].listImages[k].productLine_ID
                 );
                 productLine.images.push(image);
-            }
-
-            for (let k = 0; k < body.listProductLines[j].listSizes.length; k++) {
-                const size = new LineQuantity(
-                    body.listProductLines[j].listSizes[k].id,
-                    body.listProductLines[j].listSizes[k].key,
-                    body.listProductLines[j].listSizes[k].quantity
-                );
-                productLine.sizes.push(size);
             }
             product.productLines.push(productLine);
         }
@@ -109,14 +91,6 @@ export class ProductService {
             designerList.push(designer);
         }
         return designerList;
-    }
-    convertJSONtoSizeList(body: any){
-        var sizeList: Size[] = new Array<Size>();
-        for (let i = 0; i < body.length; i++){
-            var size = new Size(parseInt(body[i].id),body[i].key);
-            sizeList.push(size);
-        }
-        return sizeList;
     }
     convertStringtoDate(body: String) {
         var date = new Date(

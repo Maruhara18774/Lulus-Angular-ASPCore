@@ -18,7 +18,6 @@ namespace Lulus.Data.EF
             AddCountry(modelBuilder);
             AddDesigner(modelBuilder);
             AddOccation(modelBuilder);
-            AddSize(modelBuilder);
             AddTexture(modelBuilder);
 
             AddCity(modelBuilder);
@@ -31,7 +30,6 @@ namespace Lulus.Data.EF
             AddProductImage2(modelBuilder);
             AddProductOccation(modelBuilder);
             AddProductSubcategory(modelBuilder);
-            AddProductLineSize(modelBuilder);
 
             AddProvince(modelBuilder);
         }
@@ -294,46 +292,6 @@ namespace Lulus.Data.EF
                 {
                     ID = 4,
                     Name = "On The Weekend"
-                }
-                );
-        }
-        static void AddSize(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Size>().HasData(
-                new Size()
-                {
-                    ID = 1,
-                    Key = "XXS"
-                },
-                new Size()
-                {
-                    ID = 2,
-                    Key = "XS"
-                },
-                new Size()
-                {
-                    ID = 3,
-                    Key = "S"
-                },
-                new Size()
-                {
-                    ID = 4,
-                    Key = "M"
-                },
-                new Size()
-                {
-                    ID = 5,
-                    Key = "L"
-                },
-                new Size()
-                {
-                    ID = 6,
-                    Key = "XL"
-                },
-                new Size()
-                {
-                    ID = 7,
-                    Key = "XXL"
                 }
                 );
         }
@@ -778,139 +736,162 @@ namespace Lulus.Data.EF
                 {
                     ID = 1,
                     TextureID = 1,
-                    ProductID = 1
+                    ProductID = 1,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 2,
                     TextureID = 2,
-                    ProductID = 1
+                    ProductID = 1,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 3,
                     TextureID = 3,
-                    ProductID = 1
+                    ProductID = 1,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 4,
                     TextureID = 4,
-                    ProductID = 2
+                    ProductID = 2,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 5,
                     TextureID = 5,
-                    ProductID = 2
+                    ProductID = 2,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 6,
                     TextureID = 6,
-                    ProductID = 3
+                    ProductID = 3,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 7,
                     TextureID = 7,
-                    ProductID = 3
+                    ProductID = 3,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 8,
                     TextureID = 8,
-                    ProductID = 3
+                    ProductID = 3,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 9,
                     TextureID = 9,
-                    ProductID = 4
+                    ProductID = 4,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 10,
                     TextureID = 10,
-                    ProductID = 4
+                    ProductID = 4,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 11,
                     TextureID = 11,
-                    ProductID = 5
+                    ProductID = 5,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 12,
                     TextureID = 12,
-                    ProductID = 5
+                    ProductID = 5,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 13,
                     TextureID = 13,
-                    ProductID = 6
+                    ProductID = 6,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 14,
                     TextureID = 14,
-                    ProductID = 6
+                    ProductID = 6,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 15,
                     TextureID = 15,
-                    ProductID = 7
+                    ProductID = 7,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 16,
                     TextureID = 16,
-                    ProductID = 7
+                    ProductID = 7,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 17,
                     TextureID = 17,
-                    ProductID = 8
+                    ProductID = 8,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 18,
                     TextureID = 18,
-                    ProductID = 8
+                    ProductID = 8,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 19,
                     TextureID = 19,
-                    ProductID = 9
+                    ProductID = 9,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 20,
                     TextureID = 20,
-                    ProductID = 9
+                    ProductID = 9,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 21,
                     TextureID = 21,
-                    ProductID = 10
+                    ProductID = 10,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 22,
                     TextureID = 22,
-                    ProductID = 10
+                    ProductID = 10,
+                    Quantity = 99
                 },
                 new ProductLine()
                 {
                     ID = 23,
                     TextureID = 6,
-                    ProductID = 11
+                    ProductID = 11,
+                    Quantity = 99
                 }
                 );
         }
@@ -1517,34 +1498,6 @@ namespace Lulus.Data.EF
                     SubcategoryID = 7
                 }
                 );
-        }
-        static void AddProductLineSize(ModelBuilder modelBuilder)
-        {
-            var listProductLineSize = new List<ProductLine_Size>();
-            var lineNum = new List<int>() { 3, 2, 3, 2, 2, 2, 2, 2, 2, 2 };
-            int id = 1;
-            int lineID = 1;
-            for(int i = 1; i<= 10; i++)
-            {
-                for(int j = 1; j <= lineNum[i - 1]; j++)
-                {
-                    for(int k = 1; k <= 7; k++)
-                    {
-                        listProductLineSize.Add(
-                        new ProductLine_Size()
-                        {
-                            ID = id,
-                            ProductLineID = lineID,
-                            SizeID = k,
-                            Quantity =99
-                        }
-                        );
-                        id++;
-                    }
-                    lineID++;
-                }
-            }
-            modelBuilder.Entity<ProductLine_Size>().HasData(listProductLineSize);
         }
         static void AddProvince(ModelBuilder modelBuilder)
         {

@@ -24,8 +24,7 @@ namespace Lulus.ViewModels.ProductLines
         public DateTime UpdatedDate { get; set; }
 
         public int Product_ID { get; set; }
+        public int Quantity { get; set; }
         public List<ProductImageViewModel> ListImages { get; set; }
-        public List<SizeViewModel> ListSizes { get; set; }
-        public List<LineQuantityViewModel> ListQuantity { get; set; }
     }
 }

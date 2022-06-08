@@ -15,7 +15,6 @@ namespace Lulus.Data.Entities
         public int OrderID { get; set; }
 
         public int ProductLineID { get; set; }
-        public bool IsFeedback { get; set; }
 
         public virtual Order Order { get; set; }
 

@@ -1,20 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { ActivatedRoute, Router } from '@angular/router';
 import { CartApi } from '../api/cartApi';
 import { CategoryApi } from '../api/categoryApi';
-import { DesignerApi } from '../api/designerApi';
 import { ProductApi } from '../api/productApi';
-import { SizeApi } from '../api/sizeApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
 import { Category } from '../model/Category';
-import { Designer } from '../model/Designer';
-import { LineQuantity } from '../model/LineQuantity';
 import { Product } from '../model/Product';
 import { GetAllProductPagingRequest } from '../model/product/getAllProductPagingRequest';
-import { ProductImage } from '../model/ProductImage';
-import { ProductLine } from '../model/ProductLine';
-import { Size } from '../model/Size';
 import { ProductService } from '../services/product.service';
 
 @Component({

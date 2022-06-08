@@ -5,12 +5,9 @@ import { CartApi } from '../api/cartApi';
 import { FeedbackApi } from '../api/feedbackApi';
 import { ProductApi } from '../api/productApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
-import { LineQuantity } from '../model/LineQuantity';
 import { Product } from '../model/Product';
 import { GetProductDetailRequest } from '../model/product/getProductDetailRequest';
 import { UploadFeedbackRequest } from '../model/product/uploadFeedbackRequest';
-import { ProductImage } from '../model/ProductImage';
-import { ProductLine } from '../model/ProductLine';
 import { ProductService } from '../services/product.service';
 
 @Component({
