@@ -22,6 +22,7 @@ import { OrderDetailComponent } from './myaccount/order-detail/order-detail.comp
 import { AboutComponent } from './about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HotListComponent } from './hot-list/hot-list.component';
+import { NewListComponent } from './new-list/new-list.component';
 
 
 
@@ -45,6 +46,7 @@ import { HotListComponent } from './hot-list/hot-list.component';
     AboutComponent,
     CheckoutComponent,
     HotListComponent,
+    NewListComponent,
     
     
   ],

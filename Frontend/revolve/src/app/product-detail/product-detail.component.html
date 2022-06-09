@@ -82,18 +82,18 @@
                     <div class="product__details__text">
                         <h4>{{product.name}}</h4>
                         <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star" *ngFor="let star of product.averageStarLeft;" style="margin-left: 7px"></i>
+                            <i class="fa fa-star-o" *ngFor="let star of product.averageStarRight;" style="margin-left: 7px"></i>
                             <span> - {{product.feedbacks.length}} Reviews</span>
                         </div>
                         <h3>${{product.price}}</h3>
                         <div class="product__details__option">
                             <div class="product__details__option__color">
                                 <span>Color:</span>
-                                <img src="{{line.textureImage}}" (click)="selectProductLine(line.id)" *ngFor="let line of product.productLines;">
+                                <img src="{{line.textureImage}}" 
+                                (click)="selectProductLine(line.id)" 
+                                *ngFor="let line of product.productLines;"
+                                style="margin-left: 5px;">
                             </div>
                         </div>
                         <div class="product__details__cart__option">
@@ -126,7 +126,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#tabs-6" role="tab">Customer
-                                    Previews(5)</a>
+                                    Previews({{product.feedbacks.length}})</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#tabs-7" role="tab">Additional

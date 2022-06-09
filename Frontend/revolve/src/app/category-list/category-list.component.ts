@@ -64,6 +64,9 @@ export class CategoryListComponent implements OnInit {
         location.reload();
       }
     }
+    if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
+      alert("Please login.");
+    }
   }
   async nextPage(){
     this.currentPage += 1;

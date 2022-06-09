@@ -3,6 +3,7 @@ using Lulus.BAL.Catalog.Products.DTOs;
 using Lulus.BAL.Catalog.Products.DTOs.Public;
 using Lulus.BAL.Catalog.Products.Interfaces;
 using Lulus.Data.EF;
+using Lulus.Data.Entities;
 using Lulus.ViewModels.Feedbacks;
 using Lulus.ViewModels.ProductImages;
 using Lulus.ViewModels.ProductLines;
@@ -66,8 +67,7 @@ namespace Lulus.BAL.Catalog.Products
                 }).ToListAsync();
             foreach (var item in data)
             {
-                //var avgStar = (await _context.Feedbacks.Where(x => x.ProductID == item.ID).ToListAsync()).Average(x => x.StarCount);
-                //item.AverageStar = Convert.ToInt32(avgStar);
+                item.AverageStar = await GetAvgFeedbackStar(item.ID);
                 var productLines = from pl in _context.ProductLines
                                    where pl.ProductID == item.ID
                                    select pl;
@@ -95,6 +95,18 @@ namespace Lulus.BAL.Catalog.Products
                 }
             }
             return data;
+        }
+
+        public async Task<int> GetAvgFeedbackStar(int productID)
+        {
+            int sum = 0;
+            var avgStar = await _context.Feedbacks.Where(x => x.ProductID == productID).ToListAsync();
+            if (avgStar.Count == 0) return 5;
+            foreach(var item in avgStar)
+            {
+                sum += item.StarCount;
+            }
+            return (int)sum / avgStar.Count;
         }
 
         public async Task<List<ProductViewModel>> GetAllByCateAndSubCateID(GetProductPagingRequest2 request)
@@ -264,9 +276,9 @@ namespace Lulus.BAL.Catalog.Products
                 Description = p.Description,
                 Category_ID = p.CategoryID,
                 DesignerID = p.DesignerID,
-                AverageStar = 4,
                 Status = p.Status
             }).SingleOrDefaultAsync();
+            result.AverageStar = await GetAvgFeedbackStar(request.ID);
             var productLines = from pl in _context.ProductLines
                                where pl.ProductID == result.ID
                                select pl;
@@ -366,11 +378,20 @@ namespace Lulus.BAL.Catalog.Products
         public async Task<List<ProductViewModel>> GetAllHot(int pageIndex)
         {
             var query = from p in _context.Products select p;
-            query = query.OrderBy(x => x.ProductLines.Sum(l => l.OrderDetails.Sum(d => d.Quantity)));
-
             int totalRow = await query.CountAsync();
 
-            var data = await query.Skip((pageIndex - 1) * 10).Take(10)
+            var products = await _context.Products.ToListAsync();
+            foreach(var prod in products)
+            {
+                prod.ProductLines = await _context.ProductLines.Where(x => x.ProductID == prod.ID).ToListAsync();
+                foreach(var line in prod.ProductLines)
+                {
+                    line.OrderDetails = await _context.OrderDetails.Where(x => x.ProductLineID == line.ID).ToListAsync();
+                }
+            }
+            products = products.OrderByDescending(x => x.ProductLines.Sum(l => l.OrderDetails.Sum(d => d.Quantity))).ToList();
+
+            var data = products.Skip((pageIndex - 1) * 10).Take(10)
                 .Select(p => new ProductViewModel()
                 {
                     ID = p.ID,
@@ -381,9 +402,59 @@ namespace Lulus.BAL.Catalog.Products
                     DesignerID = p.DesignerID,
                     AverageStar = 4,
                     Status = p.Status
-                }).ToListAsync();
+                }).ToList();
             foreach (var item in data)
             {
+                item.AverageStar = await GetAvgFeedbackStar(item.ID);
+                var productLines = from pl in _context.ProductLines
+                                   where pl.ProductID == item.ID
+                                   select pl;
+                item.ListProductLines = await productLines.Select(p => new ProductLineViewModel()
+                {
+                    ID = p.ID,
+                    Texture_Name = p.Texture.Name,
+                    Texture_Image_Url = p.Texture.Image,
+                    CreatedDate = p.Created,
+                    UpdatedDate = p.Updated,
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
+                }).ToListAsync();
+                foreach (var line in item.ListProductLines)
+                {
+                    var productImages = from i in _context.ProductImages
+                                        where i.ProductLineID == line.ID
+                                        select i;
+                    line.ListImages = await productImages.Select(i => new ProductImageViewModel()
+                    {
+                        ID = i.ID,
+                        Image_Url = i.Image,
+                        ProductLine_ID = i.ProductLineID
+                    }).ToListAsync();
+                }
+            }
+            return data;
+        }
+        public async Task<List<ProductViewModel>> GetAllNew(int pageIndex)
+        {
+            var query = from p in _context.Products select p;
+            query.OrderByDescending(x => x.Created);
+            int totalRow = await query.CountAsync();
+
+            var data = query.Skip((pageIndex - 1) * 10).Take(10)
+                .Select(p => new ProductViewModel()
+                {
+                    ID = p.ID,
+                    Name = p.Name,
+                    Price = p.Price,
+                    Description = p.Description,
+                    Category_ID = p.CategoryID,
+                    DesignerID = p.DesignerID,
+                    AverageStar = 4,
+                    Status = p.Status
+                }).ToList();
+            foreach (var item in data)
+            {
+                item.AverageStar = await GetAvgFeedbackStar(item.ID);
                 var productLines = from pl in _context.ProductLines
                                    where pl.ProductID == item.ID
                                    select pl;

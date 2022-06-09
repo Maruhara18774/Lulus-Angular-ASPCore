@@ -41,7 +41,9 @@
                                     </div>
                                     <div class="product__cart__item__text">
                                         <h6>{{item.name}}</h6>
+                                        <p>Color: {{item.color}}</p>
                                         <h5>$ {{item.price}}</h5>
+                                        <p *ngIf="!item.stocking" style="color: red">*There are not enough products</p>
                                     </div>
                                 </td>
                                 <td class="quantity__item">
@@ -94,7 +96,7 @@
                         <li>Subtotal <span>$ {{cart.total}}</span></li>
                         <li>Total <span>$ {{cart.total}}</span></li>
                     </ul>
-                    <a class="primary-btn" *ngIf="cart.total!==0" routerLinkActive="active" routerLink="/checkout">Proceed to checkout</a>
+                    <a class="primary-btn" *ngIf="cart.total!==0 && valid" routerLinkActive="active" routerLink="/checkout">Proceed to checkout</a>
                 </div>
             </div>
         </div>

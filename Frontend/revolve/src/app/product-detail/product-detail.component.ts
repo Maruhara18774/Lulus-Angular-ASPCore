@@ -64,6 +64,14 @@ export class ProductDetailComponent implements OnInit {
         location.reload();
       }
     }
+    else{
+      if(!(value.quantity > 0)){
+        alert("Please input valid quantity.");
+      }
+      if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
+        alert("Please login.");
+      }
+    }
   }
   async updateFeedback(form: NgForm){
     var value = form.value;

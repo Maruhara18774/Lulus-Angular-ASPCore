@@ -15,6 +15,7 @@ import { OrderDetailComponent } from './myaccount/order-detail/order-detail.comp
 import { AboutComponent } from './about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HotListComponent } from './hot-list/hot-list.component';
+import { NewListComponent } from './new-list/new-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -32,7 +33,8 @@ const routes: Routes = [
   { path: 'orderdetail/:id', component: OrderDetailComponent },
   { path: 'about', component: AboutComponent },
   { path: 'checkout', component: CheckoutComponent },
-  { path: 'hot', component: HotListComponent }
+  { path: 'hot', component: HotListComponent },
+  { path: 'new', component: NewListComponent },
 
 ];
 

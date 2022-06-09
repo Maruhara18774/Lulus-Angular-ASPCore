@@ -15,6 +15,7 @@ import { CartService } from '../services/cart.service';
 })
 export class CartComponent implements OnInit {
   cart: Cart;
+  valid: Boolean = true;
 
   constructor(private cartService: CartService) { }
 
@@ -27,6 +28,11 @@ export class CartComponent implements OnInit {
       var result = await api.get(new GetInfoRequest(localStorage.getItem('token')!));
       if (result.status == 200) {
         this.cart = this.cartService.convertJSONtoCart(result.body);
+        this.cart.items.forEach(element => {
+          if(!element.stocking){
+            this.valid = false;
+          }
+        });
       }
     }
   }

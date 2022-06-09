@@ -28,7 +28,7 @@ export class LoginComponent implements OnInit {
       location.reload();
     }
     else{
-      console.log('Error: ' + result.body);
+      alert(result.body);
     }
   }
 }

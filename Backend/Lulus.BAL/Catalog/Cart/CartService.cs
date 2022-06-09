@@ -59,7 +59,8 @@ namespace Lulus.BAL.Catalog.Cart
                     Total = item.Total,
                     Color = await _context.Textures.Where(x => x.ID == line.TextureID).Select(x => x.Name).FirstOrDefaultAsync(),
                     Name = await _context.Products.Where(x => x.ID == line.ProductID).Select(x => x.Name).FirstOrDefaultAsync(),
-                    Price = await _context.Products.Where(x => x.ID == line.ProductID).Select(x => x.Price).FirstOrDefaultAsync()
+                    Price = await _context.Products.Where(x => x.ID == line.ProductID).Select(x => x.Price).FirstOrDefaultAsync(),
+                    Stocking = line.Quantity > item.Quantity ? true : false
                 });
             }
             return result;
@@ -139,11 +140,11 @@ namespace Lulus.BAL.Catalog.Cart
             {
                 return false;
             }
-            var finalTotal = cart.Total - (cartItem.Total);
+            var finalTotal = cart.OrderDetails.Where(x => x.ProductLineID != request.LineID).Sum(x => x.Total);
             cartItem.Quantity = request.Quantity;
             cartItem.Updated = DateTime.Now;
-            cartItem.Total = finalTotal + (quantity * price);
-            cart.Total += quantity * price;
+            cartItem.Total = quantity * price;
+            cart.Total = finalTotal + (quantity * price);
             cart.Updated = DateTime.Now;
             await _context.SaveChangesAsync();
             return true;
@@ -199,6 +200,13 @@ namespace Lulus.BAL.Catalog.Cart
             userAddress.Phone = request.Phone == null || request.Phone == "" ? user.PhoneNumber : request.Phone;
             cart.Status = Data.Enums.OrderStatus.Accepted;
             cart.Updated = DateTime.Now;
+
+            foreach(var detail in await _context.OrderDetails.Where(x => x.OrderID == cart.ID).ToListAsync())
+            {
+                var line = await _context.ProductLines.Where(x => x.ID == detail.ProductLineID).SingleOrDefaultAsync();
+                line.Quantity -= detail.Quantity;
+            }
+
             await _context.SaveChangesAsync();
             return "";
         }

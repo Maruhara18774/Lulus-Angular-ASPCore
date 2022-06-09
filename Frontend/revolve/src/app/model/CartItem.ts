@@ -6,8 +6,9 @@ export class CartItem{
     public name: String;
     public price: number;
     public quantity:number;
+    public stocking: Boolean;
 
-    constructor(id:number, total: number, color: String, line: number,name:String,price:number,quantity: number){
+    constructor(id:number, total: number, color: String, line: number,name:String,price:number,quantity: number, stocking: Boolean){
         this.id = id;
         this.total = total;
         this.color = color;
@@ -15,5 +16,6 @@ export class CartItem{
         this.name = name;
         this.price = price;
         this.quantity = quantity;
+        this.stocking = stocking;
     }
 }

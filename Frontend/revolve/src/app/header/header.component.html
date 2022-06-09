@@ -78,7 +78,7 @@
                         <li><a routerLinkActive="active" routerLink="/home">Home</a></li>
                         <li><a routerLinkActive="active" routerLink="/hot">Hot List</a></li>
                         <li><a routerLinkActive="active" routerLink="/about">About</a></li>
-                        <li><a routerLinkActive="active" routerLink="/new-list">New</a></li>
+                        <li><a routerLinkActive="active" routerLink="/new">New</a></li>
                         <li><a routerLinkActive="active" routerLink="/clothing-list">Clothing</a></li>
                         <li><a routerLinkActive="active" routerLink="/sale">Sale</a></li>
                     </ul>
@@ -86,8 +86,8 @@
             </div>
             <div class="col-lg-2 col-md-2">
                 <div class="header__nav__option">
-                    <a routerLinkActive="active" routerLink="/cart" style="cursor: pointer;"><img src="../assets/img/icon/cart.png" alt=""> <span>{{cartCount}}</span></a>
-                    <div class="price">${{cartTotal}}</div>
+                    <a routerLinkActive="active" routerLink="/cart" style="cursor: pointer;"><img src="../assets/img/icon/cart.png" alt=""></a>
+                    <div class="price">{{cartCount}} - ${{cartTotal}}</div>
                 </div>
             </div>
         </div>

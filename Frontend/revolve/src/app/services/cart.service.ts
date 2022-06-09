@@ -5,16 +5,6 @@ import { Country } from "../model/Country";
 import { Province } from "../model/Province";
 
 export class CartService {
-    /*
-    convertJSONtoSizeList(body: any){
-        var sizeList: Size[] = new Array<Size>();
-        for (let i = 0; i < body.length; i++){
-            var size = new Size(parseInt(body[i].id),body[i].key);
-            sizeList.push(size);
-        }
-        return sizeList;
-    }
-    */
     convertJSONtoCart(body: any) {
         var cart = new Cart(body.id, body.lineCount, body.total);
         for (let i = 0; i < body.items.length; i++) {
@@ -25,7 +15,9 @@ export class CartService {
                 body.items[i].lineID,
                 body.items[i].name,
                 body.items[i].price,
-                body.items[i].quantity);
+                body.items[i].quantity,
+                body.items[i].stocking
+                );
             cart.items.push(item);
         }
         return cart;

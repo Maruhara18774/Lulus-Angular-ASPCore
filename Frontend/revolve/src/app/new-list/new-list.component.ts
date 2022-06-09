@@ -10,12 +10,12 @@ import { GetAllProductPagingRequest } from '../model/product/getAllProductPaging
 import { ProductService } from '../services/product.service';
 
 @Component({
-  selector: 'app-hot-list',
-  templateUrl: './hot-list.component.html',
-  styleUrls: ['./hot-list.component.css'],
+  selector: 'app-new-list',
+  templateUrl: './new-list.component.html',
+  styleUrls: ['./new-list.component.css'],
   providers: [ProductService]
 })
-export class HotListComponent implements OnInit {
+export class NewListComponent implements OnInit {
   baseURL: String = "http://localhost:4200";
   cateList: Category[] = new Array<Category>();
   productList: Product[] = new Array<Product>();
@@ -43,7 +43,7 @@ export class HotListComponent implements OnInit {
 
   async loadProduct() {
     var api = new ProductApi();
-    var result = await api.getAllHot(new GetAllProductPagingRequest(this.currentPage,"",""));
+    var result = await api.getAllNew(new GetAllProductPagingRequest(this.currentPage,"",""));
     if (result.status === 200) {
       var listPrd = this.productService.convertJSONtoProductList(result.body);
       listPrd.forEach(item => {

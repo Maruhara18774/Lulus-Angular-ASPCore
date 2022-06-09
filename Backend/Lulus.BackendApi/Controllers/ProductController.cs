@@ -138,5 +138,23 @@ namespace Lulus.BackendApi.Controllers
             }
             return Ok(result);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllNew(int page)
+        {
+            var result = await _productService.GetAllNew(page);
+            foreach (var product in result)
+            {
+                foreach (var line in product.ListProductLines)
+                {
+                    line.Texture_Image_Url = "https://localhost:44354/" + line.Texture_Image_Url;
+                    foreach (var image in line.ListImages)
+                    {
+                        image.Image_Url = "https://localhost:44354/" + image.Image_Url;
+                    }
+                }
+            }
+            return Ok(result);
+        }
     }
 }

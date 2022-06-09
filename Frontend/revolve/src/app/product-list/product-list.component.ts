@@ -7,6 +7,8 @@ import { ProductService } from '../services/product.service';
 import { DesignerApi } from '../api/designerApi';
 import { Designer } from '../model/Designer';
 import { GetFilterProductPagingRequest } from '../model/product/getFilterProductPagingRequest';
+import { CartApi } from '../api/cartApi';
+import { Add2CartRequest } from '../model/cart/Add2CartRequest';
 
 @Component({
   selector: 'app-product-list',
@@ -77,5 +79,17 @@ export class ProductListComponent implements OnInit {
     this.filterRequest.min = min;
     this.filterRequest.max = max;
     this.refreshProductByFilter();
+  }
+  async addToCart(lineID: number){
+    if(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null){
+      var api = new CartApi();
+      var result = await api.add(new Add2CartRequest(localStorage.getItem('token')!,lineID,1));
+      if(result.status == 200){
+        location.reload();
+      }
+    }
+    if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
+      alert("Please login.");
+    }
   }
 }
