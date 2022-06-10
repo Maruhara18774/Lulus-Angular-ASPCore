@@ -2,9 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { CartApi } from '../api/cartApi';
 import { CategoryApi } from '../api/categoryApi';
+import { FavoriteProductApi } from '../api/favoriteProductApi';
 import { ProductApi } from '../api/productApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
 import { Category } from '../model/Category';
+import { AddFavoriteProductRequest } from '../model/favoriteProduct/addFavoriteProductRequest';
 import { Product } from '../model/Product';
 import { GetAllProductPagingRequest } from '../model/product/getAllProductPagingRequest';
 import { ProductService } from '../services/product.service';
@@ -89,5 +91,21 @@ export class CategoryListComponent implements OnInit {
   async changeOrderBy(e: any){
     this.orderBy = e.target.value;
     await this.loadProductReset();
+  }
+  async addFavorite(productID: number){
+    if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
+      alert("Please login.");
+    }
+    else{
+      var api = new FavoriteProductApi();
+      var token = localStorage.getItem('token')!.toString();
+      var result = await api.create(new AddFavoriteProductRequest(token,productID));
+      if(result.status == 200){
+        alert("Added");
+      }
+      else{
+        alert(result.body);
+      }
+    }
   }
 }

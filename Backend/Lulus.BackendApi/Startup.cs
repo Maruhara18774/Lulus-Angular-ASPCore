@@ -30,6 +30,7 @@ using Lulus.BAL.Catalog.Occations;
 using Lulus.BAL.Catalog.Cart;
 using Lulus.BAL.Catalog.Country;
 using Lulus.BAL.Catalog.Orders;
+using Lulus.BAL.Catalog.FavoriteProducts;
 
 namespace Lulus.BackendApi
 {
@@ -64,6 +65,7 @@ namespace Lulus.BackendApi
             services.AddTransient<ICartService, CartService>();
             services.AddTransient<ICountryService, CountryService>();
             services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<IFavoriteProductService, FavoriteProductService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -12,5 +12,6 @@ namespace Lulus.BAL.Catalog.FavoriteProducts
     {
         Task<List<ProductViewModel>> GetAll(GetAllFavoriteProductRequest request);
         Task<string> Add(AddFavoriteProductRequest request);
+        Task<bool> Remove(AddFavoriteProductRequest request);
     }
 }

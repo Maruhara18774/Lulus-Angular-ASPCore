@@ -2,9 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { CartApi } from '../api/cartApi';
+import { FavoriteProductApi } from '../api/favoriteProductApi';
 import { FeedbackApi } from '../api/feedbackApi';
 import { ProductApi } from '../api/productApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
+import { AddFavoriteProductRequest } from '../model/favoriteProduct/addFavoriteProductRequest';
 import { Product } from '../model/Product';
 import { GetProductDetailRequest } from '../model/product/getProductDetailRequest';
 import { UploadFeedbackRequest } from '../model/product/uploadFeedbackRequest';
@@ -80,6 +82,21 @@ export class ProductDetailComponent implements OnInit {
       var result = await api.create(new UploadFeedbackRequest(value.star,value.content,this.token,this.id));
       if(result.status == 200){
         await this.loadProduct();
+      }
+    }
+  }
+  async addFavorite(){
+    if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
+      alert("Please login.");
+    }
+    else{
+      var api = new FavoriteProductApi();
+      var result = await api.create(new AddFavoriteProductRequest(this.token,this.product.id));
+      if(result.status == 200){
+        alert("Added");
+      }
+      else{
+        alert(result.body);
       }
     }
   }

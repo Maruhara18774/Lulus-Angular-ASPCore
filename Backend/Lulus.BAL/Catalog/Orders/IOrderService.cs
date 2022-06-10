@@ -9,7 +9,8 @@ namespace Lulus.BAL.Catalog.Orders
 {
     public interface IOrderService
     {
-        Task<List<OrderViewModel>> GetAll(string token);
+        Task<List<OrderViewModel>> GetAll(GetAllOrderRequest request);
         Task<OrderViewModel> Get(int id);
+        Task<bool> Cancel(int id);
     }
 }

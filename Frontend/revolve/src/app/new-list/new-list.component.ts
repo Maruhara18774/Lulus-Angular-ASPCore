@@ -2,9 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CartApi } from '../api/cartApi';
 import { CategoryApi } from '../api/categoryApi';
+import { FavoriteProductApi } from '../api/favoriteProductApi';
 import { ProductApi } from '../api/productApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
 import { Category } from '../model/Category';
+import { AddFavoriteProductRequest } from '../model/favoriteProduct/addFavoriteProductRequest';
 import { Product } from '../model/Product';
 import { GetAllProductPagingRequest } from '../model/product/getAllProductPagingRequest';
 import { ProductService } from '../services/product.service';
@@ -69,5 +71,21 @@ export class NewListComponent implements OnInit {
   async nextPage(){
     this.currentPage += 1;
     await this.loadProduct();
+  }
+  async addFavorite(productID: number){
+    if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
+      alert("Please login.");
+    }
+    else{
+      var api = new FavoriteProductApi();
+      var token = localStorage.getItem('token')!.toString();
+      var result = await api.create(new AddFavoriteProductRequest(token,productID));
+      if(result.status == 200){
+        alert("Added");
+      }
+      else{
+        alert(result.body);
+      }
+    }
   }
 }

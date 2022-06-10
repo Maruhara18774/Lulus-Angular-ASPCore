@@ -1,0 +1,22 @@
+.checkout__input1 {
+	margin-bottom: 6px;
+}
+
+.checkout__input1 p {
+	color: #111111;
+	margin-bottom: 12px;
+}
+
+.checkout__input1 p span {
+	color: #e53637;
+}
+
+.checkout__input1 select {
+	height: 50px;
+	width: 100%;
+	border: 1px solid #e1e1e1;
+	font-size: 14px;
+	color: #b7b7b7;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}

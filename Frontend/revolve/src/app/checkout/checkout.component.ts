@@ -134,6 +134,7 @@ export class CheckoutComponent implements OnInit {
             value.password
           ));
           if(result.status == 200){
+            window.scrollTo(0, 0);
             this.router.navigate(['/home']);
           }
           else{

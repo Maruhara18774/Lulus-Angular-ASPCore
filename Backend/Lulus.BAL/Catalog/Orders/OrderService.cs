@@ -19,6 +19,15 @@ namespace Lulus.BAL.Catalog.Orders
             _context = context;
         }
 
+        public async Task<bool> Cancel(int id)
+        {
+            var order = await _context.Orders.Where(x => x.ID == id).FirstOrDefaultAsync();
+            if (order == null) return false;
+            order.Status = Data.Enums.OrderStatus.Canceled;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
         public async Task<OrderViewModel> Get(int id)
         {
             var order = await _context.Orders.Where(x => x.ID == id).Select(x => new OrderViewModel() 
@@ -48,10 +57,33 @@ namespace Lulus.BAL.Catalog.Orders
             return order;
         }
 
-        public async Task<List<OrderViewModel>> GetAll(string token)
+        public async Task<List<OrderViewModel>> GetAll(GetAllOrderRequest request)
         {
-            var userID = GetUserID(token);
+            var userID = GetUserID(request.Token);
             var query = from o in _context.Orders where o.UserID == userID && o.Status != Data.Enums.OrderStatus.New select o;
+            if (request.Status != "")
+            {
+                switch (request.Status)
+                {
+                    case "Accepted":
+                        query = query.Where(x => x.Status == Data.Enums.OrderStatus.Accepted);
+                        break;
+                    case "Deny":
+                        query = query.Where(x => x.Status == Data.Enums.OrderStatus.Deny);
+                        break;
+                    case "Canceled":
+                        query = query.Where(x => x.Status == Data.Enums.OrderStatus.Canceled);
+                        break;
+                    case "Shipping":
+                        query = query.Where(x => x.Status == Data.Enums.OrderStatus.Canceled);
+                        break;
+                    case "Complete":
+                        query = query.Where(x => x.Status == Data.Enums.OrderStatus.Canceled);
+                        break;
+                    default:
+                        break;
+                }
+            }
             var orders = await query.Select(x => new OrderViewModel()
             {
                 ID = x.ID,

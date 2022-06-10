@@ -48,7 +48,6 @@ import { NewListComponent } from './new-list/new-list.component';
     HotListComponent,
     NewListComponent,
     
-    
   ],
   imports: [
     BrowserModule,

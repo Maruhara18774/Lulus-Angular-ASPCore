@@ -1,42 +1,45 @@
 import { BasicResponse } from "../model/common/basicResponse";
-import { GetAllOrderRequest } from "../model/order/getAllOrderRequest";
+import { AddFavoriteProductRequest } from "../model/favoriteProduct/addFavoriteProductRequest";
+import { GetAllFavoriteProductRequest } from "../model/favoriteProduct/getAllFavoriteProductRequest";
+import { UploadFeedbackRequest } from "../model/product/uploadFeedbackRequest";
 
-export class OrderApi{
-    url = "https://localhost:44354/api/Order";
+export class FavoriteProductApi{
+    url = "https://localhost:44354/api/FavoriteProduct";
 
     constructor(){}
 
-    async getAll(body: GetAllOrderRequest){
-        var currentURL = this.url;
-        return await fetch(currentURL,{
+    async create(body: AddFavoriteProductRequest){
+        return await fetch(this.url + "/Create",{
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
               },
-              body: JSON.stringify(body)
+            body: JSON.stringify(body)
         }).then(async response => {
             return new BasicResponse(response.status,await response.json());
         });
     }
-    async get(id: number){
-        return await fetch(this.url+"/"+id.toString(),{
-            method: 'GET',
+    async remove(body: AddFavoriteProductRequest){
+        return await fetch(this.url +"/Remove",{
+            method: 'POST',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
-              }
+              },
+            body: JSON.stringify(body)
         }).then(async response => {
             return new BasicResponse(response.status,await response.json());
         });
     }
-    async cancel(id: number){
-        return await fetch(this.url+"/Cancel/"+id.toString(),{
-            method: 'GET',
+    async get(body: GetAllFavoriteProductRequest){
+        return await fetch(this.url+"/Get",{
+            method: 'POST',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
-              }
+              },
+            body: JSON.stringify(body)
         }).then(async response => {
             return new BasicResponse(response.status,await response.json());
         });

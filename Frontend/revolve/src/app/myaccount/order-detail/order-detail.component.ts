@@ -30,7 +30,13 @@ export class OrderDetailComponent implements OnInit {
     var result = await api.get(this.id);
     if(result.status == 200){
       this.order = this.orderService.convertJSONtoOrder(result.body);
-      console.log(this.order);
+    }
+  }
+  async cancelOrder(){
+    var api = new OrderApi();
+    var result = await api.cancel(this.id);
+    if(result.status == 200){
+      await this.loadOrder();
     }
   }
 }

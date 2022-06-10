@@ -9,6 +9,8 @@ import { Designer } from '../model/Designer';
 import { GetFilterProductPagingRequest } from '../model/product/getFilterProductPagingRequest';
 import { CartApi } from '../api/cartApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
+import { FavoriteProductApi } from '../api/favoriteProductApi';
+import { AddFavoriteProductRequest } from '../model/favoriteProduct/addFavoriteProductRequest';
 
 @Component({
   selector: 'app-product-list',
@@ -90,6 +92,22 @@ export class ProductListComponent implements OnInit {
     }
     if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
       alert("Please login.");
+    }
+  }
+  async addFavorite(productID: number){
+    if(!(localStorage.getItem('token') != undefined && localStorage.getItem('token') != null)){
+      alert("Please login.");
+    }
+    else{
+      var api = new FavoriteProductApi();
+      var token = localStorage.getItem('token')!.toString();
+      var result = await api.create(new AddFavoriteProductRequest(token,productID));
+      if(result.status == 200){
+        alert("Added");
+      }
+      else{
+        alert(result.body);
+      }
     }
   }
 }

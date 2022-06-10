@@ -10,12 +10,13 @@
                     <div class="d-flex justify-content-end pb-3">
                         <div class="form-inline">
                             <label class="text-muted mr-3" for="order-sort">Sort Orders</label>
-                            <select class="form-control" id="order-sort">
+                            <select class="form-control" id="order-sort" (change)="selectTypeOrder($event)">
                                 <option>All</option>
-                                <option>Delivered</option>
-                                <option>In Progress</option>
-                                <option>Delayed</option>
+                                <option>Accepted</option>
+                                <option>Deny</option>
                                 <option>Canceled</option>
+                                <option>Shipping</option>
+                                <option>Complete</option>
                             </select>
                         </div>
                     </div>
