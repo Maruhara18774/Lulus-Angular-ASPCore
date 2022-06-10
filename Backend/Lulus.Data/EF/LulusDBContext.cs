@@ -64,5 +64,8 @@ namespace Lulus.Data.EF
         public DbSet<Sale> Sales { get; set; }
         public DbSet<Subcategory> Subcategories { get; set; }
         public DbSet<Texture> Textures { get; set; }
+        public DbSet<FavoriteDesigner> FavoriteDesigners { get; set; }
+        public DbSet<FavoriteProduct> FavoriteProducts { get; set; }
+        public DbSet<FavoriteSubcategory> FavoriteSubcategories { get; set; }
     }
 }
