@@ -25,22 +25,15 @@
                         <div class="accordion" id="accordionExample">
                             <div class="card">
                                 <div class="card-heading">
-                                    <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
+                                    <a data-toggle="collapse" data-target="#collapseTwo">Categories</a>
                                 </div>
-                                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <div class="shop__sidebar__categories">
-                                            <ul class="nice-scroll">
-                                                <li>
-                                                    <a href="{{baseURL}}/product/{{cate.id}}"
-                                                        *ngFor="let cate of cateList;">
-                                                <li>
-                                                    {{cate.name}}
+                                        <div class="shop__sidebar__brand">
+                                            <ul>
+                                                <li *ngFor="let cate of cateList;">
+                                                    <a href="{{baseURL}}/product/{{cate.id}}">{{cate.name}}</a>
                                                 </li>
-                                                </a>
-                                                </li>
-
-
                                             </ul>
                                         </div>
                                     </div>

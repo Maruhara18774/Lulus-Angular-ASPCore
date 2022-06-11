@@ -25,6 +25,7 @@ export class ProductDetailComponent implements OnInit {
   currentSize: number = 0;
   currentLineIndex: number = 0;
   token: String = "";
+  currentImage: number = 0;
 
 
   constructor(private route: ActivatedRoute, private router: Router, private productService:ProductService) { }
@@ -98,6 +99,22 @@ export class ProductDetailComponent implements OnInit {
       else{
         alert(result.body);
       }
+    }
+  }
+  nextImage(){
+    if(this.currentImage + 1 == this.product.productLines[this.currentLineIndex].images.length){
+      this.currentImage = 0;
+    }
+    else{
+      this.currentImage = this.currentImage + 1;
+    }
+  }
+  prevImage(){
+    if(this.currentImage - 1 == -1){
+      this.currentImage = this.product.productLines[this.currentLineIndex].images.length - 1;
+    }
+    else{
+      this.currentImage = this.currentImage - 1;
     }
   }
 }

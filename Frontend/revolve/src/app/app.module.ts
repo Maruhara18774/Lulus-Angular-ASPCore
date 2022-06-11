@@ -23,6 +23,8 @@ import { AboutComponent } from './about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HotListComponent } from './hot-list/hot-list.component';
 import { NewListComponent } from './new-list/new-list.component';
+import { FilterbarCategoryComponent } from './component/filterbar-category/filterbar-category.component';
+import { FilterbarProductComponent } from './component/filterbar-product/filterbar-product.component';
 
 
 
@@ -47,6 +49,8 @@ import { NewListComponent } from './new-list/new-list.component';
     CheckoutComponent,
     HotListComponent,
     NewListComponent,
+    FilterbarCategoryComponent,
+    FilterbarProductComponent,
     
   ],
   imports: [

@@ -1,0 +1,21 @@
+<div class="shop__sidebar__accordion">
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-heading">
+                <a data-toggle="collapse" data-target="#collapseTwo">Categories</a>
+            </div>
+            <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="shop__sidebar__brand">
+                        <ul>
+                            <li *ngFor="let cate of cateList;">
+                                <a href="{{baseURL}}/product/{{cate.id}}">{{cate.name}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
