@@ -96,9 +96,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 493, DateTimeKind.Local).AddTicks(3959),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 159, DateTimeKind.Local).AddTicks(7569),
                             Name = "Activewear",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2179),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(6169),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -106,9 +106,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2915),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7589),
                             Name = "Denim",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2919),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7594),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -116,9 +116,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2921),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7596),
                             Name = "Dresses",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2922),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7597),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -126,9 +126,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2923),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7598),
                             Name = "Jackets & Coats",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2924),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7599),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -136,9 +136,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 5,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2925),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7601),
                             Name = "Jumpsuits",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2926),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7602),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -146,9 +146,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 6,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2928),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7603),
                             Name = "Leather",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2929),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7604),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -156,9 +156,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 7,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2930),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7606),
                             Name = "Lingerie & Sleepwear",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2931),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7607),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -166,9 +166,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 8,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2932),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7608),
                             Name = "Loungewear",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2933),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7609),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -176,9 +176,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 9,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2935),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7610),
                             Name = "Pants",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2936),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7611),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -186,9 +186,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 10,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2937),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7613),
                             Name = "Rompers",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2938),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7613),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -196,9 +196,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 11,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2939),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7615),
                             Name = "Shorts",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2940),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7616),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -206,9 +206,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 12,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2942),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7725),
                             Name = "Skirts",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2943),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7726),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -216,9 +216,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 13,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2944),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7728),
                             Name = "Sweaters & Knits",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2945),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7729),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -226,9 +226,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 14,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2947),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7731),
                             Name = "Swimsuits & Cover-Ups",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2948),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7732),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -236,9 +236,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 15,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2949),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7733),
                             Name = "Tops",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(2950),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 160, DateTimeKind.Local).AddTicks(7734),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -284,9 +284,9 @@ namespace Lulus.Data.Migrations
                             ID = 1,
                             Active = true,
                             CountryID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(9871),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(7258),
                             Name = "Can Tho",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(9876),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(7264),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -295,9 +295,9 @@ namespace Lulus.Data.Migrations
                             ID = 2,
                             Active = true,
                             CountryID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(345),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8111),
                             Name = "Da Nang",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(348),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8117),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -306,9 +306,9 @@ namespace Lulus.Data.Migrations
                             ID = 3,
                             Active = true,
                             CountryID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(350),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8119),
                             Name = "Hai Phong",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(351),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8120),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -317,9 +317,9 @@ namespace Lulus.Data.Migrations
                             ID = 4,
                             Active = true,
                             CountryID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(353),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8122),
                             Name = "Hanoi",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(354),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8123),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -328,9 +328,9 @@ namespace Lulus.Data.Migrations
                             ID = 5,
                             Active = true,
                             CountryID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(355),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8124),
                             Name = "Ho Chi Minh",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(356),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8125),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -339,9 +339,9 @@ namespace Lulus.Data.Migrations
                             ID = 6,
                             Active = true,
                             CountryID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(357),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8127),
                             Name = "Hong Kong",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(358),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8128),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -350,9 +350,9 @@ namespace Lulus.Data.Migrations
                             ID = 7,
                             Active = true,
                             CountryID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(360),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8129),
                             Name = "Ma Cau",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(361),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8130),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -361,9 +361,9 @@ namespace Lulus.Data.Migrations
                             ID = 8,
                             Active = true,
                             CountryID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(362),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8132),
                             Name = "Beijing",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(363),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8133),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -372,9 +372,9 @@ namespace Lulus.Data.Migrations
                             ID = 9,
                             Active = true,
                             CountryID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(365),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8134),
                             Name = "Shanghai",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(366),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8135),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -383,9 +383,9 @@ namespace Lulus.Data.Migrations
                             ID = 10,
                             Active = true,
                             CountryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(367),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8137),
                             Name = "New York",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(368),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8138),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -394,9 +394,9 @@ namespace Lulus.Data.Migrations
                             ID = 11,
                             Active = true,
                             CountryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(370),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8139),
                             Name = "Los Angeles",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(371),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(8140),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -436,9 +436,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(4855),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(359),
                             Name = "Vietnam",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(4861),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(365),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -446,9 +446,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(5118),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(810),
                             Name = "China",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(5120),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(814),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -456,9 +456,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(5122),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(816),
                             Name = "America",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(5123),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(817),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -501,9 +501,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(7783),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(5718),
                             Name = "ELLIATT",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(7789),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(5724),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -511,9 +511,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8045),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6167),
                             Name = "Sabina Musayev",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8048),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6171),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -521,9 +521,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8050),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6173),
                             Name = "krisa",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8051),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6174),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -531,9 +531,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8052),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6175),
                             Name = "Michael Costello",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8053),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6176),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -541,9 +541,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 5,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8056),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6178),
                             Name = "AFRM",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8057),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6179),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -551,9 +551,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 6,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8058),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6180),
                             Name = "Amanda Uprichard",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8059),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6181),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -561,9 +561,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 7,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8060),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6183),
                             Name = "SOLACE London",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8061),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6184),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -571,9 +571,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 8,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8124),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6185),
                             Name = "retrofete",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8125),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6186),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -581,9 +581,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 9,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8127),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6188),
                             Name = "ASTR the Label",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8128),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6189),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -591,9 +591,139 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 10,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8129),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6190),
                             Name = "ALLSAINTS",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(8130),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6191),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 11,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6192),
+                            Name = "LAMARQUE",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6193),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 12,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6195),
+                            Name = "Helmut Lang",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6196),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 13,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6198),
+                            Name = "LPA",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6199),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 14,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6200),
+                            Name = "SPRWMN",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6201),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 15,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6203),
+                            Name = "Understated Leather",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6204),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 16,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6205),
+                            Name = "Indah",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6206),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 17,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6207),
+                            Name = "Enza Costa",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6208),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 18,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6210),
+                            Name = "Nookie",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6211),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 19,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6212),
+                            Name = "Lovers and Friends",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6213),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 20,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6215),
+                            Name = "COTTON CITIZEN",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6215),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 21,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6217),
+                            Name = "Brochu Walker",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6218),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 22,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6219),
+                            Name = "Cult Gaia",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6220),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 23,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6222),
+                            Name = "VALENTINA SHAH",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(6223),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -640,9 +770,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3050),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(1580),
                             DesignerID = 2,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3056),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(1590),
                             UserID = new Guid("61ae2038-97f2-45e5-91ae-08d961fa9be8"),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
@@ -651,9 +781,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3763),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2565),
                             DesignerID = 3,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3767),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2571),
                             UserID = new Guid("61ae2038-97f2-45e5-91ae-08d961fa9be8"),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
@@ -662,9 +792,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3776),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2580),
                             DesignerID = 5,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3777),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2581),
                             UserID = new Guid("61ae2038-97f2-45e5-91ae-08d961fa9be8"),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
@@ -673,9 +803,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3781),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2585),
                             DesignerID = 7,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3782),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2586),
                             UserID = new Guid("61ae2038-97f2-45e5-91ae-08d961fa9be8"),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
@@ -684,9 +814,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 5,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3785),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2589),
                             DesignerID = 9,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 496, DateTimeKind.Local).AddTicks(3786),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(2590),
                             UserID = new Guid("61ae2038-97f2-45e5-91ae-08d961fa9be8"),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
@@ -849,9 +979,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(9857),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8382),
                             Name = "To A Special Event",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 494, DateTimeKind.Local).AddTicks(9863),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8388),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -859,9 +989,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(118),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8820),
                             Name = "On Vacation",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(121),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8823),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -869,9 +999,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(123),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8826),
                             Name = "For A Night Out",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(124),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8827),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -879,9 +1009,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(126),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8828),
                             Name = "On The Weekend",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(127),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 161, DateTimeKind.Local).AddTicks(8829),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -1038,7 +1168,7 @@ namespace Lulus.Data.Migrations
                             ID = 1,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(278),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(3172),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 1,
                             LengthState = 2,
@@ -1046,7 +1176,7 @@ namespace Lulus.Data.Migrations
                             Price = 187.0,
                             SleeveLengthState = 2,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(284),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(3181),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1055,7 +1185,7 @@ namespace Lulus.Data.Migrations
                             ID = 2,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2769),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7410),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 2,
                             LengthState = 3,
@@ -1063,7 +1193,7 @@ namespace Lulus.Data.Migrations
                             Price = 232.0,
                             SleeveLengthState = 0,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2774),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7417),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1072,7 +1202,7 @@ namespace Lulus.Data.Migrations
                             ID = 3,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2779),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7422),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 3,
                             LengthState = 0,
@@ -1080,7 +1210,7 @@ namespace Lulus.Data.Migrations
                             Price = 216.0,
                             SleeveLengthState = 1,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2780),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7423),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1089,7 +1219,7 @@ namespace Lulus.Data.Migrations
                             ID = 4,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2782),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7426),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 4,
                             LengthState = 2,
@@ -1097,7 +1227,7 @@ namespace Lulus.Data.Migrations
                             Price = 198.0,
                             SleeveLengthState = 2,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2783),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7427),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1106,7 +1236,7 @@ namespace Lulus.Data.Migrations
                             ID = 5,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2786),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7429),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 5,
                             LengthState = 2,
@@ -1114,7 +1244,7 @@ namespace Lulus.Data.Migrations
                             Price = 88.0,
                             SleeveLengthState = 0,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2787),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7430),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1123,7 +1253,7 @@ namespace Lulus.Data.Migrations
                             ID = 6,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2789),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7432),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 6,
                             LengthState = 2,
@@ -1131,7 +1261,7 @@ namespace Lulus.Data.Migrations
                             Price = 290.0,
                             SleeveLengthState = 3,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2790),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7433),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1140,7 +1270,7 @@ namespace Lulus.Data.Migrations
                             ID = 7,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2792),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7435),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 7,
                             LengthState = 0,
@@ -1148,7 +1278,7 @@ namespace Lulus.Data.Migrations
                             Price = 527.0,
                             SleeveLengthState = 3,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2793),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7436),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1157,7 +1287,7 @@ namespace Lulus.Data.Migrations
                             ID = 8,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2795),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7438),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 8,
                             LengthState = 3,
@@ -1165,7 +1295,7 @@ namespace Lulus.Data.Migrations
                             Price = 895.0,
                             SleeveLengthState = 2,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2796),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7439),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1174,7 +1304,7 @@ namespace Lulus.Data.Migrations
                             ID = 9,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2798),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7441),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 9,
                             LengthState = 2,
@@ -1182,7 +1312,7 @@ namespace Lulus.Data.Migrations
                             Price = 128.0,
                             SleeveLengthState = 2,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2799),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7442),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1191,7 +1321,7 @@ namespace Lulus.Data.Migrations
                             ID = 10,
                             Active = true,
                             CategoryID = 3,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2801),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7444),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 8,
                             LengthState = 2,
@@ -1199,7 +1329,7 @@ namespace Lulus.Data.Migrations
                             Price = 795.0,
                             SleeveLengthState = 2,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2802),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7445),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1208,7 +1338,7 @@ namespace Lulus.Data.Migrations
                             ID = 11,
                             Active = true,
                             CategoryID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2804),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7447),
                             Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
                             DesignerID = 10,
                             LengthState = 3,
@@ -1216,7 +1346,330 @@ namespace Lulus.Data.Migrations
                             Price = 659.0,
                             SleeveLengthState = 0,
                             Status = 0,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(2805),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7448),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 12,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7450),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 11,
+                            LengthState = 0,
+                            Name = "x REVOLVE Dylan Jacket",
+                            Price = 295.0,
+                            SleeveLengthState = 0,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7451),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 13,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7454),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 11,
+                            LengthState = 0,
+                            Name = "Donna Jacket",
+                            Price = 546.0,
+                            SleeveLengthState = 0,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7455),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 14,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7457),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 12,
+                            LengthState = 0,
+                            Name = "Slit Leather Pant",
+                            Price = 995.0,
+                            SleeveLengthState = 0,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7458),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 15,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7460),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 13,
+                            LengthState = 0,
+                            Name = "Carmella Leather Corset",
+                            Price = 209.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7461),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 16,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7463),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 11,
+                            LengthState = 2,
+                            Name = "Ilonna Dress",
+                            Price = 693.0,
+                            SleeveLengthState = 0,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7464),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 17,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7516),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 14,
+                            LengthState = 0,
+                            Name = "Ankle Legging With Zipper",
+                            Price = 1250.0,
+                            SleeveLengthState = 0,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7517),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 18,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7520),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 15,
+                            LengthState = 0,
+                            Name = "X REVOLVE Paris Texas Full Skirt",
+                            Price = 242.0,
+                            SleeveLengthState = 0,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7521),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 19,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7523),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 11,
+                            LengthState = 0,
+                            Name = "X REVOLVE Paris Texas Full Skirt",
+                            Price = 242.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7524),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 20,
+                            Active = true,
+                            CategoryID = 2,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7526),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 11,
+                            LengthState = 0,
+                            Name = "Davina Leather Corset",
+                            Price = 319.0,
+                            SleeveLengthState = 0,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7527),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 21,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7530),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 16,
+                            LengthState = 2,
+                            Name = "Gigi Maxi Skirt",
+                            Price = 101.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7531),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 22,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7533),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 6,
+                            LengthState = 0,
+                            Name = "x REVOLVE Mini Ludlow Slit Skirt",
+                            Price = 207.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7534),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 23,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7536),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 17,
+                            LengthState = 2,
+                            Name = "Stretch Silk Knit Essential Skirt",
+                            Price = 145.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7537),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 24,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7539),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 18,
+                            LengthState = 2,
+                            Name = "Alyssa Chain Skirt",
+                            Price = 199.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7540),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 25,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7542),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 19,
+                            LengthState = 0,
+                            Name = "Carlita Skirt",
+                            Price = 138.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7543),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 26,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7545),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 20,
+                            LengthState = 2,
+                            Name = "Capri Cut Out Midi Skirt",
+                            Price = 195.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7546),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 27,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7548),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 21,
+                            LengthState = 2,
+                            Name = "Havana Skirt",
+                            Price = 278.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7549),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 28,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7551),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 22,
+                            LengthState = 2,
+                            Name = "Samira Skirt",
+                            Price = 258.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7552),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 29,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7554),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 23,
+                            LengthState = 0,
+                            Name = "Stella Skirt",
+                            Price = 455.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7555),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 30,
+                            Active = true,
+                            CategoryID = 3,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7557),
+                            Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                            DesignerID = 18,
+                            LengthState = 2,
+                            Name = "Aria Skirt",
+                            Price = 169.0,
+                            SleeveLengthState = 2,
+                            Status = 0,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 166, DateTimeKind.Local).AddTicks(7558),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -1261,10 +1714,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8018),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(735),
                             Image = "Images/Product/Product1/Line1/1.webp",
                             ProductLineID = 1,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8034),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(746),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1272,10 +1725,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8556),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1620),
                             Image = "Images/Product/Product1/Line1/2.webp",
                             ProductLineID = 1,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8559),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1626),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1283,10 +1736,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8563),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1631),
                             Image = "Images/Product/Product1/Line1/3.webp",
                             ProductLineID = 1,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8564),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1632),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1294,10 +1747,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8566),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1634),
                             Image = "Images/Product/Product1/Line2/1.webp",
                             ProductLineID = 2,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8567),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1635),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1305,10 +1758,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 5,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8568),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1637),
                             Image = "Images/Product/Product1/Line2/2.webp",
                             ProductLineID = 2,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8569),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1638),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1316,10 +1769,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 6,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8571),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1639),
                             Image = "Images/Product/Product1/Line2/3.webp",
                             ProductLineID = 2,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8572),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1640),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1327,10 +1780,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 7,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8574),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1642),
                             Image = "Images/Product/Product1/Line3/1.webp",
                             ProductLineID = 3,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8575),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1643),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1338,10 +1791,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 8,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8576),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1645),
                             Image = "Images/Product/Product1/Line3/2.webp",
                             ProductLineID = 3,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8577),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1646),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1349,10 +1802,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 9,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8579),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1648),
                             Image = "Images/Product/Product1/Line3/3.webp",
                             ProductLineID = 3,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8580),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1649),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1360,10 +1813,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 10,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8582),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1650),
                             Image = "Images/Product/Product2/Line1/1.webp",
                             ProductLineID = 4,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8583),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1651),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1371,10 +1824,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 11,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8584),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1653),
                             Image = "Images/Product/Product2/Line1/2.webp",
                             ProductLineID = 4,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8585),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1654),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1382,10 +1835,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 12,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8587),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1656),
                             Image = "Images/Product/Product2/Line1/3.webp",
                             ProductLineID = 4,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8588),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1657),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1393,10 +1846,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 13,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8590),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1659),
                             Image = "Images/Product/Product2/Line1/4.jpg",
                             ProductLineID = 4,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8591),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1660),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1404,10 +1857,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 14,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8593),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1662),
                             Image = "Images/Product/Product2/Line2/1.webp",
                             ProductLineID = 5,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8594),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1663),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1415,10 +1868,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 15,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8596),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1664),
                             Image = "Images/Product/Product2/Line2/2.webp",
                             ProductLineID = 5,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8597),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1665),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1426,10 +1879,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 16,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8599),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1667),
                             Image = "Images/Product/Product2/Line2/3.webp",
                             ProductLineID = 5,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8600),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1668),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1437,10 +1890,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 17,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8602),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1670),
                             Image = "Images/Product/Product2/Line2/4.webp",
                             ProductLineID = 5,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8603),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1671),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1448,10 +1901,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 18,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8604),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1672),
                             Image = "Images/Product/Product3/Line1/1.webp",
                             ProductLineID = 6,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8605),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1673),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1459,10 +1912,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 19,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8607),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1675),
                             Image = "Images/Product/Product3/Line1/2.webp",
                             ProductLineID = 6,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8608),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1676),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1470,10 +1923,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 20,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8610),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1678),
                             Image = "Images/Product/Product3/Line1/3.webp",
                             ProductLineID = 6,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8611),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1679),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1481,10 +1934,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 21,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8612),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1680),
                             Image = "Images/Product/Product3/Line2/1.webp",
                             ProductLineID = 7,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8613),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1681),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1492,10 +1945,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 22,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8615),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1731),
                             Image = "Images/Product/Product3/Line2/2.webp",
                             ProductLineID = 7,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8616),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1732),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1503,10 +1956,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 23,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8618),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1734),
                             Image = "Images/Product/Product3/Line2/3.webp",
                             ProductLineID = 7,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8619),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1735),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1514,10 +1967,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 24,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8620),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1737),
                             Image = "Images/Product/Product3/Line3/1.webp",
                             ProductLineID = 8,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8621),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1738),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1525,10 +1978,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 25,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8676),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1740),
                             Image = "Images/Product/Product3/Line3/2.webp",
                             ProductLineID = 8,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8677),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1741),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1536,10 +1989,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 26,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8679),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1743),
                             Image = "Images/Product/Product3/Line3/3.webp",
                             ProductLineID = 8,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8680),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1744),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1547,10 +2000,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 27,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8682),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1745),
                             Image = "Images/Product/Product4/Line1/1.webp",
                             ProductLineID = 9,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8683),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1746),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1558,10 +2011,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 28,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8685),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1748),
                             Image = "Images/Product/Product4/Line1/2.webp",
                             ProductLineID = 9,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8686),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1749),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1569,10 +2022,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 29,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8688),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1751),
                             Image = "Images/Product/Product4/Line1/3.webp",
                             ProductLineID = 9,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8689),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1752),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1580,10 +2033,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 30,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8690),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1754),
                             Image = "Images/Product/Product4/Line2/1.webp",
                             ProductLineID = 10,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8691),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1755),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1591,10 +2044,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 31,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8693),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1756),
                             Image = "Images/Product/Product4/Line2/2.webp",
                             ProductLineID = 10,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8694),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1757),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1602,10 +2055,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 32,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8696),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1759),
                             Image = "Images/Product/Product4/Line2/3.webp",
                             ProductLineID = 10,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8697),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1760),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1613,10 +2066,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 33,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8698),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1762),
                             Image = "Images/Product/Product5/Line1/1.webp",
                             ProductLineID = 11,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8699),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1763),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1624,10 +2077,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 34,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8701),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1765),
                             Image = "Images/Product/Product5/Line1/2.webp",
                             ProductLineID = 11,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8702),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1766),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1635,10 +2088,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 35,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8704),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1767),
                             Image = "Images/Product/Product5/Line1/3.webp",
                             ProductLineID = 11,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8705),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1768),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1646,10 +2099,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 36,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8707),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1770),
                             Image = "Images/Product/Product5/Line2/1.webp",
                             ProductLineID = 12,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8708),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1771),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1657,10 +2110,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 37,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8709),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1773),
                             Image = "Images/Product/Product5/Line2/2.webp",
                             ProductLineID = 12,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8710),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1774),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1668,10 +2121,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 38,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8712),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1776),
                             Image = "Images/Product/Product5/Line2/3.webp",
                             ProductLineID = 12,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8713),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1777),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1679,10 +2132,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 39,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8715),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1778),
                             Image = "Images/Product/Product6/Line1/1.webp",
                             ProductLineID = 13,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8716),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1779),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1690,10 +2143,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 40,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8718),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1781),
                             Image = "Images/Product/Product6/Line1/2.webp",
                             ProductLineID = 13,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8719),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1782),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1701,10 +2154,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 41,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8720),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1784),
                             Image = "Images/Product/Product6/Line1/3.webp",
                             ProductLineID = 13,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8721),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1785),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1712,10 +2165,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 42,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8723),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1787),
                             Image = "Images/Product/Product6/Line1/4.webp",
                             ProductLineID = 13,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8724),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1787),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1723,10 +2176,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 43,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8726),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1789),
                             Image = "Images/Product/Product6/Line1/5.webp",
                             ProductLineID = 13,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8727),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1790),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1734,10 +2187,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 44,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8729),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1792),
                             Image = "Images/Product/Product6/Line2/1.webp",
                             ProductLineID = 14,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8730),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1793),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1745,10 +2198,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 45,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8731),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1795),
                             Image = "Images/Product/Product6/Line2/2.webp",
                             ProductLineID = 14,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8732),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1796),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1756,10 +2209,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 46,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8734),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1798),
                             Image = "Images/Product/Product6/Line2/3.webp",
                             ProductLineID = 14,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8735),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1798),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1767,10 +2220,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 47,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8737),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1800),
                             Image = "Images/Product/Product6/Line2/4.webp",
                             ProductLineID = 14,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8738),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1801),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1778,10 +2231,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 48,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8740),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1803),
                             Image = "Images/Product/Product7/Line1/1.webp",
                             ProductLineID = 15,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8741),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1804),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1789,10 +2242,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 49,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8742),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1806),
                             Image = "Images/Product/Product7/Line1/2.webp",
                             ProductLineID = 15,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8743),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1807),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1800,10 +2253,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 50,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8745),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1808),
                             Image = "Images/Product/Product7/Line1/3.webp",
                             ProductLineID = 15,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8746),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1809),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1811,10 +2264,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 51,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8748),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1811),
                             Image = "Images/Product/Product7/Line2/1.jpg",
                             ProductLineID = 16,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8749),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1812),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1822,10 +2275,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 52,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8751),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1814),
                             Image = "Images/Product/Product7/Line2/2.webp",
                             ProductLineID = 16,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8752),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1815),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1833,10 +2286,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 53,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8753),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1817),
                             Image = "Images/Product/Product7/Line2/3.webp",
                             ProductLineID = 16,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8754),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1818),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1844,10 +2297,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 54,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8756),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1820),
                             Image = "Images/Product/Product8/Line1/1.webp",
                             ProductLineID = 17,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8757),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1821),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1855,10 +2308,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 55,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8759),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1822),
                             Image = "Images/Product/Product8/Line1/2.webp",
                             ProductLineID = 17,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8760),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1823),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1866,10 +2319,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 56,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8762),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1825),
                             Image = "Images/Product/Product8/Line1/3.webp",
                             ProductLineID = 17,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8763),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1826),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1877,10 +2330,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 57,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8764),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1828),
                             Image = "Images/Product/Product8/Line1/4.webp",
                             ProductLineID = 17,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8765),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1829),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1888,10 +2341,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 58,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8767),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1831),
                             Image = "Images/Product/Product8/Line2/1.webp",
                             ProductLineID = 18,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8768),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1832),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1899,10 +2352,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 59,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8770),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1833),
                             Image = "Images/Product/Product8/Line2/2.webp",
                             ProductLineID = 18,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8771),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1834),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1910,10 +2363,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 60,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8773),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1836),
                             Image = "Images/Product/Product8/Line2/3.webp",
                             ProductLineID = 18,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8774),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1837),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1921,10 +2374,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 61,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8775),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1839),
                             Image = "Images/Product/Product8/Line2/4.webp",
                             ProductLineID = 18,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8776),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1840),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1932,10 +2385,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 62,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8778),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1842),
                             Image = "Images/Product/Product8/Line2/5.jpg",
                             ProductLineID = 18,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8779),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1843),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1943,10 +2396,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 63,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8781),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1845),
                             Image = "Images/Product/Product9/Line1/1.webp",
                             ProductLineID = 19,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8782),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1846),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1954,10 +2407,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 64,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8783),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1848),
                             Image = "Images/Product/Product9/Line1/2.webp",
                             ProductLineID = 19,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8784),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1849),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1965,10 +2418,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 65,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8786),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1887),
                             Image = "Images/Product/Product9/Line1/3.webp",
                             ProductLineID = 19,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8787),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1888),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1976,10 +2429,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 66,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8789),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1890),
                             Image = "Images/Product/Product9/Line2/1.webp",
                             ProductLineID = 20,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8790),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1891),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1987,10 +2440,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 67,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8791),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1894),
                             Image = "Images/Product/Product9/Line2/2.webp",
                             ProductLineID = 20,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8792),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1895),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -1998,10 +2451,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 68,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8831),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1897),
                             Image = "Images/Product/Product9/Line2/3.webp",
                             ProductLineID = 20,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8832),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1898),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2009,10 +2462,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 69,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8834),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1900),
                             Image = "Images/Product/Product10/Line1/1.webp",
                             ProductLineID = 21,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8835),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1901),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2020,10 +2473,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 70,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8837),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1903),
                             Image = "Images/Product/Product10/Line1/2.webp",
                             ProductLineID = 21,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8838),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1904),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2031,10 +2484,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 71,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8839),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1905),
                             Image = "Images/Product/Product10/Line1/3.webp",
                             ProductLineID = 21,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8840),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1906),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2042,10 +2495,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 72,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8842),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1908),
                             Image = "Images/Product/Product10/Line1/4.webp",
                             ProductLineID = 21,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8843),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1909),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2053,10 +2506,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 73,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8845),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1911),
                             Image = "Images/Product/Product10/Line2/1.webp",
                             ProductLineID = 22,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8846),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1912),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2064,10 +2517,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 74,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8848),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1914),
                             Image = "Images/Product/Product10/Line2/2.webp",
                             ProductLineID = 22,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8849),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1915),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2075,10 +2528,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 75,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8850),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1916),
                             Image = "Images/Product/Product10/Line2/3.webp",
                             ProductLineID = 22,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8851),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1917),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2086,10 +2539,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 76,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8853),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1919),
                             Image = "Images/Product/Product10/Line2/4.webp",
                             ProductLineID = 22,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 499, DateTimeKind.Local).AddTicks(8854),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 170, DateTimeKind.Local).AddTicks(1920),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2097,10 +2550,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 77,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1143),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(337),
                             Image = "Images/Product/Product11/Line1/1.webp",
                             ProductLineID = 23,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1148),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(352),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2108,10 +2561,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 78,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1154),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(362),
                             Image = "Images/Product/Product11/Line1/2.webp",
                             ProductLineID = 23,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1156),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(363),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2119,10 +2572,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 79,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1158),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(365),
                             Image = "Images/Product/Product11/Line1/3.webp",
                             ProductLineID = 23,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1159),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(366),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2130,10 +2583,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 80,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1161),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(368),
                             Image = "Images/Product/Product11/Line1/4.webp",
                             ProductLineID = 23,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1162),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(369),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2141,10 +2594,2012 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 81,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1163),
-                            Image = "Images/Product/Product11/Line1/5.webp",
-                            ProductLineID = 23,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 500, DateTimeKind.Local).AddTicks(1164),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(370),
+                            Image = "Images/Product/Product12/Line1/1.webp",
+                            ProductLineID = 24,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(371),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 82,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(374),
+                            Image = "Images/Product/Product12/Line1/2.webp",
+                            ProductLineID = 24,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(375),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 83,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(377),
+                            Image = "Images/Product/Product12/Line1/3.webp",
+                            ProductLineID = 24,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(378),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 84,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(380),
+                            Image = "Images/Product/Product12/Line1/4.webp",
+                            ProductLineID = 24,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(381),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 85,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(383),
+                            Image = "Images/Product/Product12/Line2/1.webp",
+                            ProductLineID = 25,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(384),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 86,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(385),
+                            Image = "Images/Product/Product12/Line2/2.webp",
+                            ProductLineID = 25,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(386),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 87,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(388),
+                            Image = "Images/Product/Product12/Line2/3.webp",
+                            ProductLineID = 25,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(389),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 88,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(391),
+                            Image = "Images/Product/Product12/Line2/4.webp",
+                            ProductLineID = 25,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(392),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 89,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(394),
+                            Image = "Images/Product/Product12/Line3/1.webp",
+                            ProductLineID = 26,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(395),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 90,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(396),
+                            Image = "Images/Product/Product12/Line3/2.webp",
+                            ProductLineID = 26,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(397),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 91,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(399),
+                            Image = "Images/Product/Product12/Line3/3.webp",
+                            ProductLineID = 26,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(400),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 92,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(402),
+                            Image = "Images/Product/Product12/Line3/4.webp",
+                            ProductLineID = 26,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(403),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 93,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(404),
+                            Image = "Images/Product/Product12/Line4/1.webp",
+                            ProductLineID = 27,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(405),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 94,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(407),
+                            Image = "Images/Product/Product12/Line4/2.webp",
+                            ProductLineID = 27,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(408),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 95,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(410),
+                            Image = "Images/Product/Product12/Line4/3.webp",
+                            ProductLineID = 27,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(411),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 96,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(413),
+                            Image = "Images/Product/Product12/Line4/4.webp",
+                            ProductLineID = 27,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(414),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 97,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(415),
+                            Image = "Images/Product/Product12/Line4/5.webp",
+                            ProductLineID = 27,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(416),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 98,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(418),
+                            Image = "Images/Product/Product12/Line5/1.webp",
+                            ProductLineID = 28,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(419),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 99,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(421),
+                            Image = "Images/Product/Product12/Line5/2.webp",
+                            ProductLineID = 28,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(422),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 100,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(457),
+                            Image = "Images/Product/Product12/Line5/3.webp",
+                            ProductLineID = 28,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(458),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 101,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(460),
+                            Image = "Images/Product/Product12/Line5/4.webp",
+                            ProductLineID = 28,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(461),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 102,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(463),
+                            Image = "Images/Product/Product13/Line1/1.webp",
+                            ProductLineID = 29,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(464),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 103,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(466),
+                            Image = "Images/Product/Product13/Line1/2.webp",
+                            ProductLineID = 29,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(467),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 104,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(469),
+                            Image = "Images/Product/Product13/Line1/3.webp",
+                            ProductLineID = 29,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(470),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 105,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(471),
+                            Image = "Images/Product/Product13/Line1/4.webp",
+                            ProductLineID = 29,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(472),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 106,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(474),
+                            Image = "Images/Product/Product13/Line1/5.webp",
+                            ProductLineID = 29,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(475),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 107,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(477),
+                            Image = "Images/Product/Product13/Line2/1.webp",
+                            ProductLineID = 30,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(478),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 108,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(480),
+                            Image = "Images/Product/Product13/Line2/2.webp",
+                            ProductLineID = 30,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(481),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 109,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(482),
+                            Image = "Images/Product/Product13/Line2/3.webp",
+                            ProductLineID = 30,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(483),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 110,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(485),
+                            Image = "Images/Product/Product13/Line2/4.webp",
+                            ProductLineID = 30,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(486),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 111,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(488),
+                            Image = "Images/Product/Product13/Line2/5.webp",
+                            ProductLineID = 30,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(489),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 112,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(491),
+                            Image = "Images/Product/Product13/Line3/1.webp",
+                            ProductLineID = 31,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(492),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 113,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(493),
+                            Image = "Images/Product/Product13/Line3/2.webp",
+                            ProductLineID = 31,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(494),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 114,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(496),
+                            Image = "Images/Product/Product13/Line3/3.webp",
+                            ProductLineID = 31,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(497),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 115,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(499),
+                            Image = "Images/Product/Product13/Line3/4.webp",
+                            ProductLineID = 31,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(500),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 116,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(501),
+                            Image = "Images/Product/Product14/Line1/1.webp",
+                            ProductLineID = 32,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(502),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 117,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(504),
+                            Image = "Images/Product/Product14/Line1/2.webp",
+                            ProductLineID = 32,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(505),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 118,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(507),
+                            Image = "Images/Product/Product14/Line1/3.webp",
+                            ProductLineID = 32,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(508),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 119,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(510),
+                            Image = "Images/Product/Product14/Line1/4.webp",
+                            ProductLineID = 32,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(511),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 120,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(512),
+                            Image = "Images/Product/Product15/Line1/1.webp",
+                            ProductLineID = 33,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(513),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 121,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(515),
+                            Image = "Images/Product/Product15/Line1/2.webp",
+                            ProductLineID = 33,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(516),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 122,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(518),
+                            Image = "Images/Product/Product15/Line1/3.webp",
+                            ProductLineID = 33,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(519),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 123,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(521),
+                            Image = "Images/Product/Product15/Line1/4.webp",
+                            ProductLineID = 33,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(522),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 124,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(523),
+                            Image = "Images/Product/Product16/Line1/1.webp",
+                            ProductLineID = 34,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(524),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 125,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(526),
+                            Image = "Images/Product/Product16/Line1/2.webp",
+                            ProductLineID = 34,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(527),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 126,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(529),
+                            Image = "Images/Product/Product16/Line1/3.webp",
+                            ProductLineID = 34,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(530),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 127,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(531),
+                            Image = "Images/Product/Product16/Line1/4.webp",
+                            ProductLineID = 34,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(532),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 128,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(535),
+                            Image = "Images/Product/Product16/Line2/1.webp",
+                            ProductLineID = 35,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(536),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 129,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(538),
+                            Image = "Images/Product/Product16/Line2/2.webp",
+                            ProductLineID = 35,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(539),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 130,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(540),
+                            Image = "Images/Product/Product16/Line2/3.webp",
+                            ProductLineID = 35,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(541),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 131,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(543),
+                            Image = "Images/Product/Product17/Line1/1.webp",
+                            ProductLineID = 36,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(544),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 132,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(546),
+                            Image = "Images/Product/Product17/Line1/2.webp",
+                            ProductLineID = 36,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(547),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 133,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(549),
+                            Image = "Images/Product/Product17/Line1/3.webp",
+                            ProductLineID = 36,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(550),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 134,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(552),
+                            Image = "Images/Product/Product17/Line1/4.webp",
+                            ProductLineID = 36,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(553),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 135,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(554),
+                            Image = "Images/Product/Product17/Line2/1.webp",
+                            ProductLineID = 37,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(555),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 136,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(557),
+                            Image = "Images/Product/Product17/Line2/2.webp",
+                            ProductLineID = 37,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(558),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 137,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(560),
+                            Image = "Images/Product/Product17/Line2/3.webp",
+                            ProductLineID = 37,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(561),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 138,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(562),
+                            Image = "Images/Product/Product17/Line2/4.webp",
+                            ProductLineID = 37,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(563),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 139,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(565),
+                            Image = "Images/Product/Product18/Line1/1.webp",
+                            ProductLineID = 38,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(566),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 140,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(568),
+                            Image = "Images/Product/Product18/Line1/2.webp",
+                            ProductLineID = 38,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(569),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 141,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(571),
+                            Image = "Images/Product/Product18/Line1/3.webp",
+                            ProductLineID = 38,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(572),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 142,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(573),
+                            Image = "Images/Product/Product18/Line1/4.webp",
+                            ProductLineID = 38,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(574),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 143,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(625),
+                            Image = "Images/Product/Product18/Line1/5.webp",
+                            ProductLineID = 38,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(626),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 144,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(628),
+                            Image = "Images/Product/Product18/Line2/1.webp",
+                            ProductLineID = 39,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(629),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 145,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(631),
+                            Image = "Images/Product/Product18/Line2/2.webp",
+                            ProductLineID = 39,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(632),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 146,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(634),
+                            Image = "Images/Product/Product18/Line2/3.webp",
+                            ProductLineID = 39,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(635),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 147,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(637),
+                            Image = "Images/Product/Product18/Line2/4.webp",
+                            ProductLineID = 39,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(638),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 148,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(639),
+                            Image = "Images/Product/Product19/Line1/1.webp",
+                            ProductLineID = 40,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(640),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 149,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(642),
+                            Image = "Images/Product/Product19/Line1/2.webp",
+                            ProductLineID = 40,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(643),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 150,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(645),
+                            Image = "Images/Product/Product19/Line1/3.webp",
+                            ProductLineID = 40,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(646),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 151,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(648),
+                            Image = "Images/Product/Product19/Line1/4.webp",
+                            ProductLineID = 40,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(649),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 152,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(651),
+                            Image = "Images/Product/Product19/Line2/1.webp",
+                            ProductLineID = 41,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(652),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 153,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(653),
+                            Image = "Images/Product/Product19/Line2/2.webp",
+                            ProductLineID = 41,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(654),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 154,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(656),
+                            Image = "Images/Product/Product19/Line2/3.webp",
+                            ProductLineID = 41,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(657),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 155,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(659),
+                            Image = "Images/Product/Product19/Line2/4.webp",
+                            ProductLineID = 41,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(660),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 156,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(662),
+                            Image = "Images/Product/Product20/Line1/1.webp",
+                            ProductLineID = 42,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(662),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 157,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(664),
+                            Image = "Images/Product/Product20/Line1/2.webp",
+                            ProductLineID = 42,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(665),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 158,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(667),
+                            Image = "Images/Product/Product20/Line1/3.webp",
+                            ProductLineID = 42,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(668),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 159,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(670),
+                            Image = "Images/Product/Product20/Line1/4.webp",
+                            ProductLineID = 42,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(671),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 160,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(672),
+                            Image = "Images/Product/Product20/Line1/5.webp",
+                            ProductLineID = 42,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(673),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 161,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(675),
+                            Image = "Images/Product/Product20/Line2/1.webp",
+                            ProductLineID = 43,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(676),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 162,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(678),
+                            Image = "Images/Product/Product20/Line2/2.webp",
+                            ProductLineID = 43,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(679),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 163,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(681),
+                            Image = "Images/Product/Product20/Line2/3.webp",
+                            ProductLineID = 43,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(682),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 164,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(683),
+                            Image = "Images/Product/Product20/Line2/4.webp",
+                            ProductLineID = 43,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 172, DateTimeKind.Local).AddTicks(684),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 165,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2145),
+                            Image = "Images/Product/Product21/Line1/1.webp",
+                            ProductLineID = 44,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2169),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 166,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2183),
+                            Image = "Images/Product/Product21/Line1/2.webp",
+                            ProductLineID = 44,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2184),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 167,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2186),
+                            Image = "Images/Product/Product21/Line1/3.webp",
+                            ProductLineID = 44,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2187),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 168,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2189),
+                            Image = "Images/Product/Product21/Line1/4.webp",
+                            ProductLineID = 44,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2190),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 169,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2192),
+                            Image = "Images/Product/Product21/Line2/1.webp",
+                            ProductLineID = 45,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2193),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 170,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2194),
+                            Image = "Images/Product/Product21/Line2/2.webp",
+                            ProductLineID = 45,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2195),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 171,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2197),
+                            Image = "Images/Product/Product21/Line2/3.webp",
+                            ProductLineID = 45,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2198),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 172,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2200),
+                            Image = "Images/Product/Product21/Line2/4.webp",
+                            ProductLineID = 45,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2201),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 173,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2202),
+                            Image = "Images/Product/Product22/Line1/1.webp",
+                            ProductLineID = 46,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2203),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 174,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2321),
+                            Image = "Images/Product/Product22/Line1/2.webp",
+                            ProductLineID = 46,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2322),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 175,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2324),
+                            Image = "Images/Product/Product22/Line1/3.webp",
+                            ProductLineID = 46,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2325),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 176,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2327),
+                            Image = "Images/Product/Product22/Line1/4.webp",
+                            ProductLineID = 46,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2328),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 177,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2330),
+                            Image = "Images/Product/Product22/Line2/1.webp",
+                            ProductLineID = 47,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2331),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 178,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2333),
+                            Image = "Images/Product/Product22/Line2/2.webp",
+                            ProductLineID = 47,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2333),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 179,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2335),
+                            Image = "Images/Product/Product22/Line2/3.webp",
+                            ProductLineID = 47,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2336),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 180,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2338),
+                            Image = "Images/Product/Product22/Line2/4.webp",
+                            ProductLineID = 47,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2339),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 181,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2341),
+                            Image = "Images/Product/Product23/Line1/1.webp",
+                            ProductLineID = 48,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2342),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 182,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2344),
+                            Image = "Images/Product/Product23/Line1/2.webp",
+                            ProductLineID = 48,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2344),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 183,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2346),
+                            Image = "Images/Product/Product23/Line1/3.webp",
+                            ProductLineID = 48,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2347),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 184,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2349),
+                            Image = "Images/Product/Product23/Line1/4.webp",
+                            ProductLineID = 48,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2350),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 185,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2352),
+                            Image = "Images/Product/Product23/Line2/1.webp",
+                            ProductLineID = 49,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2353),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 186,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2354),
+                            Image = "Images/Product/Product23/Line2/2.webp",
+                            ProductLineID = 49,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2355),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 187,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2357),
+                            Image = "Images/Product/Product23/Line2/3.webp",
+                            ProductLineID = 49,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2358),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 188,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2360),
+                            Image = "Images/Product/Product23/Line2/4.webp",
+                            ProductLineID = 49,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2361),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 189,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2362),
+                            Image = "Images/Product/Product23/Line2/5.webp",
+                            ProductLineID = 49,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2363),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 190,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2365),
+                            Image = "Images/Product/Product23/Line3/1.webp",
+                            ProductLineID = 50,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2366),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 191,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2368),
+                            Image = "Images/Product/Product23/Line3/2.webp",
+                            ProductLineID = 50,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2369),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 192,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2370),
+                            Image = "Images/Product/Product23/Line3/3.webp",
+                            ProductLineID = 50,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2371),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 193,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2373),
+                            Image = "Images/Product/Product23/Line3/4.webp",
+                            ProductLineID = 50,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2374),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 194,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2376),
+                            Image = "Images/Product/Product23/Line3/5.webp",
+                            ProductLineID = 50,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2377),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 195,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2378),
+                            Image = "Images/Product/Product23/Line4/1.webp",
+                            ProductLineID = 51,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2379),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 196,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2381),
+                            Image = "Images/Product/Product23/Line4/2.webp",
+                            ProductLineID = 51,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2382),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 197,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2384),
+                            Image = "Images/Product/Product23/Line4/3.webp",
+                            ProductLineID = 51,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2385),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 198,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2386),
+                            Image = "Images/Product/Product23/Line4/4.webp",
+                            ProductLineID = 51,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2387),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 199,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2389),
+                            Image = "Images/Product/Product23/Line4/5.webp",
+                            ProductLineID = 51,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2390),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 200,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2392),
+                            Image = "Images/Product/Product24/Line1/1.webp",
+                            ProductLineID = 52,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2393),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 201,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2395),
+                            Image = "Images/Product/Product24/Line1/2.webp",
+                            ProductLineID = 52,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2396),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 202,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2397),
+                            Image = "Images/Product/Product24/Line1/3.webp",
+                            ProductLineID = 52,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2398),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 203,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2400),
+                            Image = "Images/Product/Product24/Line1/4.webp",
+                            ProductLineID = 52,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2401),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 204,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2403),
+                            Image = "Images/Product/Product24/Line2/1.webp",
+                            ProductLineID = 53,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2404),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 205,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2405),
+                            Image = "Images/Product/Product24/Line2/2.webp",
+                            ProductLineID = 53,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2406),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 206,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2408),
+                            Image = "Images/Product/Product24/Line2/3.webp",
+                            ProductLineID = 53,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2409),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 207,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2411),
+                            Image = "Images/Product/Product24/Line2/4.webp",
+                            ProductLineID = 53,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2412),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 208,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2413),
+                            Image = "Images/Product/Product25/Line1/1.webp",
+                            ProductLineID = 54,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2414),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 209,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2416),
+                            Image = "Images/Product/Product25/Line1/2.webp",
+                            ProductLineID = 54,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2417),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 210,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2419),
+                            Image = "Images/Product/Product25/Line1/3.webp",
+                            ProductLineID = 54,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2420),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 211,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2422),
+                            Image = "Images/Product/Product25/Line1/4.webp",
+                            ProductLineID = 54,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2423),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 212,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2424),
+                            Image = "Images/Product/Product25/Line1/5.webp",
+                            ProductLineID = 54,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2425),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 213,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2427),
+                            Image = "Images/Product/Product25/Line2/1.webp",
+                            ProductLineID = 55,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2428),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 214,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2430),
+                            Image = "Images/Product/Product25/Line2/2.webp",
+                            ProductLineID = 55,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2431),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 215,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2432),
+                            Image = "Images/Product/Product25/Line2/3.webp",
+                            ProductLineID = 55,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2433),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 216,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2435),
+                            Image = "Images/Product/Product25/Line2/4.webp",
+                            ProductLineID = 55,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2436),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 217,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2479),
+                            Image = "Images/Product/Product26/Line1/1.webp",
+                            ProductLineID = 56,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2480),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 218,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2482),
+                            Image = "Images/Product/Product26/Line1/2.webp",
+                            ProductLineID = 56,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2483),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 219,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2485),
+                            Image = "Images/Product/Product26/Line1/3.webp",
+                            ProductLineID = 56,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2486),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 220,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2488),
+                            Image = "Images/Product/Product26/Line1/4.webp",
+                            ProductLineID = 56,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2489),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 221,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2491),
+                            Image = "Images/Product/Product26/Line2/1.webp",
+                            ProductLineID = 57,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2491),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 222,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2493),
+                            Image = "Images/Product/Product26/Line2/2.webp",
+                            ProductLineID = 57,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2494),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 223,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2496),
+                            Image = "Images/Product/Product26/Line2/3.webp",
+                            ProductLineID = 57,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2497),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 224,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2499),
+                            Image = "Images/Product/Product26/Line2/4.webp",
+                            ProductLineID = 57,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2499),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 225,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2501),
+                            Image = "Images/Product/Product27/Line1/1.webp",
+                            ProductLineID = 58,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2502),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 226,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2504),
+                            Image = "Images/Product/Product27/Line1/2.webp",
+                            ProductLineID = 58,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2505),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 227,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2507),
+                            Image = "Images/Product/Product27/Line1/3.webp",
+                            ProductLineID = 58,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2508),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 228,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2510),
+                            Image = "Images/Product/Product27/Line1/4.webp",
+                            ProductLineID = 58,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2511),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 229,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2512),
+                            Image = "Images/Product/Product27/Line2/1.webp",
+                            ProductLineID = 59,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2513),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 230,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2515),
+                            Image = "Images/Product/Product27/Line2/2.webp",
+                            ProductLineID = 59,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2516),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 231,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2518),
+                            Image = "Images/Product/Product27/Line2/3.webp",
+                            ProductLineID = 59,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2519),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 232,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2520),
+                            Image = "Images/Product/Product27/Line2/4.webp",
+                            ProductLineID = 59,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2521),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 233,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2523),
+                            Image = "Images/Product/Product28/Line1/1.webp",
+                            ProductLineID = 60,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2524),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 234,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2526),
+                            Image = "Images/Product/Product28/Line1/2.webp",
+                            ProductLineID = 60,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2527),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 235,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2529),
+                            Image = "Images/Product/Product28/Line1/3.webp",
+                            ProductLineID = 60,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2530),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 236,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2531),
+                            Image = "Images/Product/Product28/Line1/4.webp",
+                            ProductLineID = 60,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2532),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 237,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2534),
+                            Image = "Images/Product/Product28/Line1/5.webp",
+                            ProductLineID = 60,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2535),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 238,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2537),
+                            Image = "Images/Product/Product28/Line2/1.webp",
+                            ProductLineID = 61,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2538),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 239,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2539),
+                            Image = "Images/Product/Product28/Line2/2.webp",
+                            ProductLineID = 61,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2540),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 240,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2542),
+                            Image = "Images/Product/Product28/Line2/3.webp",
+                            ProductLineID = 61,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2543),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 241,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2545),
+                            Image = "Images/Product/Product28/Line2/4.webp",
+                            ProductLineID = 61,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2546),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 242,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2547),
+                            Image = "Images/Product/Product28/Line3/1.webp",
+                            ProductLineID = 62,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2548),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 243,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2550),
+                            Image = "Images/Product/Product28/Line3/2.webp",
+                            ProductLineID = 62,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2551),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 244,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2553),
+                            Image = "Images/Product/Product28/Line3/3.webp",
+                            ProductLineID = 62,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2554),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 245,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2556),
+                            Image = "Images/Product/Product28/Line3/4.webp",
+                            ProductLineID = 62,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2557),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 246,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2558),
+                            Image = "Images/Product/Product28/Line3/5.webp",
+                            ProductLineID = 62,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2559),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 247,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2561),
+                            Image = "Images/Product/Product29/Line1/1.webp",
+                            ProductLineID = 63,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2562),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 248,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2564),
+                            Image = "Images/Product/Product29/Line1/2.webp",
+                            ProductLineID = 63,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2565),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 249,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2567),
+                            Image = "Images/Product/Product29/Line1/3.webp",
+                            ProductLineID = 63,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2568),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 250,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2569),
+                            Image = "Images/Product/Product29/Line1/4.webp",
+                            ProductLineID = 63,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2570),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 251,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2572),
+                            Image = "Images/Product/Product30/Line1/1.webp",
+                            ProductLineID = 64,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2573),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 252,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2575),
+                            Image = "Images/Product/Product30/Line1/2.webp",
+                            ProductLineID = 64,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2576),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 253,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2577),
+                            Image = "Images/Product/Product30/Line1/3.webp",
+                            ProductLineID = 64,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2578),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 254,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2580),
+                            Image = "Images/Product/Product30/Line1/4.webp",
+                            ProductLineID = 64,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2581),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 255,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2583),
+                            Image = "Images/Product/Product30/Line1/5.webp",
+                            ProductLineID = 64,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2584),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 256,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2585),
+                            Image = "Images/Product/Product30/Line2/1.webp",
+                            ProductLineID = 65,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2586),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 257,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2588),
+                            Image = "Images/Product/Product30/Line2/2.webp",
+                            ProductLineID = 65,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2589),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 258,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2591),
+                            Image = "Images/Product/Product30/Line2/3.webp",
+                            ProductLineID = 65,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2592),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 259,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2628),
+                            Image = "Images/Product/Product30/Line2/4.webp",
+                            ProductLineID = 65,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2629),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 260,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2631),
+                            Image = "Images/Product/Product30/Line3/1.jpg",
+                            ProductLineID = 66,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2632),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 261,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2634),
+                            Image = "Images/Product/Product30/Line3/2.jpg",
+                            ProductLineID = 66,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2635),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 262,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2637),
+                            Image = "Images/Product/Product30/Line3/3.jpg",
+                            ProductLineID = 66,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2638),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 263,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2639),
+                            Image = "Images/Product/Product30/Line3/4.jpg",
+                            ProductLineID = 66,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 174, DateTimeKind.Local).AddTicks(2640),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -2201,11 +4656,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(722),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(7268),
                             ProductID = 1,
                             Quantity = 99,
                             TextureID = 1,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(731),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(7302),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2213,11 +4668,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1364),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8534),
                             ProductID = 1,
                             Quantity = 99,
                             TextureID = 2,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1368),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8541),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2225,11 +4680,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1370),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8544),
                             ProductID = 1,
                             Quantity = 99,
                             TextureID = 3,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1371),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8545),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2237,11 +4692,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1373),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8546),
                             ProductID = 2,
                             Quantity = 99,
                             TextureID = 4,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1374),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8547),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2249,11 +4704,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 5,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1375),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8549),
                             ProductID = 2,
                             Quantity = 99,
                             TextureID = 5,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1376),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8550),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2261,11 +4716,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 6,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1378),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8552),
                             ProductID = 3,
                             Quantity = 99,
                             TextureID = 6,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1379),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8553),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2273,11 +4728,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 7,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1380),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8555),
                             ProductID = 3,
                             Quantity = 99,
                             TextureID = 7,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1381),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8556),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2285,11 +4740,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 8,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1383),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8558),
                             ProductID = 3,
                             Quantity = 99,
                             TextureID = 8,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1384),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8559),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2297,11 +4752,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 9,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1385),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8560),
                             ProductID = 4,
                             Quantity = 99,
                             TextureID = 9,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1386),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8561),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2309,11 +4764,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 10,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1388),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8563),
                             ProductID = 4,
                             Quantity = 99,
                             TextureID = 10,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1389),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8564),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2321,11 +4776,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 11,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1390),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8565),
                             ProductID = 5,
                             Quantity = 99,
                             TextureID = 11,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1391),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8566),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2333,11 +4788,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 12,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1393),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8568),
                             ProductID = 5,
                             Quantity = 99,
                             TextureID = 12,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1394),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8569),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2345,11 +4800,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 13,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1395),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8570),
                             ProductID = 6,
                             Quantity = 99,
                             TextureID = 13,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1396),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8571),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2357,11 +4812,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 14,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1398),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8573),
                             ProductID = 6,
                             Quantity = 99,
                             TextureID = 14,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1399),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8574),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2369,11 +4824,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 15,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1400),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8575),
                             ProductID = 7,
                             Quantity = 99,
                             TextureID = 15,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1401),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8576),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2381,11 +4836,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 16,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1403),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8578),
                             ProductID = 7,
                             Quantity = 99,
                             TextureID = 16,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1404),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8579),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2393,11 +4848,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 17,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1405),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8580),
                             ProductID = 8,
                             Quantity = 99,
                             TextureID = 17,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1406),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8581),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2405,11 +4860,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 18,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1408),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8583),
                             ProductID = 8,
                             Quantity = 99,
                             TextureID = 18,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1409),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8584),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2417,11 +4872,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 19,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1410),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8585),
                             ProductID = 9,
                             Quantity = 99,
                             TextureID = 19,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1411),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8586),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2429,11 +4884,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 20,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1413),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8588),
                             ProductID = 9,
                             Quantity = 99,
                             TextureID = 20,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1414),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8589),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2441,11 +4896,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 21,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1415),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8590),
                             ProductID = 10,
                             Quantity = 99,
                             TextureID = 21,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1416),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8591),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2453,11 +4908,11 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 22,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1418),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8593),
                             ProductID = 10,
                             Quantity = 99,
                             TextureID = 22,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1419),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8594),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2465,11 +4920,527 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 23,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1420),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8595),
                             ProductID = 11,
                             Quantity = 99,
                             TextureID = 6,
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 498, DateTimeKind.Local).AddTicks(1421),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8596),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 24,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8598),
+                            ProductID = 12,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8599),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 25,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8600),
+                            ProductID = 12,
+                            Quantity = 99,
+                            TextureID = 23,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8601),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 26,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8603),
+                            ProductID = 12,
+                            Quantity = 99,
+                            TextureID = 18,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8604),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 27,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8605),
+                            ProductID = 12,
+                            Quantity = 99,
+                            TextureID = 24,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8606),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 28,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8608),
+                            ProductID = 12,
+                            Quantity = 99,
+                            TextureID = 25,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8609),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 29,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8611),
+                            ProductID = 13,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8612),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 30,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8613),
+                            ProductID = 13,
+                            Quantity = 99,
+                            TextureID = 18,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8614),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 31,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8616),
+                            ProductID = 13,
+                            Quantity = 99,
+                            TextureID = 26,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8617),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 32,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8618),
+                            ProductID = 14,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8619),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 33,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8621),
+                            ProductID = 15,
+                            Quantity = 99,
+                            TextureID = 15,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8622),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 34,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8623),
+                            ProductID = 16,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8624),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 35,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8626),
+                            ProductID = 16,
+                            Quantity = 99,
+                            TextureID = 27,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8627),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 36,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8628),
+                            ProductID = 17,
+                            Quantity = 99,
+                            TextureID = 28,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8629),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 37,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8690),
+                            ProductID = 17,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8691),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 38,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8693),
+                            ProductID = 18,
+                            Quantity = 99,
+                            TextureID = 29,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8694),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 39,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8696),
+                            ProductID = 18,
+                            Quantity = 99,
+                            TextureID = 30,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8697),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 40,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8698),
+                            ProductID = 19,
+                            Quantity = 99,
+                            TextureID = 31,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8699),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 41,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8701),
+                            ProductID = 19,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8702),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 42,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8703),
+                            ProductID = 20,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8704),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 43,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8706),
+                            ProductID = 20,
+                            Quantity = 99,
+                            TextureID = 32,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 167, DateTimeKind.Local).AddTicks(8707),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 44,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3750),
+                            ProductID = 21,
+                            Quantity = 99,
+                            TextureID = 18,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3756),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 45,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3759),
+                            ProductID = 21,
+                            Quantity = 99,
+                            TextureID = 33,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3760),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 46,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3763),
+                            ProductID = 22,
+                            Quantity = 99,
+                            TextureID = 34,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3764),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 47,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3766),
+                            ProductID = 22,
+                            Quantity = 99,
+                            TextureID = 27,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3766),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 48,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3768),
+                            ProductID = 23,
+                            Quantity = 99,
+                            TextureID = 35,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3769),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 49,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3771),
+                            ProductID = 23,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3772),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 50,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3773),
+                            ProductID = 23,
+                            Quantity = 99,
+                            TextureID = 36,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3774),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 51,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3776),
+                            ProductID = 23,
+                            Quantity = 99,
+                            TextureID = 18,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3777),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 52,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3779),
+                            ProductID = 24,
+                            Quantity = 99,
+                            TextureID = 37,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3780),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 53,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3782),
+                            ProductID = 24,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3783),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 54,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3784),
+                            ProductID = 25,
+                            Quantity = 99,
+                            TextureID = 38,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3785),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 55,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3787),
+                            ProductID = 25,
+                            Quantity = 99,
+                            TextureID = 39,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3788),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 56,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3789),
+                            ProductID = 26,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3790),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 57,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3792),
+                            ProductID = 26,
+                            Quantity = 99,
+                            TextureID = 18,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3792),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 58,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3794),
+                            ProductID = 27,
+                            Quantity = 99,
+                            TextureID = 40,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3795),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 59,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3796),
+                            ProductID = 27,
+                            Quantity = 99,
+                            TextureID = 41,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3797),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 60,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3799),
+                            ProductID = 28,
+                            Quantity = 99,
+                            TextureID = 28,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3800),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 61,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3801),
+                            ProductID = 28,
+                            Quantity = 99,
+                            TextureID = 42,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3802),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 62,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3804),
+                            ProductID = 28,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3805),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 63,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3806),
+                            ProductID = 29,
+                            Quantity = 99,
+                            TextureID = 43,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3807),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 64,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3809),
+                            ProductID = 30,
+                            Quantity = 99,
+                            TextureID = 6,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3810),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 65,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3812),
+                            ProductID = 30,
+                            Quantity = 99,
+                            TextureID = 44,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3813),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 66,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3815),
+                            ProductID = 30,
+                            Quantity = 99,
+                            TextureID = 25,
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 168, DateTimeKind.Local).AddTicks(3816),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -2659,9 +5630,9 @@ namespace Lulus.Data.Migrations
                             ID = 1,
                             Active = true,
                             CityID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(55),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(4628),
                             Name = "Ninh Kieu",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(63),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(4639),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2670,9 +5641,9 @@ namespace Lulus.Data.Migrations
                             ID = 2,
                             Active = true,
                             CityID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(515),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5457),
                             Name = "Binh Thuy",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(519),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5462),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2681,9 +5652,9 @@ namespace Lulus.Data.Migrations
                             ID = 3,
                             Active = true,
                             CityID = 1,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(522),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5513),
                             Name = "O Mon",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(523),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5514),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2692,9 +5663,9 @@ namespace Lulus.Data.Migrations
                             ID = 4,
                             Active = true,
                             CityID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(524),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5516),
                             Name = "Hai Chau",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(525),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5517),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2703,9 +5674,9 @@ namespace Lulus.Data.Migrations
                             ID = 5,
                             Active = true,
                             CityID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(527),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5518),
                             Name = "Cam Le",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(528),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5519),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2714,9 +5685,9 @@ namespace Lulus.Data.Migrations
                             ID = 6,
                             Active = true,
                             CityID = 2,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(529),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5521),
                             Name = "Thanh Khe",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(530),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5522),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2725,9 +5696,9 @@ namespace Lulus.Data.Migrations
                             ID = 7,
                             Active = true,
                             CityID = 6,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(532),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5523),
                             Name = "Hong Kong Island",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(533),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5524),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2736,9 +5707,9 @@ namespace Lulus.Data.Migrations
                             ID = 8,
                             Active = true,
                             CityID = 6,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(534),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5526),
                             Name = "New Territories East",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(535),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5527),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2747,9 +5718,9 @@ namespace Lulus.Data.Migrations
                             ID = 9,
                             Active = true,
                             CityID = 6,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(536),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5528),
                             Name = "Kowloon West",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 501, DateTimeKind.Local).AddTicks(537),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 175, DateTimeKind.Local).AddTicks(5529),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -2839,9 +5810,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5400),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(5684),
                             Name = "Cocktail",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5405),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(5690),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2849,9 +5820,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5655),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6128),
                             Name = "One Shoulder",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5658),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6132),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2859,9 +5830,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5660),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6134),
                             Name = "Bohemian",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5661),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6135),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2869,9 +5840,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5663),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6137),
                             Name = "Bodycon",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5664),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6138),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2879,9 +5850,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 5,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5665),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6139),
                             Name = "Denim",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5666),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6140),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2889,9 +5860,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 6,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5668),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6141),
                             Name = "Wrap",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5669),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6142),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2899,9 +5870,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 7,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5670),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6144),
                             Name = "Floral",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5671),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6145),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2909,9 +5880,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 8,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5672),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6146),
                             Name = "Gingham",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5673),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6147),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2919,9 +5890,9 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 9,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5675),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6148),
                             Name = "Sundresses",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 497, DateTimeKind.Local).AddTicks(5676),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 164, DateTimeKind.Local).AddTicks(6149),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -2964,10 +5935,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 1,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6055),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(8407),
                             Image = "Images/Texture/lilac.webp",
                             Name = "Lilac",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6061),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(8413),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2975,10 +5946,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 2,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6617),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9279),
                             Image = "Images/Texture/marigold.webp",
                             Name = "Marigold",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6621),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9284),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2986,10 +5957,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 3,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6625),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9289),
                             Image = "Images/Texture/blue.webp",
                             Name = "Blue",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6626),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9290),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -2997,10 +5968,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 4,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6628),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9291),
                             Image = "Images/Texture/blush.webp",
                             Name = "Blush",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6629),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9292),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3008,10 +5979,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 5,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6631),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9294),
                             Image = "Images/Texture/multicolor-blue.webp",
                             Name = "Multicolor Blue",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6632),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9295),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3019,10 +5990,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 6,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6634),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9297),
                             Image = "Images/Texture/black.webp",
                             Name = "Black",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6635),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9298),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3030,10 +6001,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 7,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6636),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9300),
                             Image = "Images/Texture/rosa.webp",
                             Name = "Rosa",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6637),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9301),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3041,10 +6012,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 8,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6640),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9302),
                             Image = "Images/Texture/candy.webp",
                             Name = "Candy",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6641),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9303),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3052,10 +6023,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 9,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6643),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9305),
                             Image = "Images/Texture/taupe.webp",
                             Name = "Taupe",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6644),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9306),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3063,10 +6034,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 10,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6646),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9308),
                             Image = "Images/Texture/baby-blue.webp",
                             Name = "Baby Blue",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6647),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9309),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3074,10 +6045,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 11,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6648),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9310),
                             Image = "Images/Texture/abstract-neon-dot.webp",
                             Name = "Abstract Neon Dot",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6649),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9311),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3085,10 +6056,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 12,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6651),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9314),
                             Image = "Images/Texture/multi-watercolor.webp",
                             Name = "Multi Watercolor",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6652),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9315),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3096,10 +6067,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 13,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6654),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9316),
                             Image = "Images/Texture/white-sequin.webp",
                             Name = "White Sequin",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6655),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9317),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3107,10 +6078,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 14,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6657),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9319),
                             Image = "Images/Texture/black-sequin.webp",
                             Name = "Black Sequin",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6658),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9320),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3118,10 +6089,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 15,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6660),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9322),
                             Image = "Images/Texture/cream.webp",
                             Name = "Cream",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6661),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9323),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3129,10 +6100,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 16,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6662),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9325),
                             Image = "Images/Texture/pink.webp",
                             Name = "Pink",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6663),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9326),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3140,10 +6111,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 17,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6665),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9328),
                             Image = "Images/Texture/green.webp",
                             Name = "Green",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6666),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9329),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3151,10 +6122,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 18,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6668),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9331),
                             Image = "Images/Texture/white.png",
                             Name = "White",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6669),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9332),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3162,10 +6133,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 19,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6671),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9333),
                             Image = "Images/Texture/olive.webp",
                             Name = "Olive",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6672),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9334),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3173,10 +6144,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 20,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6673),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9336),
                             Image = "Images/Texture/pink-orchid.webp",
                             Name = "Pink Orchid",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6674),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9337),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3184,10 +6155,10 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 21,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6676),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9339),
                             Image = "Images/Texture/moonglow-white.webp",
                             Name = "Moonglow White",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6677),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9340),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         },
@@ -3195,10 +6166,252 @@ namespace Lulus.Data.Migrations
                         {
                             ID = 22,
                             Active = true,
-                            Created = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6679),
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9341),
                             Image = "Images/Texture/taffy-pink.webp",
                             Name = "Taffy Pink",
-                            Updated = new DateTime(2022, 6, 10, 14, 7, 2, 495, DateTimeKind.Local).AddTicks(6680),
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9342),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 23,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9344),
+                            Image = "Images/Texture/acid-wash-black.webp",
+                            Name = "Acid Wash Black",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9345),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 24,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9347),
+                            Image = "Images/Texture/tan.webp",
+                            Name = "Tan",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9348),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 25,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9350),
+                            Image = "Images/Texture/red.webp",
+                            Name = "Red",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9351),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 26,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9353),
+                            Image = "Images/Texture/faded-jean.webp",
+                            Name = "Faded Jean",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9354),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 27,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9355),
+                            Image = "Images/Texture/bone.webp",
+                            Name = "Bone",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9356),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 28,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9358),
+                            Image = "Images/Texture/off-white.webp",
+                            Name = "Off White",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9359),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 29,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9361),
+                            Image = "Images/Texture/dust.webp",
+                            Name = "Dust",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9362),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 30,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9364),
+                            Image = "Images/Texture/dusty-pink.webp",
+                            Name = "Dusty Pink",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9365),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 31,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9366),
+                            Image = "Images/Texture/sand.webp",
+                            Name = "Sand",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9367),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 32,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9369),
+                            Image = "Images/Texture/seseme.webp",
+                            Name = "Seseme",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 162, DateTimeKind.Local).AddTicks(9370),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 33,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3334),
+                            Image = "Images/Texture/namibia.webp",
+                            Name = "Namibia",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3340),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 34,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3345),
+                            Image = "Images/Texture/citron.webp",
+                            Name = "Citron",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3346),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 35,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3348),
+                            Image = "Images/Texture/dark-nude.webp",
+                            Name = "Dark Nude",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3349),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 36,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3350),
+                            Image = "Images/Texture/bronze.webp",
+                            Name = "Bronze",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3351),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 37,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3353),
+                            Image = "Images/Texture/ivory.webp",
+                            Name = "Ivory",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3354),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 38,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3356),
+                            Image = "Images/Texture/rosebloom-pink.webp",
+                            Name = "Rosebloom Pink",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3357),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 39,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3359),
+                            Image = "Images/Texture/blue2.webp",
+                            Name = "Blue",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3360),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 40,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3362),
+                            Image = "Images/Texture/washed-chambray.webp",
+                            Name = "Washed Chambray",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3363),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 41,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3365),
+                            Image = "Images/Texture/washed-black.webp",
+                            Name = "Washed Black",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3366),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 42,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3368),
+                            Image = "Images/Texture/aloe.webp",
+                            Name = "Aloe",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3369),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 43,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3370),
+                            Image = "Images/Texture/pink2.webp",
+                            Name = "Pink",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3371),
+                            UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
+                            UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
+                        },
+                        new
+                        {
+                            ID = 44,
+                            Active = true,
+                            Created = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3373),
+                            Image = "Images/Texture/chocolate.webp",
+                            Name = "Chocolate",
+                            Updated = new DateTime(2022, 6, 11, 15, 39, 45, 163, DateTimeKind.Local).AddTicks(3374),
                             UserIDCreated = new Guid("00000000-0000-0000-0000-000000000000"),
                             UserIDUpdated = new Guid("00000000-0000-0000-0000-000000000000")
                         });
@@ -3274,13 +6487,13 @@ namespace Lulus.Data.Migrations
                         {
                             Id = new Guid("61ae2038-97f2-45e5-91ae-08d961fa9be8"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "54454096-fcf9-4284-bba0-39fae5e653b6",
+                            ConcurrencyStamp = "c27bb117-1edc-495b-8604-98f91a1d8261",
                             Email = "user@shop.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@SHOP.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAEAACcQAAAAEG2fPXxvFmuXt+uVyL8ghR+CktotEJ2sOvyDxqz50uIB5d/X57AnNYVuGiPnwA2txw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAcSUWpJ5I/Znh1dJKeeeM+IdeG4tiXrvoU0LMJItxMj/wkS+NkmWs9VnHXMlvOSGw==",
                             PhoneNumber = "0125454545",
                             PhoneNumberConfirmed = false,
                             TwoFactorEnabled = false,
@@ -3290,13 +6503,13 @@ namespace Lulus.Data.Migrations
                         {
                             Id = new Guid("50892ac9-ebe0-4c8d-f28e-08d9638e12dc"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fd628e22-f068-487f-85f8-f825cbd4d350",
+                            ConcurrencyStamp = "6b824210-412f-4870-b68d-a24ecca13b01",
                             Email = "user-bak@shop.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER-BAK@SHOP.COM",
                             NormalizedUserName = "USER-BAK",
-                            PasswordHash = "AQAAAAEAACcQAAAAEB5TbGLxEeCtDypQ5y8KvtYgk9EJdnwPJg7QOHKyARCfOTp9BLqk62YMF3AE9TgBQQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOQEC8ceOqcoxom7Z3GQNEEVPOzRp7dX4gmwEBiATniQCQqfkkW34ZeREWvnzSUUng==",
                             PhoneNumber = "0125454546",
                             PhoneNumberConfirmed = false,
                             TwoFactorEnabled = false,
@@ -3306,13 +6519,13 @@ namespace Lulus.Data.Migrations
                         {
                             Id = new Guid("170ca4bc-ef9f-4de7-ae96-08d962dad25f"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "81c6930d-75b0-4472-9eaa-9f0aed2666fe",
+                            ConcurrencyStamp = "06eb878c-49f2-4682-ac7d-19b1cc6b6edd",
                             Email = "admin@shop.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@SHOP.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKzxbx6nerdzve09qX3gIFU1tWThJeYZEfqtYk7SpgqJ/i1Z5RDT5vh5LvFmqbA+zg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMQj/BErlRyJ2JIWOJN5+DibAfbhRQeC4QoGOjv0W0XGSy5g5arfC4ujV8ViU2ysHw==",
                             PhoneNumber = "0323265665",
                             PhoneNumberConfirmed = false,
                             TwoFactorEnabled = false,
@@ -3322,13 +6535,13 @@ namespace Lulus.Data.Migrations
                         {
                             Id = new Guid("0dd37c3c-4694-429e-623b-08d962dbded7"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8a83ea09-504b-4b98-96b7-5296a2106077",
+                            ConcurrencyStamp = "5d6ef997-10c6-473f-bb06-f2c4b7523675",
                             Email = "admin-bak@shop.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN-BAK@SHOP.COM",
                             NormalizedUserName = "ADMIN-BAK",
-                            PasswordHash = "AQAAAAEAACcQAAAAEO+BvFshdUCNwc07gSYAQH91pllnG2O6iJ6dGVZ/PQX2ikJC5UBR3mHFXWWYyvWllw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEM5U6dVvCc+BAKeL+It5JAx510knvFWTXq6uoDUHejHx3SP4J6HzPqTrHAgPDV/m4A==",
                             PhoneNumber = "0323265666",
                             PhoneNumberConfirmed = false,
                             TwoFactorEnabled = false,
@@ -3367,14 +6580,14 @@ namespace Lulus.Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "773b4b29-d594-46de-b189-fe6b93de701f",
+                            ConcurrencyStamp = "d923881f-7c6d-4949-94df-9dff85fe10cb",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("54ba416f-6b89-4c53-873d-4fbd48506e6d"),
-                            ConcurrencyStamp = "124d1ba9-a940-4950-a9e6-d00b6d10d6ec",
+                            ConcurrencyStamp = "e408343a-4131-4c7f-ad7c-4d55fe5df21a",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });

@@ -18,19 +18,27 @@ namespace Lulus.Data.EF
             AddCountry(modelBuilder);
             AddDesigner(modelBuilder);
             AddOccation(modelBuilder);
+
             AddTexture(modelBuilder);
             AddTexture2(modelBuilder);
+            AddTexture3(modelBuilder);
 
             AddCity(modelBuilder);
             AddFavoriteDesigner(modelBuilder);
-            AddProduct(modelBuilder);
             AddSubcategory(modelBuilder);
+
+            AddProduct(modelBuilder);
+            AddProduct2(modelBuilder);
 
             AddProductLine(modelBuilder);
             AddProductLine2(modelBuilder);
+            AddProductLine3(modelBuilder);
+
             AddProductImage(modelBuilder);
             AddProductImage2(modelBuilder);
             AddProductImage3(modelBuilder);
+            AddProductImage4(modelBuilder);
+
             AddProductOccation(modelBuilder);
             AddProductSubcategory(modelBuilder);
 
@@ -295,6 +303,46 @@ namespace Lulus.Data.EF
                 {
                     ID = 15,
                     Name = "Understated Leather"
+                },
+                new Desinger()
+                {
+                    ID = 16,
+                    Name = "Indah"
+                },
+                new Desinger()
+                {
+                    ID = 17,
+                    Name = "Enza Costa"
+                },
+                new Desinger()
+                {
+                    ID = 18,
+                    Name = "Nookie"
+                },
+                new Desinger()
+                {
+                    ID = 19,
+                    Name = "Lovers and Friends"
+                },
+                new Desinger()
+                {
+                    ID = 20,
+                    Name = "COTTON CITIZEN"
+                },
+                new Desinger()
+                {
+                    ID = 21,
+                    Name = "Brochu Walker"
+                },
+                new Desinger()
+                {
+                    ID = 22,
+                    Name = "Cult Gaia"
+                },
+                new Desinger()
+                {
+                    ID = 23,
+                    Name = "VALENTINA SHAH"
                 }
                 );
         }
@@ -524,6 +572,84 @@ namespace Lulus.Data.EF
         static void AddTexture2(ModelBuilder modelBuilder)
         {
             string baseURL = "Images/Texture/";
+            modelBuilder.Entity<Texture>().HasData(
+                new Texture()
+                {
+                    ID = 33,
+                    Name = "Namibia",
+                    Image = baseURL + "namibia.webp"
+                },
+                new Texture()
+                {
+                    ID = 34,
+                    Name = "Citron",
+                    Image = baseURL + "citron.webp"
+                },
+                new Texture()
+                {
+                    ID = 35,
+                    Name = "Dark Nude",
+                    Image = baseURL + "dark-nude.webp"
+                },
+                new Texture()
+                {
+                    ID = 36,
+                    Name = "Bronze",
+                    Image = baseURL + "bronze.webp"
+                },
+                new Texture()
+                {
+                    ID = 37,
+                    Name = "Ivory",
+                    Image = baseURL + "ivory.webp"
+                },
+                new Texture()
+                {
+                    ID = 38,
+                    Name = "Rosebloom Pink",
+                    Image = baseURL + "rosebloom-pink.webp"
+                },
+                new Texture()
+                {
+                    ID = 39,
+                    Name = "Blue",
+                    Image = baseURL + "blue2.webp"
+                },
+                new Texture()
+                {
+                    ID = 40,
+                    Name = "Washed Chambray",
+                    Image = baseURL + "washed-chambray.webp"
+                },
+                new Texture()
+                {
+                    ID = 41,
+                    Name = "Washed Black",
+                    Image = baseURL + "washed-black.webp"
+                },
+                new Texture()
+                {
+                    ID = 42,
+                    Name = "Aloe",
+                    Image = baseURL + "aloe.webp"
+                },
+                new Texture()
+                {
+                    ID = 43,
+                    Name = "Pink",
+                    Image = baseURL + "pink2.webp"
+                },
+                new Texture()
+                {
+                    ID = 44,
+                    Name = "Chocolate",
+                    Image = baseURL + "chocolate.webp"
+                }
+                );
+        }
+        static void AddTexture3(ModelBuilder modelBuilder)
+        {
+            //string baseURL = "Images/Texture/";
             //modelBuilder.Entity<Texture>().HasData();
         }
         // 1-Relationship
@@ -875,8 +1001,132 @@ namespace Lulus.Data.EF
                     Status = Enums.ProductStatus.Stocking,
                     LengthState = Enums.LengthState.HiLow,
                     SleeveLengthState = Enums.SleeveLengthState.LongSleeve
+                },
+                new Product()
+                {
+                    ID = 21,
+                    Name = "Gigi Maxi Skirt",
+                    Price = 101,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 16,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Midi,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 22,
+                    Name = "x REVOLVE Mini Ludlow Slit Skirt",
+                    Price = 207,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 6,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.HiLow,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 23,
+                    Name = "Stretch Silk Knit Essential Skirt",
+                    Price = 145,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 17,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Midi,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 24,
+                    Name = "Alyssa Chain Skirt",
+                    Price = 199,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 18,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Midi,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 25,
+                    Name = "Carlita Skirt",
+                    Price = 138,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 19,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.HiLow,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 26,
+                    Name = "Capri Cut Out Midi Skirt",
+                    Price = 195,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 20,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Midi,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 27,
+                    Name = "Havana Skirt",
+                    Price = 278,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 21,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Midi,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 28,
+                    Name = "Samira Skirt",
+                    Price = 258,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 22,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Midi,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 29,
+                    Name = "Stella Skirt",
+                    Price = 455,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 23,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.HiLow,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
+                },
+                new Product()
+                {
+                    ID = 30,
+                    Name = "Aria Skirt",
+                    Price = 169,
+                    Description = "Self: 100% poly\nLining: 92 % poly,8 % spandex\nMade in China\nHand wash\nFully lined\nHidden side zipper closure\nOne - shoulder styling\nSide ruched detail\nHammered satin fabric\nRevolve Style No.ELLI - WD346\nManufacturer Style No.E5032105",
+                    CategoryID = 3,
+                    DesignerID = 18,
+                    Status = Enums.ProductStatus.Stocking,
+                    LengthState = Enums.LengthState.Midi,
+                    SleeveLengthState = Enums.SleeveLengthState.Strapless
                 }
                 );
+        }
+        static void AddProduct2(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.Entity<Product>().HasData();
         }
         static void AddSubcategory(ModelBuilder modelBuilder)
         {
@@ -1237,6 +1487,172 @@ namespace Lulus.Data.EF
                 );
         }
         static void AddProductLine2(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ProductLine>().HasData(
+                new ProductLine()
+                {
+                    ID = 44,
+                    TextureID = 18,
+                    ProductID = 21,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 45,
+                    TextureID = 33,
+                    ProductID = 21,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 46,
+                    TextureID = 34,
+                    ProductID = 22,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 47,
+                    TextureID = 27,
+                    ProductID = 22,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 48,
+                    TextureID = 35,
+                    ProductID = 23,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 49,
+                    TextureID = 6,
+                    ProductID = 23,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 50,
+                    TextureID = 36,
+                    ProductID = 23,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 51,
+                    TextureID = 18,
+                    ProductID = 23,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 52,
+                    TextureID = 37,
+                    ProductID = 24,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 53,
+                    TextureID = 6,
+                    ProductID = 24,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 54,
+                    TextureID = 38,
+                    ProductID = 25,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 55,
+                    TextureID = 39,
+                    ProductID = 25,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 56,
+                    TextureID = 6,
+                    ProductID = 26,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 57,
+                    TextureID = 18,
+                    ProductID = 26,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 58,
+                    TextureID = 40,
+                    ProductID = 27,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 59,
+                    TextureID = 41,
+                    ProductID = 27,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 60,
+                    TextureID = 28,
+                    ProductID = 28,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 61,
+                    TextureID = 42,
+                    ProductID = 28,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 62,
+                    TextureID = 6,
+                    ProductID = 28,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 63,
+                    TextureID = 43,
+                    ProductID = 29,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 64,
+                    TextureID = 6,
+                    ProductID = 30,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 65,
+                    TextureID = 44,
+                    ProductID = 30,
+                    Quantity = 99
+                },
+                new ProductLine()
+                {
+                    ID = 66,
+                    TextureID = 25,
+                    ProductID = 30,
+                    Quantity = 99
+                }
+                );
+        }
+        static void AddProductLine3(ModelBuilder modelBuilder)
         {
             //modelBuilder.Entity<ProductLine>().HasData();
         }
@@ -2239,6 +2655,606 @@ namespace Lulus.Data.EF
         static void AddProductImage3(ModelBuilder modelBuilder)
         {
             string baseURL = "Images/Product/";
+            modelBuilder.Entity<ProductImage>().HasData(
+                new ProductImage()
+                {
+                    ID = 165,
+                    ProductLineID = 44,
+                    Image = baseURL + "Product21/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 166,
+                    ProductLineID = 44,
+                    Image = baseURL + "Product21/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 167,
+                    ProductLineID = 44,
+                    Image = baseURL + "Product21/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 168,
+                    ProductLineID = 44,
+                    Image = baseURL + "Product21/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 169,
+                    ProductLineID = 45,
+                    Image = baseURL + "Product21/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 170,
+                    ProductLineID = 45,
+                    Image = baseURL + "Product21/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 171,
+                    ProductLineID = 45,
+                    Image = baseURL + "Product21/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 172,
+                    ProductLineID = 45,
+                    Image = baseURL + "Product21/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 173,
+                    ProductLineID = 46,
+                    Image = baseURL + "Product22/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 174,
+                    ProductLineID = 46,
+                    Image = baseURL + "Product22/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 175,
+                    ProductLineID = 46,
+                    Image = baseURL + "Product22/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 176,
+                    ProductLineID = 46,
+                    Image = baseURL + "Product22/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 177,
+                    ProductLineID = 47,
+                    Image = baseURL + "Product22/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 178,
+                    ProductLineID = 47,
+                    Image = baseURL + "Product22/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 179,
+                    ProductLineID = 47,
+                    Image = baseURL + "Product22/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 180,
+                    ProductLineID = 47,
+                    Image = baseURL + "Product22/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 181,
+                    ProductLineID = 48,
+                    Image = baseURL + "Product23/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 182,
+                    ProductLineID = 48,
+                    Image = baseURL + "Product23/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 183,
+                    ProductLineID = 48,
+                    Image = baseURL + "Product23/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 184,
+                    ProductLineID = 48,
+                    Image = baseURL + "Product23/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 185,
+                    ProductLineID = 49,
+                    Image = baseURL + "Product23/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 186,
+                    ProductLineID = 49,
+                    Image = baseURL + "Product23/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 187,
+                    ProductLineID = 49,
+                    Image = baseURL + "Product23/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 188,
+                    ProductLineID = 49,
+                    Image = baseURL + "Product23/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 189,
+                    ProductLineID = 49,
+                    Image = baseURL + "Product23/Line2/5.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 190,
+                    ProductLineID = 50,
+                    Image = baseURL + "Product23/Line3/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 191,
+                    ProductLineID = 50,
+                    Image = baseURL + "Product23/Line3/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 192,
+                    ProductLineID = 50,
+                    Image = baseURL + "Product23/Line3/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 193,
+                    ProductLineID = 50,
+                    Image = baseURL + "Product23/Line3/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 194,
+                    ProductLineID = 50,
+                    Image = baseURL + "Product23/Line3/5.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 195,
+                    ProductLineID = 51,
+                    Image = baseURL + "Product23/Line4/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 196,
+                    ProductLineID = 51,
+                    Image = baseURL + "Product23/Line4/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 197,
+                    ProductLineID = 51,
+                    Image = baseURL + "Product23/Line4/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 198,
+                    ProductLineID = 51,
+                    Image = baseURL + "Product23/Line4/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 199,
+                    ProductLineID = 51,
+                    Image = baseURL + "Product23/Line4/5.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 200,
+                    ProductLineID = 52,
+                    Image = baseURL + "Product24/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 201,
+                    ProductLineID = 52,
+                    Image = baseURL + "Product24/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 202,
+                    ProductLineID = 52,
+                    Image = baseURL + "Product24/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 203,
+                    ProductLineID = 52,
+                    Image = baseURL + "Product24/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 204,
+                    ProductLineID = 53,
+                    Image = baseURL + "Product24/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 205,
+                    ProductLineID = 53,
+                    Image = baseURL + "Product24/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 206,
+                    ProductLineID = 53,
+                    Image = baseURL + "Product24/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 207,
+                    ProductLineID = 53,
+                    Image = baseURL + "Product24/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 208,
+                    ProductLineID = 54,
+                    Image = baseURL + "Product25/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 209,
+                    ProductLineID = 54,
+                    Image = baseURL + "Product25/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 210,
+                    ProductLineID = 54,
+                    Image = baseURL + "Product25/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 211,
+                    ProductLineID = 54,
+                    Image = baseURL + "Product25/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 212,
+                    ProductLineID = 54,
+                    Image = baseURL + "Product25/Line1/5.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 213,
+                    ProductLineID = 55,
+                    Image = baseURL + "Product25/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 214,
+                    ProductLineID = 55,
+                    Image = baseURL + "Product25/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 215,
+                    ProductLineID = 55,
+                    Image = baseURL + "Product25/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 216,
+                    ProductLineID = 55,
+                    Image = baseURL + "Product25/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 217,
+                    ProductLineID = 56,
+                    Image = baseURL + "Product26/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 218,
+                    ProductLineID = 56,
+                    Image = baseURL + "Product26/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 219,
+                    ProductLineID = 56,
+                    Image = baseURL + "Product26/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 220,
+                    ProductLineID = 56,
+                    Image = baseURL + "Product26/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 221,
+                    ProductLineID = 57,
+                    Image = baseURL + "Product26/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 222,
+                    ProductLineID = 57,
+                    Image = baseURL + "Product26/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 223,
+                    ProductLineID = 57,
+                    Image = baseURL + "Product26/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 224,
+                    ProductLineID = 57,
+                    Image = baseURL + "Product26/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 225,
+                    ProductLineID = 58,
+                    Image = baseURL + "Product27/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 226,
+                    ProductLineID = 58,
+                    Image = baseURL + "Product27/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 227,
+                    ProductLineID = 58,
+                    Image = baseURL + "Product27/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 228,
+                    ProductLineID = 58,
+                    Image = baseURL + "Product27/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 229,
+                    ProductLineID = 59,
+                    Image = baseURL + "Product27/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 230,
+                    ProductLineID = 59,
+                    Image = baseURL + "Product27/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 231,
+                    ProductLineID = 59,
+                    Image = baseURL + "Product27/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 232,
+                    ProductLineID = 59,
+                    Image = baseURL + "Product27/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 233,
+                    ProductLineID = 60,
+                    Image = baseURL + "Product28/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 234,
+                    ProductLineID = 60,
+                    Image = baseURL + "Product28/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 235,
+                    ProductLineID = 60,
+                    Image = baseURL + "Product28/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 236,
+                    ProductLineID = 60,
+                    Image = baseURL + "Product28/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 237,
+                    ProductLineID = 60,
+                    Image = baseURL + "Product28/Line1/5.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 238,
+                    ProductLineID = 61,
+                    Image = baseURL + "Product28/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 239,
+                    ProductLineID = 61,
+                    Image = baseURL + "Product28/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 240,
+                    ProductLineID = 61,
+                    Image = baseURL + "Product28/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 241,
+                    ProductLineID = 61,
+                    Image = baseURL + "Product28/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 242,
+                    ProductLineID = 62,
+                    Image = baseURL + "Product28/Line3/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 243,
+                    ProductLineID = 62,
+                    Image = baseURL + "Product28/Line3/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 244,
+                    ProductLineID = 62,
+                    Image = baseURL + "Product28/Line3/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 245,
+                    ProductLineID = 62,
+                    Image = baseURL + "Product28/Line3/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 246,
+                    ProductLineID = 62,
+                    Image = baseURL + "Product28/Line3/5.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 247,
+                    ProductLineID = 63,
+                    Image = baseURL + "Product29/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 248,
+                    ProductLineID = 63,
+                    Image = baseURL + "Product29/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 249,
+                    ProductLineID = 63,
+                    Image = baseURL + "Product29/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 250,
+                    ProductLineID = 63,
+                    Image = baseURL + "Product29/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 251,
+                    ProductLineID = 64,
+                    Image = baseURL + "Product30/Line1/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 252,
+                    ProductLineID = 64,
+                    Image = baseURL + "Product30/Line1/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 253,
+                    ProductLineID = 64,
+                    Image = baseURL + "Product30/Line1/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 254,
+                    ProductLineID = 64,
+                    Image = baseURL + "Product30/Line1/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 255,
+                    ProductLineID = 64,
+                    Image = baseURL + "Product30/Line1/5.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 256,
+                    ProductLineID = 65,
+                    Image = baseURL + "Product30/Line2/1.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 257,
+                    ProductLineID = 65,
+                    Image = baseURL + "Product30/Line2/2.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 258,
+                    ProductLineID = 65,
+                    Image = baseURL + "Product30/Line2/3.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 259,
+                    ProductLineID = 65,
+                    Image = baseURL + "Product30/Line2/4.webp"
+                },
+                new ProductImage()
+                {
+                    ID = 260,
+                    ProductLineID = 66,
+                    Image = baseURL + "Product30/Line3/1.jpg"
+                },
+                new ProductImage()
+                {
+                    ID = 261,
+                    ProductLineID = 66,
+                    Image = baseURL + "Product30/Line3/2.jpg"
+                },
+                new ProductImage()
+                {
+                    ID = 262,
+                    ProductLineID = 66,
+                    Image = baseURL + "Product30/Line3/3.jpg"
+                },
+                new ProductImage()
+                {
+                    ID = 263,
+                    ProductLineID = 66,
+                    Image = baseURL + "Product30/Line3/4.jpg"
+                }
+                );
+        }
+        static void AddProductImage4(ModelBuilder modelBuilder)
+        {
+            //string baseURL = "Images/Product/";
             //modelBuilder.Entity<ProductImage>().HasData();
         }
         static void AddProductOccation(ModelBuilder modelBuilder)
