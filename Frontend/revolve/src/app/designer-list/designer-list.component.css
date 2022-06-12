@@ -1,0 +1,9 @@
+.keyword-list li{
+    display: inline;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.keyword-list__item:hover{
+    color: burlywood;
+    text-decoration: underline;
+}

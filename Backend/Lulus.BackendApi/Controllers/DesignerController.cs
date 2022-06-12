@@ -16,10 +16,10 @@ namespace Lulus.BackendApi.Controllers
         {
             _desginerService = desginerService;
         }
-        [HttpGet]
-        public async Task<IActionResult> GetList()
+        [HttpGet("Cate/{id}")]
+        public async Task<IActionResult> GetListByCate(int id)
         {
-            var designers = await _desginerService.GetAllDesigner();
+            var designers = await _desginerService.GetDesignerByCate(id);
             return Ok(designers);
         }
         [HttpGet("{id}")]
@@ -27,6 +27,12 @@ namespace Lulus.BackendApi.Controllers
         {
             var designer = await _desginerService.GetDesigner(id);
             return Ok(designer);
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var designers = await _desginerService.GetAllDesigner();
+            return Ok(designers);
         }
     }
 }

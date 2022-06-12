@@ -19,28 +19,13 @@ import { ProductService } from '../services/product.service';
 })
 export class NewListComponent implements OnInit {
   baseURL: String = "http://localhost:4200";
-  cateList: Category[] = new Array<Category>();
   productList: Product[] = new Array<Product>();
   currentPage:number = 1;
 
   constructor(private route: ActivatedRoute, private router: Router, private productService:ProductService) { }
 
   ngOnInit(): void {
-    this.loadCategory();
     this.loadProduct();
-  }
-  async loadCategory() {
-    var api = new CategoryApi();
-    var result = await api.getAll();
-    if (result.status === 200) {
-      for (let i = 0; i < result.body.length; i++) {
-        const cate = new Category(parseInt(result.body[i].id), result.body[i].name);
-        this.cateList.push(cate);
-      }
-    }
-    else {
-      console.log('Error: ' + result.body);
-    }
   }
 
   async loadProduct() {

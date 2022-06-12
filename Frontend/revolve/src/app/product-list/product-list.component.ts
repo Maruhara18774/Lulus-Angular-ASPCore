@@ -51,7 +51,7 @@ export class ProductListComponent implements OnInit {
   }
   async loadDesigner(){
     var api = new DesignerApi();
-    var result = await api.getAll();
+    var result = await api.getAllByCate(this.cateID);
     if(result.status === 200){
       this.designerList = this.productService.convertJSONtoDesignerList(result.body);
     }

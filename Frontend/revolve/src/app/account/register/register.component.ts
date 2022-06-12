@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { AccountApi } from '../api/accountApi';
-import { RegisterRequest } from '../model/register/registerRequest';
+import { AccountApi } from '../../api/accountApi';
+import { RegisterRequest } from '../../model/register/registerRequest';
 
 @Component({
   selector: 'app-register',

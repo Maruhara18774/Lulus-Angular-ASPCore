@@ -1,4 +1,5 @@
 ﻿using Lulus.Data.EF;
+using Lulus.Data.Entities;
 using Lulus.ViewModels.Designer;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -17,14 +18,25 @@ namespace Lulus.BAL.Catalog.Designers
             _context = context;
         }
 
-        public async Task<List<DesignerViewModel>> GetAllDesigner()
+        public async Task<List<DesignerViewModel>> GetDesignerByCate(int cateID)
         {
-            var designers = from d in _context.Desingers select d;
-            return await designers.Select(d => new DesignerViewModel()
+            var designers = await (from d in _context.Desingers select d).ToListAsync();
+            var products = await (from p in _context.Products where p.CategoryID == cateID select p).ToListAsync();
+            var result = new List<Desinger>();
+            foreach(var item in products)
+            {
+                var designer = designers.Where(x => x.ID == item.DesignerID).FirstOrDefault();
+                if(designer != null)
+                {
+                    result.Add(designer);
+                    designers.Remove(designer);
+                }
+            }
+            return result.Select(d => new DesignerViewModel()
             {
                 ID = d.ID,
                 Name = d.Name
-            }).ToListAsync();
+            }).ToList();
         }
 
         public async Task<DesignerViewModel> GetDesigner(int id)
@@ -35,6 +47,16 @@ namespace Lulus.BAL.Catalog.Designers
                 Name = x.Name,
                 Description = x.Description
             }).FirstOrDefaultAsync();
+        }
+
+        public async Task<List<DesignerViewModel>> GetAllDesigner()
+        {
+            var designers = await (from d in _context.Desingers select d).ToListAsync();
+            return designers.Select(d => new DesignerViewModel()
+            {
+                ID = d.ID,
+                Name = d.Name
+            }).ToList();
         }
     }
 }

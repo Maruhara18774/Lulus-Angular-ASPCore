@@ -1,125 +1,110 @@
 <!-- Breadcrumb Section Begin -->
 <section class="breadcrumb-option">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12">
-              <div class="breadcrumb__text">
-                  <h4>Shop</h4>
-                  <div class="breadcrumb__links">
-                      <a routerLinkActive="active" routerLink="/home">Home</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Shop</h4>
+                    <div class="breadcrumb__links">
+                        <a routerLinkActive="active" routerLink="/home">Home</a>
 
-                      <span>Clothing</span>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+                        <span>Clothing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Shop Section Begin -->
-  <section class="shop spad">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-3">
-                  <div class="shop__sidebar">
-                      <div class="shop__sidebar__search">
-                          <form (ngSubmit)="search(f)" #f="ngForm">
-                              <input type="text" placeholder="Search..." ngModel id="keyword" name="keyword">
-                              <button type="submit"><span class="icon_search"></span></button>
-                          </form>
-                      </div>
-                    <div class="shop__sidebar__accordion">
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-heading">
-                                    <a data-toggle="collapse" data-target="#collapseTwo">Categories</a>
-                                </div>
-                                <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <div class="shop__sidebar__brand">
-                                            <ul>
-                                                <li *ngFor="let cate of cateList;">
-                                                    <a href="{{baseURL}}/product/{{cate.id}}">{{cate.name}}</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-9">
-                  <div class="shop__product__option">
-                      <div class="row">
-                          <div class="col-lg-12 col-md-12 col-sm-12">
-                              <div class="shop__product__option__right ">
-                                  <p>Sort:  &nbsp; </p>
-                                  <select (change)="changeOrderBy($event)" class="sort-box">
+<section class="shop spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="shop__sidebar">
+                    <div class="shop__sidebar__search">
+                        <form (ngSubmit)="search(f)" #f="ngForm">
+                            <input type="text" placeholder="Search..." ngModel id="keyword" name="keyword">
+                            <button type="submit"><span class="icon_search"></span></button>
+                        </form>
+                    </div>
+                    <app-filterbar-category></app-filterbar-category>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="shop__product__option">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="shop__product__option__right ">
+                                <p>Sort: &nbsp; </p>
+                                <select (change)="changeOrderBy($event)" class="sort-box">
                                     <option value="New">Newest</option>
                                     <option value="Low">Price : Low to High</option>
                                     <option value="High">Price : High to Low</option>
-                                  </select>
-                              </div>
-                          </div>
-                      </div>
+                                </select>
+                            </div>
+                        </div>
                     </div>
-                  <div>
+                </div>
+                <div>
 
-                  </div>
-                  <div class="row">
-                      <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let pro of productList;">
-                          <div class="product__item">
-                              <div class="product__item__pic set-bg">
-                                  <a *ngFor="let line of pro.productLines;">
-                                  <div *ngFor="let image of line.images">
-                                      <div class="thumb" >
-                                        
-                                        <img src="{{image.url}}"/>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let pro of productList;">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg">
+                                <a *ngFor="let line of pro.productLines;">
+                                    <div *ngFor="let image of line.images">
+                                        <div class="thumb">
+
+                                            <img src="{{image.url}}" />
                                         </div>
-                                      
-                                   </div>
 
-                                  <ul class="product__hover">
-                                      <li><a style="cursor: pointer" (click)="addFavorite(pro.id)"><img src="../assets/img/icon/heart.png" alt=""></a></li>
-                                      <li><a href="{{baseURL}}/detail/{{pro.id}}"><img src="../assets/img/icon/search.png" alt=""></a></li>
-                                  </ul>
-                                  </a>
-                              </div>
+                                    </div>
 
-                              <div class="product__item__text">
+                                    <ul class="product__hover">
+                                        <li><a style="cursor: pointer" (click)="addFavorite(pro.id)"><img
+                                                    src="../assets/img/icon/heart.png" alt=""></a></li>
+                                        <li><a href="{{baseURL}}/detail/{{pro.id}}"><img
+                                                    src="../assets/img/icon/search.png" alt=""></a></li>
+                                    </ul>
+                                </a>
+                            </div>
+
+                            <div class="product__item__text">
 
 
 
-                                  <div class="card card-product-grid card-lg">
+                                <div class="card card-product-grid card-lg">
                                     <h6>{{pro.name}}</h6>
-                                    <a class="add-cart" style="top:1px; cursor: pointer;" (click)="addToCart(pro.productLines[0].id)">+ Add To Cart</a>
-                                  <div class="rating">
-                                      <span class="fa fa-star" *ngFor="let star of pro.averageStarLeft;"></span>
-                                      <span class="fa fa-star-o" *ngFor="let star of pro.averageStarRight;"></span>
-                                  </div>
-                                  <h5>{{pro.price |currency:'USD':'symbol'}}</h5>
+                                    <a class="add-cart" style="top:1px; cursor: pointer;"
+                                        (click)="addToCart(pro.productLines[0].id)">+ Add To Cart</a>
+                                    <div class="rating">
+                                        <span class="fa fa-star" *ngFor="let star of pro.averageStarLeft;"></span>
+                                        <span class="fa fa-star-o" *ngFor="let star of pro.averageStarRight;"></span>
+                                    </div>
+                                    <h5>{{pro.price |currency:'USD':'symbol'}}</h5>
 
-                                  <div class="product__color__select">
-                                      <label *ngFor="let line of pro.productLines;">
-                                          <img src="{{line.textureImage}}"width="25" height="30"/>
-                                          <input type="image" src="{{line.textureImage}}" alt="Submit" style="float:right" width="48">
-                                      </label>
-                                  </div>
-                              </div>
-                              </div>
+                                    <div class="product__color__select">
+                                        <label *ngFor="let line of pro.productLines;">
+                                            <img src="{{line.textureImage}}" width="25" height="30" />
+                                            <input type="image" src="{{line.textureImage}}" alt="Submit"
+                                                style="float:right" width="48">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
 
-                          </div>
-                          </div>
-                          </div>
-                  <div class="row">
-                      <div class="col-lg-12">
-                          <p class="see-more" (click)="nextPage()">See more</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="see-more" (click)="nextPage()">See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </section>
-  <!-- Shop Section End -->
+</section>
+<!-- Shop Section End -->

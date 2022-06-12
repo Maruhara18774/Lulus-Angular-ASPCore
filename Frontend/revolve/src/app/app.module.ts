@@ -5,11 +5,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { HeaderComponent } from './header/header.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { FooterComponent } from './footer/footer.component';
+import { HomepageComponent } from './component/homepage/homepage.component';
+import { HeaderComponent } from './component/header/header.component';
+import { LoginComponent } from './account/login/login.component';
+import { RegisterComponent } from './account/register/register.component';
+import { FooterComponent } from './component/footer/footer.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
@@ -19,12 +19,13 @@ import { OrderListComponent } from './myaccount/order-list/order-list.component'
 import { ProfileSettingComponent } from './myaccount/profile-setting/profile-setting.component';
 import { FavorProductComponent } from './myaccount/favor-product/favor-product.component';
 import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './component/about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HotListComponent } from './hot-list/hot-list.component';
 import { NewListComponent } from './new-list/new-list.component';
 import { FilterbarCategoryComponent } from './component/filterbar-category/filterbar-category.component';
-import { FilterbarProductComponent } from './component/filterbar-product/filterbar-product.component';
+import { DesignerListComponent } from './designer-list/designer-list.component';
+import { ProductDesignerListComponent } from './designer-list/product-designer-list/product-designer-list.component';
 
 
 
@@ -50,7 +51,8 @@ import { FilterbarProductComponent } from './component/filterbar-product/filterb
     HotListComponent,
     NewListComponent,
     FilterbarCategoryComponent,
-    FilterbarProductComponent,
+    DesignerListComponent,
+    ProductDesignerListComponent,
     
   ],
   imports: [

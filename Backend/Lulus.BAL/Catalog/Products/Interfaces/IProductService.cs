@@ -14,6 +14,7 @@ namespace Lulus.BAL.Catalog.Products.Interfaces
         Task<List<ProductViewModel>> GetAllByCateID(GetProductPagingRequest request);
         Task<List<ProductViewModel>> GetAllBySubCateID(GetProductPagingRequest request);
         Task<List<ProductViewModel>> GetAllByCateAndSubCateID(GetProductPagingRequest2 request);
+        Task<List<ProductViewModel>> GetAllByDesignerID(GetProductPagingRequest request);
         Task<ProductViewModel> GetDetailByID(GetProductDetailRequest request);
         Task<List<ProductViewModel>> GetAll(int pageIndex, string keyword, string orderBy);
         Task<List<ProductViewModel>> GetFilterByCateID(FilterProductRequest filter);

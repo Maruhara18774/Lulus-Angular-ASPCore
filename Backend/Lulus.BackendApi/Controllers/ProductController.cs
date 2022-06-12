@@ -73,6 +73,23 @@ namespace Lulus.BackendApi.Controllers
             return Ok(result);
         }
         [HttpPost]
+        public async Task<IActionResult> GetByDesignerID(GetProductPagingRequest request)
+        {
+            var result = await _productService.GetAllByDesignerID(request);
+            foreach (var product in result)
+            {
+                foreach (var line in product.ListProductLines)
+                {
+                    line.Texture_Image_Url = "https://localhost:44354/" + line.Texture_Image_Url;
+                    foreach (var image in line.ListImages)
+                    {
+                        image.Image_Url = "https://localhost:44354/" + image.Image_Url;
+                    }
+                }
+            }
+            return Ok(result);
+        }
+        [HttpPost]
         public async Task<IActionResult> GetByCateAndSubCateID(GetProductPagingRequest2 request)
         {
             var result = await _productService.GetAllByCateAndSubCateID(request);
@@ -138,7 +155,6 @@ namespace Lulus.BackendApi.Controllers
             }
             return Ok(result);
         }
-
         [HttpGet]
         public async Task<IActionResult> GetAllNew(int page)
         {

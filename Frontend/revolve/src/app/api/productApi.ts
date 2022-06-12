@@ -36,6 +36,20 @@ export class ProductApi{
         });
     }
 
+    async getByDesignerID(body: GetProductPagingRequest){
+        var currentUrl = this.url + "/GetByDesignerID";
+        return await fetch(currentUrl,{
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              },
+            body: JSON.stringify(body)
+        }).then(async response => {
+            return new BasicResponse(response.status,await response.json());
+        });
+    }
+
     async getDetail(body: GetProductDetailRequest){
         var currentUrl = this.url + "/GetDetailByID";
         return await fetch(currentUrl,{

@@ -11,5 +11,6 @@ namespace Lulus.BAL.Catalog.Designers
     {
         public Task<List<DesignerViewModel>> GetAllDesigner();
         public Task<DesignerViewModel> GetDesigner(int id);
+        public Task<List<DesignerViewModel>> GetDesignerByCate(int cateID);
     }
 }

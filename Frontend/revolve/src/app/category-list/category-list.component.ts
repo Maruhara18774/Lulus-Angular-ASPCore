@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { CartApi } from '../api/cartApi';
-import { CategoryApi } from '../api/categoryApi';
 import { FavoriteProductApi } from '../api/favoriteProductApi';
 import { ProductApi } from '../api/productApi';
 import { Add2CartRequest } from '../model/cart/Add2CartRequest';
-import { Category } from '../model/Category';
 import { AddFavoriteProductRequest } from '../model/favoriteProduct/addFavoriteProductRequest';
 import { Product } from '../model/Product';
 import { GetAllProductPagingRequest } from '../model/product/getAllProductPagingRequest';
@@ -19,7 +17,6 @@ import { ProductService } from '../services/product.service';
 })
 export class CategoryListComponent implements OnInit {
   baseURL: String = "http://localhost:4200";
-  cateList: Category[] = new Array<Category>();
   productList: Product[] = new Array<Product>();
   currentPage:number = 1;
   keyword: String = "";
@@ -28,21 +25,7 @@ export class CategoryListComponent implements OnInit {
   constructor(private productService:ProductService) { }
 
   ngOnInit(): void {
-    this.loadCategory();
     this.loadProduct();
-  }
-  async loadCategory() {
-    var api = new CategoryApi();
-    var result = await api.getAll();
-    if (result.status === 200) {
-      for (let i = 0; i < result.body.length; i++) {
-        const cate = new Category(parseInt(result.body[i].id), result.body[i].name);
-        this.cateList.push(cate);
-      }
-    }
-    else {
-      console.log('Error: ' + result.body);
-    }
   }
 
   async loadProduct() {
@@ -76,6 +59,7 @@ export class CategoryListComponent implements OnInit {
   }
   async search(form: NgForm){
     this.keyword = form.value.keyword;
+    this.currentPage = 1;
     await this.loadProductReset();
   }
   async loadProductReset() {
@@ -90,6 +74,7 @@ export class CategoryListComponent implements OnInit {
   }
   async changeOrderBy(e: any){
     this.orderBy = e.target.value;
+    this.currentPage = 1;
     await this.loadProductReset();
   }
   async addFavorite(productID: number){

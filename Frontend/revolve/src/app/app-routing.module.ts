@@ -2,20 +2,22 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CartComponent } from './cart/cart.component';
 import { CategoryListComponent } from './category-list/category-list.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { LoginComponent } from './login/login.component';
+import { HomepageComponent } from './component/homepage/homepage.component';
+import { LoginComponent } from './account/login/login.component';
 import { MyaccountComponent } from './myaccount/myaccount.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { RegisterComponent } from './register/register.component';
+import { RegisterComponent } from './account/register/register.component';
 import { OrderListComponent } from './myaccount/order-list/order-list.component';
 import { ProfileSettingComponent } from './myaccount/profile-setting/profile-setting.component';
 import { FavorProductComponent } from './myaccount/favor-product/favor-product.component';
 import { OrderDetailComponent } from './myaccount/order-detail/order-detail.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './component/about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HotListComponent } from './hot-list/hot-list.component';
 import { NewListComponent } from './new-list/new-list.component';
+import { DesignerListComponent } from './designer-list/designer-list.component';
+import { ProductDesignerListComponent } from './designer-list/product-designer-list/product-designer-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -35,7 +37,8 @@ const routes: Routes = [
   { path: 'checkout', component: CheckoutComponent },
   { path: 'hot', component: HotListComponent },
   { path: 'new', component: NewListComponent },
-
+  { path: 'designer', component: DesignerListComponent },
+  { path: 'desinger/:id', component: ProductDesignerListComponent }
 ];
 
 @NgModule({

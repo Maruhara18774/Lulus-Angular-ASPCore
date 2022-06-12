@@ -483,5 +483,54 @@ namespace Lulus.BAL.Catalog.Products
             }
             return data;
         }
+
+        public async Task<List<ProductViewModel>> GetAllByDesignerID(GetProductPagingRequest request)
+        {
+            var query = from p in _context.Products where p.DesignerID == request.ID select p;
+
+            int totalRow = await query.CountAsync();
+
+            var data = await query.Skip((request.PageIndex - 1) * 10).Take(10)
+                .Select(p => new ProductViewModel()
+                {
+                    ID = p.ID,
+                    Name = p.Name,
+                    Price = p.Price,
+                    Description = p.Description,
+                    Category_ID = p.CategoryID,
+                    DesignerID = p.DesignerID,
+                    AverageStar = 4,
+                    Status = p.Status
+                }).ToListAsync();
+            foreach (var item in data)
+            {
+                var productLines = from pl in _context.ProductLines
+                                   where pl.ProductID == item.ID
+                                   select pl;
+                item.ListProductLines = await productLines.Select(p => new ProductLineViewModel()
+                {
+                    ID = p.ID,
+                    Texture_Name = p.Texture.Name,
+                    Texture_Image_Url = p.Texture.Image,
+                    CreatedDate = p.Created,
+                    UpdatedDate = p.Updated,
+                    Product_ID = p.ProductID,
+                    Quantity = p.Quantity
+                }).ToListAsync();
+                foreach (var line in item.ListProductLines)
+                {
+                    var productImages = from i in _context.ProductImages
+                                        where i.ProductLineID == line.ID
+                                        select i;
+                    line.ListImages = await productImages.Select(i => new ProductImageViewModel()
+                    {
+                        ID = i.ID,
+                        Image_Url = i.Image,
+                        ProductLine_ID = i.ProductLineID
+                    }).ToListAsync();
+                }
+            }
+            return data;
+        }
     }
 }

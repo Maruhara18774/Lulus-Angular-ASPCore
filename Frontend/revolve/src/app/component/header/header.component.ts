@@ -1,9 +1,9 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { AccountApi } from '../api/accountApi';
-import { CartApi } from '../api/cartApi';
-import { GetInfoRequest } from '../model/header/GetInfoRequest';
-import { User } from '../model/User';
-import { UserService } from '../services/user.service';
+import { AccountApi } from '../../api/accountApi';
+import { CartApi } from '../../api/cartApi';
+import { GetInfoRequest } from '../../model/header/GetInfoRequest';
+import { User } from '../../model/User';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-header',
