@@ -25,10 +25,34 @@
                 <p>Click <i class="fa fa-heart"></i> to add a designer to your Favorites</p>
                 <ul class="keyword-list">
                     <li><i class="fa fa-heart"></i></li>
-                    <li class="keyword-list__item" *ngFor="let keyword of keywordLs;">
+                    <li class="keyword-list__item" *ngFor="let keyword of keywordLs;" (click)="setCurrentKeyword(keyword)">
                         {{keyword}}
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="row" *ngIf="isAll">
+            <div class="col-lg-12" *ngFor="let num of lsLength;">
+                <hr/>
+                <h3>{{keywordLs[num]}}</h3>
+                <br/>
+                <div *ngFor="let designer of designerLsByKeyword[num];">
+                    <a class="keyword-list__item" style="cursor: pointer;" href="{{baseURL}}/desinger/{{designer.id}}">
+                        <i class="fa fa-heart"></i> {{designer.name}}
+                    </a>
+                </div>                
+            </div>
+        </div>
+        <div class="row" *ngIf="!isAll">
+            <div class="col-lg-12">
+                <hr/>
+                <h3>{{keywordLs[currentIndex]}}</h3>
+                <br/>
+                <div *ngFor="let designer of designerLsByKeyword[currentIndex];">
+                    <a class="keyword-list__item" style="cursor: pointer;" href="{{baseURL}}/desinger/{{designer.id}}">
+                        <i class="fa fa-heart"></i> {{designer.name}}
+                    </a>
+                </div>                
             </div>
         </div>
     </div>

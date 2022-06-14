@@ -1,0 +1,9 @@
+.see-more{
+	text-align: center;
+	color:cornflowerblue;
+	cursor: pointer;
+}
+.see-more:hover{
+	text-decoration: underline;
+	color: coral;
+}

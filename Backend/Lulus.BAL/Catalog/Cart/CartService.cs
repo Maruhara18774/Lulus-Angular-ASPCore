@@ -128,6 +128,7 @@ namespace Lulus.BAL.Catalog.Cart
         {
             var userID = GetUserID(request.token);
             var cart = await _context.Orders.Where(x => x.UserID == userID && x.Status == Data.Enums.OrderStatus.New).FirstOrDefaultAsync();
+            cart.OrderDetails = await _context.OrderDetails.Where(x => x.ID == cart.ID).ToListAsync();
             if (cart == null)
             {
                 cart = await CreateNewCart(userID);
@@ -140,13 +141,26 @@ namespace Lulus.BAL.Catalog.Cart
             {
                 return false;
             }
-            var finalTotal = cart.OrderDetails.Where(x => x.ProductLineID != request.LineID).Sum(x => x.Total);
-            cartItem.Quantity = request.Quantity;
-            cartItem.Updated = DateTime.Now;
-            cartItem.Total = quantity * price;
-            cart.Total = finalTotal + (quantity * price);
-            cart.Updated = DateTime.Now;
-            await _context.SaveChangesAsync();
+            if(request.Quantity >= cartItem.Quantity)
+            {
+                var qa = request.Quantity - cartItem.Quantity;
+                cartItem.Quantity = request.Quantity;
+                cartItem.Updated = DateTime.Now;
+                cartItem.Total += (qa) * price;
+                cart.Total += (qa * price);
+                cart.Updated = DateTime.Now;
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+                var qa = cartItem.Quantity - request.Quantity;
+                cartItem.Quantity = request.Quantity;
+                cartItem.Updated = DateTime.Now;
+                cartItem.Total -= (qa) * price;
+                cart.Total -= (qa * price);
+                cart.Updated = DateTime.Now;
+                await _context.SaveChangesAsync();
+            }
             return true;
         }
 
